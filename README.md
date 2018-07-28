@@ -30,3 +30,9 @@ make -j8 && ./finish
 ```
 
 where 8 = number of threads
+
+Help
+-----------------
+
+ # Any help would be appreciated
+ # Note: The cryptocurrency needs 1 more node to start, anyone who would to it would be amazing
