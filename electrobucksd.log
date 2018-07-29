@@ -1,0 +1,141 @@
+2018-Jul-28 11:25:06.138613 INFO    [daemon] electrobucks v0.1.7(Alpha)
+2018-Jul-28 11:25:06.139315 INFO    [daemon] Module folder: ./electrobucksd
+2018-Jul-28 11:25:06.141762 INFO    [daemon] Initializing p2p server...
+2018-Jul-28 11:25:06.142298 INFO    [node_server] Network: d45d585d-564d-4e4f-5445-0de3a01f4118
+2018-Jul-28 11:25:06.142422 INFO    [node_server] Binding on 0.0.0.0:18000
+2018-Jul-28 11:25:06.143144 INFO    [node_server] Net service binded on 0.0.0.0:18000
+2018-Jul-28 11:25:06.143646 INFO    [node_server] Attempting to add IGD port mapping.
+2018-Jul-28 11:25:10.147217 INFO    [node_server] No IGD was found.
+2018-Jul-28 11:25:10.147663 INFO    [daemon] P2p server initialized OK
+2018-Jul-28 11:25:10.148296 INFO    [daemon] Initializing core...
+2018-Jul-28 11:25:10.149372 INFO    [Blockchain] Blockchain not loaded, generating genesis block.
+2018-Jul-28 11:25:10.171348 INFO    [Blockchain] Blockchain initialized. last block: 0, d2215.h13.m25.s10 time ago, current difficulty: 1
+2018-Jul-28 11:25:10.172576 INFO    [daemon] Core initialized OK
+2018-Jul-28 11:25:10.173423 INFO    [daemon] Starting core rpc server on address 127.0.0.1:18001
+2018-Jul-28 11:25:10.174728 INFO    [daemon] Core rpc server started ok
+2018-Jul-28 11:25:10.175455 INFO    [daemon] Starting p2p net loop...
+2018-Jul-28 11:25:10.176283 INFO    [node_server] Starting node_server
+2018-Jul-28 11:25:25.180765 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:25:25.181959 INFO    [core] 
+2018-Jul-28 11:25:25.181959 INFO    [core] **********************************************************************
+2018-Jul-28 11:25:25.181959 INFO    [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2018-Jul-28 11:25:25.181959 INFO    [core] 
+2018-Jul-28 11:25:25.181959 INFO    [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2018-Jul-28 11:25:25.181959 INFO    [core] 
+2018-Jul-28 11:25:25.181959 INFO    [core] Use "help" command to see the list of available commands.
+2018-Jul-28 11:25:25.181959 INFO    [core] 
+2018-Jul-28 11:25:25.181959 INFO    [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2018-Jul-28 11:25:25.181959 INFO    [core] **********************************************************************
+2018-Jul-28 11:25:42.190294 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:25:59.195796 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:26:16.200889 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:26:33.206230 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:26:50.210454 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:27:07.216117 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:27:24.220942 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:27:41.238188 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:27:58.244882 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:28:15.251490 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:28:32.257196 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:28:49.262792 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:29:06.268169 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:29:23.272999 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:29:24.549076 INFO    [node_server] Stop signal sent
+2018-Jul-28 11:29:24.549590 INFO    [node_server] Stopping NodeServer and it's0 connections...
+2018-Jul-28 11:29:24.550138 INFO    [node_server] NodeServer loop stopped
+2018-Jul-28 11:29:24.550510 INFO    [daemon] p2p net loop stopped
+2018-Jul-28 11:29:24.550996 INFO    [daemon] Stopping core rpc server...
+2018-Jul-28 11:29:24.551419 INFO    [daemon] Deinitializing core...
+2018-Jul-28 11:29:24.551745 INFO    [miner] Mining has been stopped, 0 finished
+2018-Jul-28 11:29:24.552901 INFO    [Blockchain] Saving blockchain...
+2018-Jul-28 11:29:24.553573 INFO    [BlockCacheSerializer] - saving block index...
+2018-Jul-28 11:29:24.553732 INFO    [BlockCacheSerializer] - saving transaction map...
+2018-Jul-28 11:29:24.554149 INFO    [BlockCacheSerializer] - saving spent keys...
+2018-Jul-28 11:29:24.554428 INFO    [BlockCacheSerializer] - saving outputs...
+2018-Jul-28 11:29:24.554685 INFO    [BlockCacheSerializer] - saving multi-signature outputs...
+2018-Jul-28 11:29:24.555006 INFO    [BlockCacheSerializer] Serialization time: 1ms
+2018-Jul-28 11:29:24.555448 INFO    [daemon] Deinitializing p2p...
+2018-Jul-28 11:29:24.555950 INFO    [miner] Mining has been stopped, 0 finished
+2018-Jul-28 11:29:24.556999 INFO    [daemon] Node stopped.
+2018-Jul-28 11:32:46.330729 INFO    [daemon] electrobucks v0.1.7(Alpha)
+2018-Jul-28 11:32:46.331263 INFO    [daemon] Module folder: ./electrobucksd
+2018-Jul-28 11:32:46.332165 INFO    [daemon] Initializing p2p server...
+2018-Jul-28 11:32:46.332985 INFO    [node_server] Network: d45d585d-564d-4e4f-5445-0de3a01f4118
+2018-Jul-28 11:32:46.334474 INFO    [node_server] Binding on 0.0.0.0:18000
+2018-Jul-28 11:32:46.335381 INFO    [node_server] Net service binded on 0.0.0.0:18000
+2018-Jul-28 11:32:46.335510 INFO    [node_server] Attempting to add IGD port mapping.
+2018-Jul-28 11:33:14.153676 INFO    [daemon] electrobucks v0.1.7(Alpha)
+2018-Jul-28 11:33:14.154192 INFO    [daemon] Module folder: ./electrobucksd
+2018-Jul-28 11:33:14.154677 INFO    [daemon] Initializing p2p server...
+2018-Jul-28 11:33:14.155162 INFO    [node_server] Network: d45d585d-564d-4e4f-5445-0de3a01f4118
+2018-Jul-28 11:33:14.155430 INFO    [node_server] Binding on 0.0.0.0:18000
+2018-Jul-28 11:33:14.156291 INFO    [node_server] Net service binded on 0.0.0.0:18000
+2018-Jul-28 11:33:14.156578 INFO    [node_server] Attempting to add IGD port mapping.
+2018-Jul-28 11:33:18.160086 INFO    [node_server] No IGD was found.
+2018-Jul-28 11:33:18.160523 INFO    [daemon] P2p server initialized OK
+2018-Jul-28 11:33:18.161084 INFO    [daemon] Initializing core...
+2018-Jul-28 11:33:18.162115 INFO    [Blockchain] Loading blockchain...
+2018-Jul-28 11:33:18.162590 INFO    [BlockCacheSerializer] - loading block index...
+2018-Jul-28 11:33:18.162957 INFO    [BlockCacheSerializer] - loading transaction map...
+2018-Jul-28 11:33:18.163428 INFO    [BlockCacheSerializer] - loading spent keys...
+2018-Jul-28 11:33:18.163895 INFO    [BlockCacheSerializer] - loading outputs...
+2018-Jul-28 11:33:18.164303 INFO    [BlockCacheSerializer] - loading multi-signature outputs...
+2018-Jul-28 11:33:18.164732 INFO    [BlockCacheSerializer] Serialization time: 2ms
+2018-Jul-28 11:33:18.165475 INFO    [Blockchain] Blockchain initialized. last block: 0, d2215.h13.m33.s18 time ago, current difficulty: 1
+2018-Jul-28 11:33:18.165888 INFO    [daemon] Core initialized OK
+2018-Jul-28 11:33:18.166400 INFO    [daemon] Starting core rpc server on address 127.0.0.1:18001
+2018-Jul-28 11:33:18.166925 INFO    [daemon] Core rpc server started ok
+2018-Jul-28 11:33:18.167103 INFO    [daemon] Starting p2p net loop...
+2018-Jul-28 11:33:18.167573 INFO    [node_server] Starting node_server
+2018-Jul-28 11:33:33.172396 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:33:33.172846 INFO    [core] 
+2018-Jul-28 11:33:33.172846 INFO    [core] **********************************************************************
+2018-Jul-28 11:33:33.172846 INFO    [core] The daemon will start synchronizing with the network. It may take up to several hours.
+2018-Jul-28 11:33:33.172846 INFO    [core] 
+2018-Jul-28 11:33:33.172846 INFO    [core] You can set the level of process detailization* through "set_log <level>" command*, where <level> is between 0 (no details) and 4 (very verbose).
+2018-Jul-28 11:33:33.172846 INFO    [core] 
+2018-Jul-28 11:33:33.172846 INFO    [core] Use "help" command to see the list of available commands.
+2018-Jul-28 11:33:33.172846 INFO    [core] 
+2018-Jul-28 11:33:33.172846 INFO    [core] Note: in case you need to interrupt the process, use "exit" command. Otherwise, the current progress won't be saved.
+2018-Jul-28 11:33:33.172846 INFO    [core] **********************************************************************
+2018-Jul-28 11:33:50.184531 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:34:07.189743 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:34:24.195223 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:34:41.201904 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:34:58.207651 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:35:15.214259 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:35:32.221176 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:35:49.226554 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:36:06.231334 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:36:23.236286 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:36:40.242172 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:36:57.249053 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:37:14.253826 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:37:31.259516 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:37:48.264741 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:38:05.269813 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:38:22.275728 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:38:39.281121 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:38:56.286565 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:39:13.291606 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:39:30.298665 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:39:47.304530 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:40:04.310527 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:40:21.316626 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:40:38.321327 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:40:55.326174 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:41:12.332354 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:41:29.337044 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:41:46.344067 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:42:03.351127 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:42:20.356420 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:42:37.361898 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:42:54.365645 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:43:11.371955 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:43:28.376771 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:43:45.382351 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:44:02.389238 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:44:19.393640 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:44:36.398006 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:44:53.403626 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:45:10.408625 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds

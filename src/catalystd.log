@@ -107,3 +107,8 @@
 2018-Jul-28 11:20:57.490510 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
 2018-Jul-28 11:21:14.497616 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
 2018-Jul-28 11:21:31.501695 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:21:48.508850 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:22:05.514051 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:22:22.523156 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:22:39.528145 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
+2018-Jul-28 11:22:56.534022 ERROR   [node_server] Failed to connect to any of seed peers, continuing without seeds
