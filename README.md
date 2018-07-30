@@ -18,8 +18,6 @@ sudo apt install libboost-all-dev cmake make build-essential gcc g++ tor -y
 Install/Compiling
 ------------------
 
-Binaries for amd64 are available on the releases page.
-
 To compile:
 
 ```
