@@ -33,4 +33,4 @@ where 8 = number of threads
 Help
 -----------------
 
- # Any help would be appreciated
+Any help would be appreciated
