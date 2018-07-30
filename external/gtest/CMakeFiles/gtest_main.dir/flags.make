@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG    -Wall -Wshadow -DGTEST_HAS_PTHREAD=1 -fexceptions -W
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mateo/Catalyst-Cash/include -I/home/mateo/Catalyst-Cash/src -I/home/mateo/Catalyst-Cash/external -I/home/mateo/Catalyst-Cash/version -I/home/mateo/Catalyst-Cash/src/Platform/Linux -I/home/mateo/Catalyst-Cash/src/Platform/Posix -I/home/mateo/Catalyst-Cash/external/gtest/include -I/home/mateo/Catalyst-Cash/external/gtest 
+CXX_INCLUDES = -I/home/mateo/electroBUCKS/include -I/home/mateo/electroBUCKS/src -I/home/mateo/electroBUCKS/external -I/home/mateo/electroBUCKS/version -I/home/mateo/electroBUCKS/src/Platform/Linux -I/home/mateo/electroBUCKS/src/Platform/Posix -I/home/mateo/electroBUCKS/external/gtest/include -I/home/mateo/electroBUCKS/external/gtest 
 

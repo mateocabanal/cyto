@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mateo/Catalyst-Cash
+CMAKE_SOURCE_DIR = /home/mateo/electroBUCKS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mateo/Catalyst-Cash
+CMAKE_BINARY_DIR = /home/mateo/electroBUCKS
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mateo/Catalyst-Cash && $(CMAKE_COMMAND) -E cmake_progress_start /home/mateo/Catalyst-Cash/CMakeFiles /home/mateo/Catalyst-Cash/src/CMakeFiles/progress.marks
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mateo/Catalyst-Cash/CMakeFiles 0
+	cd /home/mateo/electroBUCKS && $(CMAKE_COMMAND) -E cmake_progress_start /home/mateo/electroBUCKS/CMakeFiles /home/mateo/electroBUCKS/src/CMakeFiles/progress.marks
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mateo/electroBUCKS/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mateo/Catalyst-Cash && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/mateo/electroBUCKS && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/P2P.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/P2P.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/P2P.dir/rule
 .PHONY : src/CMakeFiles/P2P.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ P2P: src/CMakeFiles/P2P.dir/rule
 
 # fast build rule for target.
 P2P/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/build
 .PHONY : P2P/fast
 
 # Convenience name for target.
 src/CMakeFiles/NodeRpcProxy.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/NodeRpcProxy.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/NodeRpcProxy.dir/rule
 .PHONY : src/CMakeFiles/NodeRpcProxy.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ NodeRpcProxy: src/CMakeFiles/NodeRpcProxy.dir/rule
 
 # fast build rule for target.
 NodeRpcProxy/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/build
 .PHONY : NodeRpcProxy/fast
 
 # Convenience name for target.
 src/CMakeFiles/InProcessNode.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/InProcessNode.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/InProcessNode.dir/rule
 .PHONY : src/CMakeFiles/InProcessNode.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ InProcessNode: src/CMakeFiles/InProcessNode.dir/rule
 
 # fast build rule for target.
 InProcessNode/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/build
 .PHONY : InProcessNode/fast
 
 # Convenience name for target.
 src/CMakeFiles/Logging.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Logging.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Logging.dir/rule
 .PHONY : src/CMakeFiles/Logging.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ Logging: src/CMakeFiles/Logging.dir/rule
 
 # fast build rule for target.
 Logging/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/build
 .PHONY : Logging/fast
 
 # Convenience name for target.
 src/CMakeFiles/Mnemonics.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Mnemonics.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Mnemonics.dir/rule
 .PHONY : src/CMakeFiles/Mnemonics.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ Mnemonics: src/CMakeFiles/Mnemonics.dir/rule
 
 # fast build rule for target.
 Mnemonics/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/build
 .PHONY : Mnemonics/fast
 
 # Convenience name for target.
 src/CMakeFiles/Daemon.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Daemon.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Daemon.dir/rule
 .PHONY : src/CMakeFiles/Daemon.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ Daemon: src/CMakeFiles/Daemon.dir/rule
 
 # fast build rule for target.
 Daemon/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/build
 .PHONY : Daemon/fast
 
 # Convenience name for target.
 src/CMakeFiles/Common.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Common.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Common.dir/rule
 .PHONY : src/CMakeFiles/Common.dir/rule
 
 # Convenience name for target.
@@ -212,12 +212,12 @@ Common: src/CMakeFiles/Common.dir/rule
 
 # fast build rule for target.
 Common/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/build
 .PHONY : Common/fast
 
 # Convenience name for target.
 src/CMakeFiles/Crypto.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Crypto.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Crypto.dir/rule
 .PHONY : src/CMakeFiles/Crypto.dir/rule
 
 # Convenience name for target.
@@ -227,12 +227,12 @@ Crypto: src/CMakeFiles/Crypto.dir/rule
 
 # fast build rule for target.
 Crypto/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/build
 .PHONY : Crypto/fast
 
 # Convenience name for target.
 src/CMakeFiles/Http.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Http.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Http.dir/rule
 .PHONY : src/CMakeFiles/Http.dir/rule
 
 # Convenience name for target.
@@ -242,12 +242,12 @@ Http: src/CMakeFiles/Http.dir/rule
 
 # fast build rule for target.
 Http/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/build
 .PHONY : Http/fast
 
 # Convenience name for target.
 src/CMakeFiles/Transfers.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Transfers.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Transfers.dir/rule
 .PHONY : src/CMakeFiles/Transfers.dir/rule
 
 # Convenience name for target.
@@ -257,12 +257,12 @@ Transfers: src/CMakeFiles/Transfers.dir/rule
 
 # fast build rule for target.
 Transfers/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/build
 .PHONY : Transfers/fast
 
 # Convenience name for target.
 src/CMakeFiles/BlockchainExplorer.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/BlockchainExplorer.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/BlockchainExplorer.dir/rule
 .PHONY : src/CMakeFiles/BlockchainExplorer.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ BlockchainExplorer: src/CMakeFiles/BlockchainExplorer.dir/rule
 
 # fast build rule for target.
 BlockchainExplorer/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/build
 .PHONY : BlockchainExplorer/fast
 
 # Convenience name for target.
 src/CMakeFiles/Wallet.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Wallet.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Wallet.dir/rule
 .PHONY : src/CMakeFiles/Wallet.dir/rule
 
 # Convenience name for target.
@@ -287,12 +287,12 @@ Wallet: src/CMakeFiles/Wallet.dir/rule
 
 # fast build rule for target.
 Wallet/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/build
 .PHONY : Wallet/fast
 
 # Convenience name for target.
 src/CMakeFiles/SimpleWallet.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/SimpleWallet.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/SimpleWallet.dir/rule
 .PHONY : src/CMakeFiles/SimpleWallet.dir/rule
 
 # Convenience name for target.
@@ -302,12 +302,12 @@ SimpleWallet: src/CMakeFiles/SimpleWallet.dir/rule
 
 # fast build rule for target.
 SimpleWallet/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/build
 .PHONY : SimpleWallet/fast
 
 # Convenience name for target.
 src/CMakeFiles/CryptoNoteCore.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/CryptoNoteCore.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/CryptoNoteCore.dir/rule
 .PHONY : src/CMakeFiles/CryptoNoteCore.dir/rule
 
 # Convenience name for target.
@@ -317,12 +317,12 @@ CryptoNoteCore: src/CMakeFiles/CryptoNoteCore.dir/rule
 
 # fast build rule for target.
 CryptoNoteCore/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/build
 .PHONY : CryptoNoteCore/fast
 
 # Convenience name for target.
 src/CMakeFiles/Serialization.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Serialization.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Serialization.dir/rule
 .PHONY : src/CMakeFiles/Serialization.dir/rule
 
 # Convenience name for target.
@@ -332,12 +332,12 @@ Serialization: src/CMakeFiles/Serialization.dir/rule
 
 # fast build rule for target.
 Serialization/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/build
 .PHONY : Serialization/fast
 
 # Convenience name for target.
 src/CMakeFiles/System.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/System.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/System.dir/rule
 .PHONY : src/CMakeFiles/System.dir/rule
 
 # Convenience name for target.
@@ -347,12 +347,12 @@ System: src/CMakeFiles/System.dir/rule
 
 # fast build rule for target.
 System/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/build
 .PHONY : System/fast
 
 # Convenience name for target.
 src/CMakeFiles/PaymentGate.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/PaymentGate.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/PaymentGate.dir/rule
 .PHONY : src/CMakeFiles/PaymentGate.dir/rule
 
 # Convenience name for target.
@@ -362,12 +362,12 @@ PaymentGate: src/CMakeFiles/PaymentGate.dir/rule
 
 # fast build rule for target.
 PaymentGate/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/build
 .PHONY : PaymentGate/fast
 
 # Convenience name for target.
 src/CMakeFiles/JsonRpcServer.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/JsonRpcServer.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/JsonRpcServer.dir/rule
 .PHONY : src/CMakeFiles/JsonRpcServer.dir/rule
 
 # Convenience name for target.
@@ -377,12 +377,12 @@ JsonRpcServer: src/CMakeFiles/JsonRpcServer.dir/rule
 
 # fast build rule for target.
 JsonRpcServer/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/build
 .PHONY : JsonRpcServer/fast
 
 # Convenience name for target.
 src/CMakeFiles/ConnectivityTool.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/ConnectivityTool.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/ConnectivityTool.dir/rule
 .PHONY : src/CMakeFiles/ConnectivityTool.dir/rule
 
 # Convenience name for target.
@@ -392,12 +392,12 @@ ConnectivityTool: src/CMakeFiles/ConnectivityTool.dir/rule
 
 # fast build rule for target.
 ConnectivityTool/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/ConnectivityTool.dir/build.make src/CMakeFiles/ConnectivityTool.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/ConnectivityTool.dir/build.make src/CMakeFiles/ConnectivityTool.dir/build
 .PHONY : ConnectivityTool/fast
 
 # Convenience name for target.
 src/CMakeFiles/PaymentGateService.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/PaymentGateService.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/PaymentGateService.dir/rule
 .PHONY : src/CMakeFiles/PaymentGateService.dir/rule
 
 # Convenience name for target.
@@ -407,12 +407,12 @@ PaymentGateService: src/CMakeFiles/PaymentGateService.dir/rule
 
 # fast build rule for target.
 PaymentGateService/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/build
 .PHONY : PaymentGateService/fast
 
 # Convenience name for target.
 src/CMakeFiles/Rpc.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Rpc.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Rpc.dir/rule
 .PHONY : src/CMakeFiles/Rpc.dir/rule
 
 # Convenience name for target.
@@ -422,12 +422,12 @@ Rpc: src/CMakeFiles/Rpc.dir/rule
 
 # fast build rule for target.
 Rpc/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/build
 .PHONY : Rpc/fast
 
 # Convenience name for target.
 src/CMakeFiles/Miner.dir/rule:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Miner.dir/rule
+	cd /home/mateo/electroBUCKS && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Miner.dir/rule
 .PHONY : src/CMakeFiles/Miner.dir/rule
 
 # Convenience name for target.
@@ -437,7 +437,7 @@ Miner: src/CMakeFiles/Miner.dir/rule
 
 # fast build rule for target.
 Miner/fast:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/build
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/build
 .PHONY : Miner/fast
 
 BlockchainExplorer/BlockchainExplorer.o: BlockchainExplorer/BlockchainExplorer.cpp.o
@@ -446,7 +446,7 @@ BlockchainExplorer/BlockchainExplorer.o: BlockchainExplorer/BlockchainExplorer.c
 
 # target to build an object file
 BlockchainExplorer/BlockchainExplorer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.o
 .PHONY : BlockchainExplorer/BlockchainExplorer.cpp.o
 
 BlockchainExplorer/BlockchainExplorer.i: BlockchainExplorer/BlockchainExplorer.cpp.i
@@ -455,7 +455,7 @@ BlockchainExplorer/BlockchainExplorer.i: BlockchainExplorer/BlockchainExplorer.c
 
 # target to preprocess a source file
 BlockchainExplorer/BlockchainExplorer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.i
 .PHONY : BlockchainExplorer/BlockchainExplorer.cpp.i
 
 BlockchainExplorer/BlockchainExplorer.s: BlockchainExplorer/BlockchainExplorer.cpp.s
@@ -464,7 +464,7 @@ BlockchainExplorer/BlockchainExplorer.s: BlockchainExplorer/BlockchainExplorer.c
 
 # target to generate assembly for a file
 BlockchainExplorer/BlockchainExplorer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorer.cpp.s
 .PHONY : BlockchainExplorer/BlockchainExplorer.cpp.s
 
 BlockchainExplorer/BlockchainExplorerDataBuilder.o: BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o
@@ -473,7 +473,7 @@ BlockchainExplorer/BlockchainExplorerDataBuilder.o: BlockchainExplorer/Blockchai
 
 # target to build an object file
 BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o
 .PHONY : BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.o
 
 BlockchainExplorer/BlockchainExplorerDataBuilder.i: BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.i
@@ -482,7 +482,7 @@ BlockchainExplorer/BlockchainExplorerDataBuilder.i: BlockchainExplorer/Blockchai
 
 # target to preprocess a source file
 BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.i
 .PHONY : BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.i
 
 BlockchainExplorer/BlockchainExplorerDataBuilder.s: BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.s
@@ -491,7 +491,7 @@ BlockchainExplorer/BlockchainExplorerDataBuilder.s: BlockchainExplorer/Blockchai
 
 # target to generate assembly for a file
 BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.s
 .PHONY : BlockchainExplorer/BlockchainExplorerDataBuilder.cpp.s
 
 BlockchainExplorer/BlockchainExplorerErrors.o: BlockchainExplorer/BlockchainExplorerErrors.cpp.o
@@ -500,7 +500,7 @@ BlockchainExplorer/BlockchainExplorerErrors.o: BlockchainExplorer/BlockchainExpl
 
 # target to build an object file
 BlockchainExplorer/BlockchainExplorerErrors.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.o
 .PHONY : BlockchainExplorer/BlockchainExplorerErrors.cpp.o
 
 BlockchainExplorer/BlockchainExplorerErrors.i: BlockchainExplorer/BlockchainExplorerErrors.cpp.i
@@ -509,7 +509,7 @@ BlockchainExplorer/BlockchainExplorerErrors.i: BlockchainExplorer/BlockchainExpl
 
 # target to preprocess a source file
 BlockchainExplorer/BlockchainExplorerErrors.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.i
 .PHONY : BlockchainExplorer/BlockchainExplorerErrors.cpp.i
 
 BlockchainExplorer/BlockchainExplorerErrors.s: BlockchainExplorer/BlockchainExplorerErrors.cpp.s
@@ -518,7 +518,7 @@ BlockchainExplorer/BlockchainExplorerErrors.s: BlockchainExplorer/BlockchainExpl
 
 # target to generate assembly for a file
 BlockchainExplorer/BlockchainExplorerErrors.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/BlockchainExplorer.dir/build.make src/CMakeFiles/BlockchainExplorer.dir/BlockchainExplorer/BlockchainExplorerErrors.cpp.s
 .PHONY : BlockchainExplorer/BlockchainExplorerErrors.cpp.s
 
 Common/Base58.o: Common/Base58.cpp.o
@@ -527,7 +527,7 @@ Common/Base58.o: Common/Base58.cpp.o
 
 # target to build an object file
 Common/Base58.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Base58.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Base58.cpp.o
 .PHONY : Common/Base58.cpp.o
 
 Common/Base58.i: Common/Base58.cpp.i
@@ -536,7 +536,7 @@ Common/Base58.i: Common/Base58.cpp.i
 
 # target to preprocess a source file
 Common/Base58.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Base58.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Base58.cpp.i
 .PHONY : Common/Base58.cpp.i
 
 Common/Base58.s: Common/Base58.cpp.s
@@ -545,7 +545,7 @@ Common/Base58.s: Common/Base58.cpp.s
 
 # target to generate assembly for a file
 Common/Base58.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Base58.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Base58.cpp.s
 .PHONY : Common/Base58.cpp.s
 
 Common/BlockingQueue.o: Common/BlockingQueue.cpp.o
@@ -554,7 +554,7 @@ Common/BlockingQueue.o: Common/BlockingQueue.cpp.o
 
 # target to build an object file
 Common/BlockingQueue.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/BlockingQueue.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/BlockingQueue.cpp.o
 .PHONY : Common/BlockingQueue.cpp.o
 
 Common/BlockingQueue.i: Common/BlockingQueue.cpp.i
@@ -563,7 +563,7 @@ Common/BlockingQueue.i: Common/BlockingQueue.cpp.i
 
 # target to preprocess a source file
 Common/BlockingQueue.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/BlockingQueue.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/BlockingQueue.cpp.i
 .PHONY : Common/BlockingQueue.cpp.i
 
 Common/BlockingQueue.s: Common/BlockingQueue.cpp.s
@@ -572,7 +572,7 @@ Common/BlockingQueue.s: Common/BlockingQueue.cpp.s
 
 # target to generate assembly for a file
 Common/BlockingQueue.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/BlockingQueue.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/BlockingQueue.cpp.s
 .PHONY : Common/BlockingQueue.cpp.s
 
 Common/CommandLine.o: Common/CommandLine.cpp.o
@@ -581,7 +581,7 @@ Common/CommandLine.o: Common/CommandLine.cpp.o
 
 # target to build an object file
 Common/CommandLine.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/CommandLine.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/CommandLine.cpp.o
 .PHONY : Common/CommandLine.cpp.o
 
 Common/CommandLine.i: Common/CommandLine.cpp.i
@@ -590,7 +590,7 @@ Common/CommandLine.i: Common/CommandLine.cpp.i
 
 # target to preprocess a source file
 Common/CommandLine.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/CommandLine.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/CommandLine.cpp.i
 .PHONY : Common/CommandLine.cpp.i
 
 Common/CommandLine.s: Common/CommandLine.cpp.s
@@ -599,7 +599,7 @@ Common/CommandLine.s: Common/CommandLine.cpp.s
 
 # target to generate assembly for a file
 Common/CommandLine.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/CommandLine.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/CommandLine.cpp.s
 .PHONY : Common/CommandLine.cpp.s
 
 Common/ConsoleHandler.o: Common/ConsoleHandler.cpp.o
@@ -608,7 +608,7 @@ Common/ConsoleHandler.o: Common/ConsoleHandler.cpp.o
 
 # target to build an object file
 Common/ConsoleHandler.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleHandler.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleHandler.cpp.o
 .PHONY : Common/ConsoleHandler.cpp.o
 
 Common/ConsoleHandler.i: Common/ConsoleHandler.cpp.i
@@ -617,7 +617,7 @@ Common/ConsoleHandler.i: Common/ConsoleHandler.cpp.i
 
 # target to preprocess a source file
 Common/ConsoleHandler.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleHandler.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleHandler.cpp.i
 .PHONY : Common/ConsoleHandler.cpp.i
 
 Common/ConsoleHandler.s: Common/ConsoleHandler.cpp.s
@@ -626,7 +626,7 @@ Common/ConsoleHandler.s: Common/ConsoleHandler.cpp.s
 
 # target to generate assembly for a file
 Common/ConsoleHandler.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleHandler.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleHandler.cpp.s
 .PHONY : Common/ConsoleHandler.cpp.s
 
 Common/ConsoleTools.o: Common/ConsoleTools.cpp.o
@@ -635,7 +635,7 @@ Common/ConsoleTools.o: Common/ConsoleTools.cpp.o
 
 # target to build an object file
 Common/ConsoleTools.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleTools.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleTools.cpp.o
 .PHONY : Common/ConsoleTools.cpp.o
 
 Common/ConsoleTools.i: Common/ConsoleTools.cpp.i
@@ -644,7 +644,7 @@ Common/ConsoleTools.i: Common/ConsoleTools.cpp.i
 
 # target to preprocess a source file
 Common/ConsoleTools.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleTools.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleTools.cpp.i
 .PHONY : Common/ConsoleTools.cpp.i
 
 Common/ConsoleTools.s: Common/ConsoleTools.cpp.s
@@ -653,7 +653,7 @@ Common/ConsoleTools.s: Common/ConsoleTools.cpp.s
 
 # target to generate assembly for a file
 Common/ConsoleTools.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleTools.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ConsoleTools.cpp.s
 .PHONY : Common/ConsoleTools.cpp.s
 
 Common/FileMappedVector.o: Common/FileMappedVector.cpp.o
@@ -662,7 +662,7 @@ Common/FileMappedVector.o: Common/FileMappedVector.cpp.o
 
 # target to build an object file
 Common/FileMappedVector.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/FileMappedVector.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/FileMappedVector.cpp.o
 .PHONY : Common/FileMappedVector.cpp.o
 
 Common/FileMappedVector.i: Common/FileMappedVector.cpp.i
@@ -671,7 +671,7 @@ Common/FileMappedVector.i: Common/FileMappedVector.cpp.i
 
 # target to preprocess a source file
 Common/FileMappedVector.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/FileMappedVector.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/FileMappedVector.cpp.i
 .PHONY : Common/FileMappedVector.cpp.i
 
 Common/FileMappedVector.s: Common/FileMappedVector.cpp.s
@@ -680,7 +680,7 @@ Common/FileMappedVector.s: Common/FileMappedVector.cpp.s
 
 # target to generate assembly for a file
 Common/FileMappedVector.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/FileMappedVector.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/FileMappedVector.cpp.s
 .PHONY : Common/FileMappedVector.cpp.s
 
 Common/IInputStream.o: Common/IInputStream.cpp.o
@@ -689,7 +689,7 @@ Common/IInputStream.o: Common/IInputStream.cpp.o
 
 # target to build an object file
 Common/IInputStream.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IInputStream.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IInputStream.cpp.o
 .PHONY : Common/IInputStream.cpp.o
 
 Common/IInputStream.i: Common/IInputStream.cpp.i
@@ -698,7 +698,7 @@ Common/IInputStream.i: Common/IInputStream.cpp.i
 
 # target to preprocess a source file
 Common/IInputStream.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IInputStream.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IInputStream.cpp.i
 .PHONY : Common/IInputStream.cpp.i
 
 Common/IInputStream.s: Common/IInputStream.cpp.s
@@ -707,7 +707,7 @@ Common/IInputStream.s: Common/IInputStream.cpp.s
 
 # target to generate assembly for a file
 Common/IInputStream.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IInputStream.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IInputStream.cpp.s
 .PHONY : Common/IInputStream.cpp.s
 
 Common/IOutputStream.o: Common/IOutputStream.cpp.o
@@ -716,7 +716,7 @@ Common/IOutputStream.o: Common/IOutputStream.cpp.o
 
 # target to build an object file
 Common/IOutputStream.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IOutputStream.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IOutputStream.cpp.o
 .PHONY : Common/IOutputStream.cpp.o
 
 Common/IOutputStream.i: Common/IOutputStream.cpp.i
@@ -725,7 +725,7 @@ Common/IOutputStream.i: Common/IOutputStream.cpp.i
 
 # target to preprocess a source file
 Common/IOutputStream.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IOutputStream.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IOutputStream.cpp.i
 .PHONY : Common/IOutputStream.cpp.i
 
 Common/IOutputStream.s: Common/IOutputStream.cpp.s
@@ -734,7 +734,7 @@ Common/IOutputStream.s: Common/IOutputStream.cpp.s
 
 # target to generate assembly for a file
 Common/IOutputStream.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IOutputStream.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/IOutputStream.cpp.s
 .PHONY : Common/IOutputStream.cpp.s
 
 Common/JsonValue.o: Common/JsonValue.cpp.o
@@ -743,7 +743,7 @@ Common/JsonValue.o: Common/JsonValue.cpp.o
 
 # target to build an object file
 Common/JsonValue.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/JsonValue.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/JsonValue.cpp.o
 .PHONY : Common/JsonValue.cpp.o
 
 Common/JsonValue.i: Common/JsonValue.cpp.i
@@ -752,7 +752,7 @@ Common/JsonValue.i: Common/JsonValue.cpp.i
 
 # target to preprocess a source file
 Common/JsonValue.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/JsonValue.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/JsonValue.cpp.i
 .PHONY : Common/JsonValue.cpp.i
 
 Common/JsonValue.s: Common/JsonValue.cpp.s
@@ -761,7 +761,7 @@ Common/JsonValue.s: Common/JsonValue.cpp.s
 
 # target to generate assembly for a file
 Common/JsonValue.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/JsonValue.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/JsonValue.cpp.s
 .PHONY : Common/JsonValue.cpp.s
 
 Common/Math.o: Common/Math.cpp.o
@@ -770,7 +770,7 @@ Common/Math.o: Common/Math.cpp.o
 
 # target to build an object file
 Common/Math.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Math.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Math.cpp.o
 .PHONY : Common/Math.cpp.o
 
 Common/Math.i: Common/Math.cpp.i
@@ -779,7 +779,7 @@ Common/Math.i: Common/Math.cpp.i
 
 # target to preprocess a source file
 Common/Math.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Math.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Math.cpp.i
 .PHONY : Common/Math.cpp.i
 
 Common/Math.s: Common/Math.cpp.s
@@ -788,7 +788,7 @@ Common/Math.s: Common/Math.cpp.s
 
 # target to generate assembly for a file
 Common/Math.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Math.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Math.cpp.s
 .PHONY : Common/Math.cpp.s
 
 Common/MemoryInputStream.o: Common/MemoryInputStream.cpp.o
@@ -797,7 +797,7 @@ Common/MemoryInputStream.o: Common/MemoryInputStream.cpp.o
 
 # target to build an object file
 Common/MemoryInputStream.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/MemoryInputStream.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/MemoryInputStream.cpp.o
 .PHONY : Common/MemoryInputStream.cpp.o
 
 Common/MemoryInputStream.i: Common/MemoryInputStream.cpp.i
@@ -806,7 +806,7 @@ Common/MemoryInputStream.i: Common/MemoryInputStream.cpp.i
 
 # target to preprocess a source file
 Common/MemoryInputStream.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/MemoryInputStream.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/MemoryInputStream.cpp.i
 .PHONY : Common/MemoryInputStream.cpp.i
 
 Common/MemoryInputStream.s: Common/MemoryInputStream.cpp.s
@@ -815,7 +815,7 @@ Common/MemoryInputStream.s: Common/MemoryInputStream.cpp.s
 
 # target to generate assembly for a file
 Common/MemoryInputStream.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/MemoryInputStream.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/MemoryInputStream.cpp.s
 .PHONY : Common/MemoryInputStream.cpp.s
 
 Common/PathTools.o: Common/PathTools.cpp.o
@@ -824,7 +824,7 @@ Common/PathTools.o: Common/PathTools.cpp.o
 
 # target to build an object file
 Common/PathTools.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/PathTools.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/PathTools.cpp.o
 .PHONY : Common/PathTools.cpp.o
 
 Common/PathTools.i: Common/PathTools.cpp.i
@@ -833,7 +833,7 @@ Common/PathTools.i: Common/PathTools.cpp.i
 
 # target to preprocess a source file
 Common/PathTools.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/PathTools.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/PathTools.cpp.i
 .PHONY : Common/PathTools.cpp.i
 
 Common/PathTools.s: Common/PathTools.cpp.s
@@ -842,7 +842,7 @@ Common/PathTools.s: Common/PathTools.cpp.s
 
 # target to generate assembly for a file
 Common/PathTools.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/PathTools.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/PathTools.cpp.s
 .PHONY : Common/PathTools.cpp.s
 
 Common/ScopeExit.o: Common/ScopeExit.cpp.o
@@ -851,7 +851,7 @@ Common/ScopeExit.o: Common/ScopeExit.cpp.o
 
 # target to build an object file
 Common/ScopeExit.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ScopeExit.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ScopeExit.cpp.o
 .PHONY : Common/ScopeExit.cpp.o
 
 Common/ScopeExit.i: Common/ScopeExit.cpp.i
@@ -860,7 +860,7 @@ Common/ScopeExit.i: Common/ScopeExit.cpp.i
 
 # target to preprocess a source file
 Common/ScopeExit.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ScopeExit.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ScopeExit.cpp.i
 .PHONY : Common/ScopeExit.cpp.i
 
 Common/ScopeExit.s: Common/ScopeExit.cpp.s
@@ -869,7 +869,7 @@ Common/ScopeExit.s: Common/ScopeExit.cpp.s
 
 # target to generate assembly for a file
 Common/ScopeExit.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ScopeExit.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/ScopeExit.cpp.s
 .PHONY : Common/ScopeExit.cpp.s
 
 Common/SignalHandler.o: Common/SignalHandler.cpp.o
@@ -878,7 +878,7 @@ Common/SignalHandler.o: Common/SignalHandler.cpp.o
 
 # target to build an object file
 Common/SignalHandler.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/SignalHandler.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/SignalHandler.cpp.o
 .PHONY : Common/SignalHandler.cpp.o
 
 Common/SignalHandler.i: Common/SignalHandler.cpp.i
@@ -887,7 +887,7 @@ Common/SignalHandler.i: Common/SignalHandler.cpp.i
 
 # target to preprocess a source file
 Common/SignalHandler.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/SignalHandler.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/SignalHandler.cpp.i
 .PHONY : Common/SignalHandler.cpp.i
 
 Common/SignalHandler.s: Common/SignalHandler.cpp.s
@@ -896,7 +896,7 @@ Common/SignalHandler.s: Common/SignalHandler.cpp.s
 
 # target to generate assembly for a file
 Common/SignalHandler.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/SignalHandler.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/SignalHandler.cpp.s
 .PHONY : Common/SignalHandler.cpp.s
 
 Common/StdInputStream.o: Common/StdInputStream.cpp.o
@@ -905,7 +905,7 @@ Common/StdInputStream.o: Common/StdInputStream.cpp.o
 
 # target to build an object file
 Common/StdInputStream.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdInputStream.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdInputStream.cpp.o
 .PHONY : Common/StdInputStream.cpp.o
 
 Common/StdInputStream.i: Common/StdInputStream.cpp.i
@@ -914,7 +914,7 @@ Common/StdInputStream.i: Common/StdInputStream.cpp.i
 
 # target to preprocess a source file
 Common/StdInputStream.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdInputStream.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdInputStream.cpp.i
 .PHONY : Common/StdInputStream.cpp.i
 
 Common/StdInputStream.s: Common/StdInputStream.cpp.s
@@ -923,7 +923,7 @@ Common/StdInputStream.s: Common/StdInputStream.cpp.s
 
 # target to generate assembly for a file
 Common/StdInputStream.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdInputStream.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdInputStream.cpp.s
 .PHONY : Common/StdInputStream.cpp.s
 
 Common/StdOutputStream.o: Common/StdOutputStream.cpp.o
@@ -932,7 +932,7 @@ Common/StdOutputStream.o: Common/StdOutputStream.cpp.o
 
 # target to build an object file
 Common/StdOutputStream.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdOutputStream.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdOutputStream.cpp.o
 .PHONY : Common/StdOutputStream.cpp.o
 
 Common/StdOutputStream.i: Common/StdOutputStream.cpp.i
@@ -941,7 +941,7 @@ Common/StdOutputStream.i: Common/StdOutputStream.cpp.i
 
 # target to preprocess a source file
 Common/StdOutputStream.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdOutputStream.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdOutputStream.cpp.i
 .PHONY : Common/StdOutputStream.cpp.i
 
 Common/StdOutputStream.s: Common/StdOutputStream.cpp.s
@@ -950,7 +950,7 @@ Common/StdOutputStream.s: Common/StdOutputStream.cpp.s
 
 # target to generate assembly for a file
 Common/StdOutputStream.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdOutputStream.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StdOutputStream.cpp.s
 .PHONY : Common/StdOutputStream.cpp.s
 
 Common/StreamTools.o: Common/StreamTools.cpp.o
@@ -959,7 +959,7 @@ Common/StreamTools.o: Common/StreamTools.cpp.o
 
 # target to build an object file
 Common/StreamTools.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StreamTools.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StreamTools.cpp.o
 .PHONY : Common/StreamTools.cpp.o
 
 Common/StreamTools.i: Common/StreamTools.cpp.i
@@ -968,7 +968,7 @@ Common/StreamTools.i: Common/StreamTools.cpp.i
 
 # target to preprocess a source file
 Common/StreamTools.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StreamTools.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StreamTools.cpp.i
 .PHONY : Common/StreamTools.cpp.i
 
 Common/StreamTools.s: Common/StreamTools.cpp.s
@@ -977,7 +977,7 @@ Common/StreamTools.s: Common/StreamTools.cpp.s
 
 # target to generate assembly for a file
 Common/StreamTools.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StreamTools.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StreamTools.cpp.s
 .PHONY : Common/StreamTools.cpp.s
 
 Common/StringInputStream.o: Common/StringInputStream.cpp.o
@@ -986,7 +986,7 @@ Common/StringInputStream.o: Common/StringInputStream.cpp.o
 
 # target to build an object file
 Common/StringInputStream.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringInputStream.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringInputStream.cpp.o
 .PHONY : Common/StringInputStream.cpp.o
 
 Common/StringInputStream.i: Common/StringInputStream.cpp.i
@@ -995,7 +995,7 @@ Common/StringInputStream.i: Common/StringInputStream.cpp.i
 
 # target to preprocess a source file
 Common/StringInputStream.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringInputStream.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringInputStream.cpp.i
 .PHONY : Common/StringInputStream.cpp.i
 
 Common/StringInputStream.s: Common/StringInputStream.cpp.s
@@ -1004,7 +1004,7 @@ Common/StringInputStream.s: Common/StringInputStream.cpp.s
 
 # target to generate assembly for a file
 Common/StringInputStream.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringInputStream.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringInputStream.cpp.s
 .PHONY : Common/StringInputStream.cpp.s
 
 Common/StringOutputStream.o: Common/StringOutputStream.cpp.o
@@ -1013,7 +1013,7 @@ Common/StringOutputStream.o: Common/StringOutputStream.cpp.o
 
 # target to build an object file
 Common/StringOutputStream.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringOutputStream.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringOutputStream.cpp.o
 .PHONY : Common/StringOutputStream.cpp.o
 
 Common/StringOutputStream.i: Common/StringOutputStream.cpp.i
@@ -1022,7 +1022,7 @@ Common/StringOutputStream.i: Common/StringOutputStream.cpp.i
 
 # target to preprocess a source file
 Common/StringOutputStream.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringOutputStream.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringOutputStream.cpp.i
 .PHONY : Common/StringOutputStream.cpp.i
 
 Common/StringOutputStream.s: Common/StringOutputStream.cpp.s
@@ -1031,7 +1031,7 @@ Common/StringOutputStream.s: Common/StringOutputStream.cpp.s
 
 # target to generate assembly for a file
 Common/StringOutputStream.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringOutputStream.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringOutputStream.cpp.s
 .PHONY : Common/StringOutputStream.cpp.s
 
 Common/StringTools.o: Common/StringTools.cpp.o
@@ -1040,7 +1040,7 @@ Common/StringTools.o: Common/StringTools.cpp.o
 
 # target to build an object file
 Common/StringTools.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringTools.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringTools.cpp.o
 .PHONY : Common/StringTools.cpp.o
 
 Common/StringTools.i: Common/StringTools.cpp.i
@@ -1049,7 +1049,7 @@ Common/StringTools.i: Common/StringTools.cpp.i
 
 # target to preprocess a source file
 Common/StringTools.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringTools.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringTools.cpp.i
 .PHONY : Common/StringTools.cpp.i
 
 Common/StringTools.s: Common/StringTools.cpp.s
@@ -1058,7 +1058,7 @@ Common/StringTools.s: Common/StringTools.cpp.s
 
 # target to generate assembly for a file
 Common/StringTools.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringTools.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringTools.cpp.s
 .PHONY : Common/StringTools.cpp.s
 
 Common/StringView.o: Common/StringView.cpp.o
@@ -1067,7 +1067,7 @@ Common/StringView.o: Common/StringView.cpp.o
 
 # target to build an object file
 Common/StringView.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringView.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringView.cpp.o
 .PHONY : Common/StringView.cpp.o
 
 Common/StringView.i: Common/StringView.cpp.i
@@ -1076,7 +1076,7 @@ Common/StringView.i: Common/StringView.cpp.i
 
 # target to preprocess a source file
 Common/StringView.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringView.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringView.cpp.i
 .PHONY : Common/StringView.cpp.i
 
 Common/StringView.s: Common/StringView.cpp.s
@@ -1085,7 +1085,7 @@ Common/StringView.s: Common/StringView.cpp.s
 
 # target to generate assembly for a file
 Common/StringView.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringView.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/StringView.cpp.s
 .PHONY : Common/StringView.cpp.s
 
 Common/Util.o: Common/Util.cpp.o
@@ -1094,7 +1094,7 @@ Common/Util.o: Common/Util.cpp.o
 
 # target to build an object file
 Common/Util.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Util.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Util.cpp.o
 .PHONY : Common/Util.cpp.o
 
 Common/Util.i: Common/Util.cpp.i
@@ -1103,7 +1103,7 @@ Common/Util.i: Common/Util.cpp.i
 
 # target to preprocess a source file
 Common/Util.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Util.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Util.cpp.i
 .PHONY : Common/Util.cpp.i
 
 Common/Util.s: Common/Util.cpp.s
@@ -1112,7 +1112,7 @@ Common/Util.s: Common/Util.cpp.s
 
 # target to generate assembly for a file
 Common/Util.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Util.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/Util.cpp.s
 .PHONY : Common/Util.cpp.s
 
 Common/VectorOutputStream.o: Common/VectorOutputStream.cpp.o
@@ -1121,7 +1121,7 @@ Common/VectorOutputStream.o: Common/VectorOutputStream.cpp.o
 
 # target to build an object file
 Common/VectorOutputStream.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/VectorOutputStream.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/VectorOutputStream.cpp.o
 .PHONY : Common/VectorOutputStream.cpp.o
 
 Common/VectorOutputStream.i: Common/VectorOutputStream.cpp.i
@@ -1130,7 +1130,7 @@ Common/VectorOutputStream.i: Common/VectorOutputStream.cpp.i
 
 # target to preprocess a source file
 Common/VectorOutputStream.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/VectorOutputStream.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/VectorOutputStream.cpp.i
 .PHONY : Common/VectorOutputStream.cpp.i
 
 Common/VectorOutputStream.s: Common/VectorOutputStream.cpp.s
@@ -1139,7 +1139,7 @@ Common/VectorOutputStream.s: Common/VectorOutputStream.cpp.s
 
 # target to generate assembly for a file
 Common/VectorOutputStream.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/VectorOutputStream.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Common.dir/build.make src/CMakeFiles/Common.dir/Common/VectorOutputStream.cpp.s
 .PHONY : Common/VectorOutputStream.cpp.s
 
 ConnectivityTool/ConnectivityTool.o: ConnectivityTool/ConnectivityTool.cpp.o
@@ -1148,7 +1148,7 @@ ConnectivityTool/ConnectivityTool.o: ConnectivityTool/ConnectivityTool.cpp.o
 
 # target to build an object file
 ConnectivityTool/ConnectivityTool.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/ConnectivityTool.dir/build.make src/CMakeFiles/ConnectivityTool.dir/ConnectivityTool/ConnectivityTool.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/ConnectivityTool.dir/build.make src/CMakeFiles/ConnectivityTool.dir/ConnectivityTool/ConnectivityTool.cpp.o
 .PHONY : ConnectivityTool/ConnectivityTool.cpp.o
 
 ConnectivityTool/ConnectivityTool.i: ConnectivityTool/ConnectivityTool.cpp.i
@@ -1157,7 +1157,7 @@ ConnectivityTool/ConnectivityTool.i: ConnectivityTool/ConnectivityTool.cpp.i
 
 # target to preprocess a source file
 ConnectivityTool/ConnectivityTool.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/ConnectivityTool.dir/build.make src/CMakeFiles/ConnectivityTool.dir/ConnectivityTool/ConnectivityTool.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/ConnectivityTool.dir/build.make src/CMakeFiles/ConnectivityTool.dir/ConnectivityTool/ConnectivityTool.cpp.i
 .PHONY : ConnectivityTool/ConnectivityTool.cpp.i
 
 ConnectivityTool/ConnectivityTool.s: ConnectivityTool/ConnectivityTool.cpp.s
@@ -1166,7 +1166,7 @@ ConnectivityTool/ConnectivityTool.s: ConnectivityTool/ConnectivityTool.cpp.s
 
 # target to generate assembly for a file
 ConnectivityTool/ConnectivityTool.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/ConnectivityTool.dir/build.make src/CMakeFiles/ConnectivityTool.dir/ConnectivityTool/ConnectivityTool.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/ConnectivityTool.dir/build.make src/CMakeFiles/ConnectivityTool.dir/ConnectivityTool/ConnectivityTool.cpp.s
 .PHONY : ConnectivityTool/ConnectivityTool.cpp.s
 
 CryptoNoteCore/Account.o: CryptoNoteCore/Account.cpp.o
@@ -1175,7 +1175,7 @@ CryptoNoteCore/Account.o: CryptoNoteCore/Account.cpp.o
 
 # target to build an object file
 CryptoNoteCore/Account.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Account.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Account.cpp.o
 .PHONY : CryptoNoteCore/Account.cpp.o
 
 CryptoNoteCore/Account.i: CryptoNoteCore/Account.cpp.i
@@ -1184,7 +1184,7 @@ CryptoNoteCore/Account.i: CryptoNoteCore/Account.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/Account.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Account.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Account.cpp.i
 .PHONY : CryptoNoteCore/Account.cpp.i
 
 CryptoNoteCore/Account.s: CryptoNoteCore/Account.cpp.s
@@ -1193,7 +1193,7 @@ CryptoNoteCore/Account.s: CryptoNoteCore/Account.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/Account.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Account.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Account.cpp.s
 .PHONY : CryptoNoteCore/Account.cpp.s
 
 CryptoNoteCore/BlockIndex.o: CryptoNoteCore/BlockIndex.cpp.o
@@ -1202,7 +1202,7 @@ CryptoNoteCore/BlockIndex.o: CryptoNoteCore/BlockIndex.cpp.o
 
 # target to build an object file
 CryptoNoteCore/BlockIndex.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockIndex.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockIndex.cpp.o
 .PHONY : CryptoNoteCore/BlockIndex.cpp.o
 
 CryptoNoteCore/BlockIndex.i: CryptoNoteCore/BlockIndex.cpp.i
@@ -1211,7 +1211,7 @@ CryptoNoteCore/BlockIndex.i: CryptoNoteCore/BlockIndex.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/BlockIndex.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockIndex.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockIndex.cpp.i
 .PHONY : CryptoNoteCore/BlockIndex.cpp.i
 
 CryptoNoteCore/BlockIndex.s: CryptoNoteCore/BlockIndex.cpp.s
@@ -1220,7 +1220,7 @@ CryptoNoteCore/BlockIndex.s: CryptoNoteCore/BlockIndex.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/BlockIndex.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockIndex.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockIndex.cpp.s
 .PHONY : CryptoNoteCore/BlockIndex.cpp.s
 
 CryptoNoteCore/Blockchain.o: CryptoNoteCore/Blockchain.cpp.o
@@ -1229,7 +1229,7 @@ CryptoNoteCore/Blockchain.o: CryptoNoteCore/Blockchain.cpp.o
 
 # target to build an object file
 CryptoNoteCore/Blockchain.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Blockchain.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Blockchain.cpp.o
 .PHONY : CryptoNoteCore/Blockchain.cpp.o
 
 CryptoNoteCore/Blockchain.i: CryptoNoteCore/Blockchain.cpp.i
@@ -1238,7 +1238,7 @@ CryptoNoteCore/Blockchain.i: CryptoNoteCore/Blockchain.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/Blockchain.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Blockchain.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Blockchain.cpp.i
 .PHONY : CryptoNoteCore/Blockchain.cpp.i
 
 CryptoNoteCore/Blockchain.s: CryptoNoteCore/Blockchain.cpp.s
@@ -1247,7 +1247,7 @@ CryptoNoteCore/Blockchain.s: CryptoNoteCore/Blockchain.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/Blockchain.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Blockchain.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Blockchain.cpp.s
 .PHONY : CryptoNoteCore/Blockchain.cpp.s
 
 CryptoNoteCore/BlockchainIndices.o: CryptoNoteCore/BlockchainIndices.cpp.o
@@ -1256,7 +1256,7 @@ CryptoNoteCore/BlockchainIndices.o: CryptoNoteCore/BlockchainIndices.cpp.o
 
 # target to build an object file
 CryptoNoteCore/BlockchainIndices.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainIndices.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainIndices.cpp.o
 .PHONY : CryptoNoteCore/BlockchainIndices.cpp.o
 
 CryptoNoteCore/BlockchainIndices.i: CryptoNoteCore/BlockchainIndices.cpp.i
@@ -1265,7 +1265,7 @@ CryptoNoteCore/BlockchainIndices.i: CryptoNoteCore/BlockchainIndices.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/BlockchainIndices.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainIndices.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainIndices.cpp.i
 .PHONY : CryptoNoteCore/BlockchainIndices.cpp.i
 
 CryptoNoteCore/BlockchainIndices.s: CryptoNoteCore/BlockchainIndices.cpp.s
@@ -1274,7 +1274,7 @@ CryptoNoteCore/BlockchainIndices.s: CryptoNoteCore/BlockchainIndices.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/BlockchainIndices.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainIndices.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainIndices.cpp.s
 .PHONY : CryptoNoteCore/BlockchainIndices.cpp.s
 
 CryptoNoteCore/BlockchainMessages.o: CryptoNoteCore/BlockchainMessages.cpp.o
@@ -1283,7 +1283,7 @@ CryptoNoteCore/BlockchainMessages.o: CryptoNoteCore/BlockchainMessages.cpp.o
 
 # target to build an object file
 CryptoNoteCore/BlockchainMessages.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainMessages.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainMessages.cpp.o
 .PHONY : CryptoNoteCore/BlockchainMessages.cpp.o
 
 CryptoNoteCore/BlockchainMessages.i: CryptoNoteCore/BlockchainMessages.cpp.i
@@ -1292,7 +1292,7 @@ CryptoNoteCore/BlockchainMessages.i: CryptoNoteCore/BlockchainMessages.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/BlockchainMessages.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainMessages.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainMessages.cpp.i
 .PHONY : CryptoNoteCore/BlockchainMessages.cpp.i
 
 CryptoNoteCore/BlockchainMessages.s: CryptoNoteCore/BlockchainMessages.cpp.s
@@ -1301,7 +1301,7 @@ CryptoNoteCore/BlockchainMessages.s: CryptoNoteCore/BlockchainMessages.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/BlockchainMessages.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainMessages.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/BlockchainMessages.cpp.s
 .PHONY : CryptoNoteCore/BlockchainMessages.cpp.s
 
 CryptoNoteCore/Checkpoints.o: CryptoNoteCore/Checkpoints.cpp.o
@@ -1310,7 +1310,7 @@ CryptoNoteCore/Checkpoints.o: CryptoNoteCore/Checkpoints.cpp.o
 
 # target to build an object file
 CryptoNoteCore/Checkpoints.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Checkpoints.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Checkpoints.cpp.o
 .PHONY : CryptoNoteCore/Checkpoints.cpp.o
 
 CryptoNoteCore/Checkpoints.i: CryptoNoteCore/Checkpoints.cpp.i
@@ -1319,7 +1319,7 @@ CryptoNoteCore/Checkpoints.i: CryptoNoteCore/Checkpoints.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/Checkpoints.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Checkpoints.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Checkpoints.cpp.i
 .PHONY : CryptoNoteCore/Checkpoints.cpp.i
 
 CryptoNoteCore/Checkpoints.s: CryptoNoteCore/Checkpoints.cpp.s
@@ -1328,7 +1328,7 @@ CryptoNoteCore/Checkpoints.s: CryptoNoteCore/Checkpoints.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/Checkpoints.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Checkpoints.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Checkpoints.cpp.s
 .PHONY : CryptoNoteCore/Checkpoints.cpp.s
 
 CryptoNoteCore/Core.o: CryptoNoteCore/Core.cpp.o
@@ -1337,7 +1337,7 @@ CryptoNoteCore/Core.o: CryptoNoteCore/Core.cpp.o
 
 # target to build an object file
 CryptoNoteCore/Core.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Core.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Core.cpp.o
 .PHONY : CryptoNoteCore/Core.cpp.o
 
 CryptoNoteCore/Core.i: CryptoNoteCore/Core.cpp.i
@@ -1346,7 +1346,7 @@ CryptoNoteCore/Core.i: CryptoNoteCore/Core.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/Core.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Core.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Core.cpp.i
 .PHONY : CryptoNoteCore/Core.cpp.i
 
 CryptoNoteCore/Core.s: CryptoNoteCore/Core.cpp.s
@@ -1355,7 +1355,7 @@ CryptoNoteCore/Core.s: CryptoNoteCore/Core.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/Core.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Core.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Core.cpp.s
 .PHONY : CryptoNoteCore/Core.cpp.s
 
 CryptoNoteCore/CoreConfig.o: CryptoNoteCore/CoreConfig.cpp.o
@@ -1364,7 +1364,7 @@ CryptoNoteCore/CoreConfig.o: CryptoNoteCore/CoreConfig.cpp.o
 
 # target to build an object file
 CryptoNoteCore/CoreConfig.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CoreConfig.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CoreConfig.cpp.o
 .PHONY : CryptoNoteCore/CoreConfig.cpp.o
 
 CryptoNoteCore/CoreConfig.i: CryptoNoteCore/CoreConfig.cpp.i
@@ -1373,7 +1373,7 @@ CryptoNoteCore/CoreConfig.i: CryptoNoteCore/CoreConfig.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/CoreConfig.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CoreConfig.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CoreConfig.cpp.i
 .PHONY : CryptoNoteCore/CoreConfig.cpp.i
 
 CryptoNoteCore/CoreConfig.s: CryptoNoteCore/CoreConfig.cpp.s
@@ -1382,7 +1382,7 @@ CryptoNoteCore/CoreConfig.s: CryptoNoteCore/CoreConfig.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/CoreConfig.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CoreConfig.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CoreConfig.cpp.s
 .PHONY : CryptoNoteCore/CoreConfig.cpp.s
 
 CryptoNoteCore/CryptoNoteBasic.o: CryptoNoteCore/CryptoNoteBasic.cpp.o
@@ -1391,7 +1391,7 @@ CryptoNoteCore/CryptoNoteBasic.o: CryptoNoteCore/CryptoNoteBasic.cpp.o
 
 # target to build an object file
 CryptoNoteCore/CryptoNoteBasic.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasic.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasic.cpp.o
 .PHONY : CryptoNoteCore/CryptoNoteBasic.cpp.o
 
 CryptoNoteCore/CryptoNoteBasic.i: CryptoNoteCore/CryptoNoteBasic.cpp.i
@@ -1400,7 +1400,7 @@ CryptoNoteCore/CryptoNoteBasic.i: CryptoNoteCore/CryptoNoteBasic.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/CryptoNoteBasic.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasic.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasic.cpp.i
 .PHONY : CryptoNoteCore/CryptoNoteBasic.cpp.i
 
 CryptoNoteCore/CryptoNoteBasic.s: CryptoNoteCore/CryptoNoteBasic.cpp.s
@@ -1409,7 +1409,7 @@ CryptoNoteCore/CryptoNoteBasic.s: CryptoNoteCore/CryptoNoteBasic.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/CryptoNoteBasic.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasic.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasic.cpp.s
 .PHONY : CryptoNoteCore/CryptoNoteBasic.cpp.s
 
 CryptoNoteCore/CryptoNoteBasicImpl.o: CryptoNoteCore/CryptoNoteBasicImpl.cpp.o
@@ -1418,7 +1418,7 @@ CryptoNoteCore/CryptoNoteBasicImpl.o: CryptoNoteCore/CryptoNoteBasicImpl.cpp.o
 
 # target to build an object file
 CryptoNoteCore/CryptoNoteBasicImpl.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasicImpl.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasicImpl.cpp.o
 .PHONY : CryptoNoteCore/CryptoNoteBasicImpl.cpp.o
 
 CryptoNoteCore/CryptoNoteBasicImpl.i: CryptoNoteCore/CryptoNoteBasicImpl.cpp.i
@@ -1427,7 +1427,7 @@ CryptoNoteCore/CryptoNoteBasicImpl.i: CryptoNoteCore/CryptoNoteBasicImpl.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/CryptoNoteBasicImpl.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasicImpl.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasicImpl.cpp.i
 .PHONY : CryptoNoteCore/CryptoNoteBasicImpl.cpp.i
 
 CryptoNoteCore/CryptoNoteBasicImpl.s: CryptoNoteCore/CryptoNoteBasicImpl.cpp.s
@@ -1436,7 +1436,7 @@ CryptoNoteCore/CryptoNoteBasicImpl.s: CryptoNoteCore/CryptoNoteBasicImpl.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/CryptoNoteBasicImpl.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasicImpl.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteBasicImpl.cpp.s
 .PHONY : CryptoNoteCore/CryptoNoteBasicImpl.cpp.s
 
 CryptoNoteCore/CryptoNoteFormatUtils.o: CryptoNoteCore/CryptoNoteFormatUtils.cpp.o
@@ -1445,7 +1445,7 @@ CryptoNoteCore/CryptoNoteFormatUtils.o: CryptoNoteCore/CryptoNoteFormatUtils.cpp
 
 # target to build an object file
 CryptoNoteCore/CryptoNoteFormatUtils.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteFormatUtils.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteFormatUtils.cpp.o
 .PHONY : CryptoNoteCore/CryptoNoteFormatUtils.cpp.o
 
 CryptoNoteCore/CryptoNoteFormatUtils.i: CryptoNoteCore/CryptoNoteFormatUtils.cpp.i
@@ -1454,7 +1454,7 @@ CryptoNoteCore/CryptoNoteFormatUtils.i: CryptoNoteCore/CryptoNoteFormatUtils.cpp
 
 # target to preprocess a source file
 CryptoNoteCore/CryptoNoteFormatUtils.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteFormatUtils.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteFormatUtils.cpp.i
 .PHONY : CryptoNoteCore/CryptoNoteFormatUtils.cpp.i
 
 CryptoNoteCore/CryptoNoteFormatUtils.s: CryptoNoteCore/CryptoNoteFormatUtils.cpp.s
@@ -1463,7 +1463,7 @@ CryptoNoteCore/CryptoNoteFormatUtils.s: CryptoNoteCore/CryptoNoteFormatUtils.cpp
 
 # target to generate assembly for a file
 CryptoNoteCore/CryptoNoteFormatUtils.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteFormatUtils.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteFormatUtils.cpp.s
 .PHONY : CryptoNoteCore/CryptoNoteFormatUtils.cpp.s
 
 CryptoNoteCore/CryptoNoteSerialization.o: CryptoNoteCore/CryptoNoteSerialization.cpp.o
@@ -1472,7 +1472,7 @@ CryptoNoteCore/CryptoNoteSerialization.o: CryptoNoteCore/CryptoNoteSerialization
 
 # target to build an object file
 CryptoNoteCore/CryptoNoteSerialization.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteSerialization.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteSerialization.cpp.o
 .PHONY : CryptoNoteCore/CryptoNoteSerialization.cpp.o
 
 CryptoNoteCore/CryptoNoteSerialization.i: CryptoNoteCore/CryptoNoteSerialization.cpp.i
@@ -1481,7 +1481,7 @@ CryptoNoteCore/CryptoNoteSerialization.i: CryptoNoteCore/CryptoNoteSerialization
 
 # target to preprocess a source file
 CryptoNoteCore/CryptoNoteSerialization.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteSerialization.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteSerialization.cpp.i
 .PHONY : CryptoNoteCore/CryptoNoteSerialization.cpp.i
 
 CryptoNoteCore/CryptoNoteSerialization.s: CryptoNoteCore/CryptoNoteSerialization.cpp.s
@@ -1490,7 +1490,7 @@ CryptoNoteCore/CryptoNoteSerialization.s: CryptoNoteCore/CryptoNoteSerialization
 
 # target to generate assembly for a file
 CryptoNoteCore/CryptoNoteSerialization.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteSerialization.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteSerialization.cpp.s
 .PHONY : CryptoNoteCore/CryptoNoteSerialization.cpp.s
 
 CryptoNoteCore/CryptoNoteTools.o: CryptoNoteCore/CryptoNoteTools.cpp.o
@@ -1499,7 +1499,7 @@ CryptoNoteCore/CryptoNoteTools.o: CryptoNoteCore/CryptoNoteTools.cpp.o
 
 # target to build an object file
 CryptoNoteCore/CryptoNoteTools.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteTools.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteTools.cpp.o
 .PHONY : CryptoNoteCore/CryptoNoteTools.cpp.o
 
 CryptoNoteCore/CryptoNoteTools.i: CryptoNoteCore/CryptoNoteTools.cpp.i
@@ -1508,7 +1508,7 @@ CryptoNoteCore/CryptoNoteTools.i: CryptoNoteCore/CryptoNoteTools.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/CryptoNoteTools.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteTools.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteTools.cpp.i
 .PHONY : CryptoNoteCore/CryptoNoteTools.cpp.i
 
 CryptoNoteCore/CryptoNoteTools.s: CryptoNoteCore/CryptoNoteTools.cpp.s
@@ -1517,7 +1517,7 @@ CryptoNoteCore/CryptoNoteTools.s: CryptoNoteCore/CryptoNoteTools.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/CryptoNoteTools.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteTools.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/CryptoNoteTools.cpp.s
 .PHONY : CryptoNoteCore/CryptoNoteTools.cpp.s
 
 CryptoNoteCore/Currency.o: CryptoNoteCore/Currency.cpp.o
@@ -1526,7 +1526,7 @@ CryptoNoteCore/Currency.o: CryptoNoteCore/Currency.cpp.o
 
 # target to build an object file
 CryptoNoteCore/Currency.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Currency.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Currency.cpp.o
 .PHONY : CryptoNoteCore/Currency.cpp.o
 
 CryptoNoteCore/Currency.i: CryptoNoteCore/Currency.cpp.i
@@ -1535,7 +1535,7 @@ CryptoNoteCore/Currency.i: CryptoNoteCore/Currency.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/Currency.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Currency.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Currency.cpp.i
 .PHONY : CryptoNoteCore/Currency.cpp.i
 
 CryptoNoteCore/Currency.s: CryptoNoteCore/Currency.cpp.s
@@ -1544,7 +1544,7 @@ CryptoNoteCore/Currency.s: CryptoNoteCore/Currency.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/Currency.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Currency.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Currency.cpp.s
 .PHONY : CryptoNoteCore/Currency.cpp.s
 
 CryptoNoteCore/Difficulty.o: CryptoNoteCore/Difficulty.cpp.o
@@ -1553,7 +1553,7 @@ CryptoNoteCore/Difficulty.o: CryptoNoteCore/Difficulty.cpp.o
 
 # target to build an object file
 CryptoNoteCore/Difficulty.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Difficulty.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Difficulty.cpp.o
 .PHONY : CryptoNoteCore/Difficulty.cpp.o
 
 CryptoNoteCore/Difficulty.i: CryptoNoteCore/Difficulty.cpp.i
@@ -1562,7 +1562,7 @@ CryptoNoteCore/Difficulty.i: CryptoNoteCore/Difficulty.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/Difficulty.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Difficulty.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Difficulty.cpp.i
 .PHONY : CryptoNoteCore/Difficulty.cpp.i
 
 CryptoNoteCore/Difficulty.s: CryptoNoteCore/Difficulty.cpp.s
@@ -1571,7 +1571,7 @@ CryptoNoteCore/Difficulty.s: CryptoNoteCore/Difficulty.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/Difficulty.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Difficulty.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Difficulty.cpp.s
 .PHONY : CryptoNoteCore/Difficulty.cpp.s
 
 CryptoNoteCore/IBlock.o: CryptoNoteCore/IBlock.cpp.o
@@ -1580,7 +1580,7 @@ CryptoNoteCore/IBlock.o: CryptoNoteCore/IBlock.cpp.o
 
 # target to build an object file
 CryptoNoteCore/IBlock.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/IBlock.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/IBlock.cpp.o
 .PHONY : CryptoNoteCore/IBlock.cpp.o
 
 CryptoNoteCore/IBlock.i: CryptoNoteCore/IBlock.cpp.i
@@ -1589,7 +1589,7 @@ CryptoNoteCore/IBlock.i: CryptoNoteCore/IBlock.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/IBlock.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/IBlock.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/IBlock.cpp.i
 .PHONY : CryptoNoteCore/IBlock.cpp.i
 
 CryptoNoteCore/IBlock.s: CryptoNoteCore/IBlock.cpp.s
@@ -1598,7 +1598,7 @@ CryptoNoteCore/IBlock.s: CryptoNoteCore/IBlock.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/IBlock.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/IBlock.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/IBlock.cpp.s
 .PHONY : CryptoNoteCore/IBlock.cpp.s
 
 CryptoNoteCore/ITimeProvider.o: CryptoNoteCore/ITimeProvider.cpp.o
@@ -1607,7 +1607,7 @@ CryptoNoteCore/ITimeProvider.o: CryptoNoteCore/ITimeProvider.cpp.o
 
 # target to build an object file
 CryptoNoteCore/ITimeProvider.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/ITimeProvider.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/ITimeProvider.cpp.o
 .PHONY : CryptoNoteCore/ITimeProvider.cpp.o
 
 CryptoNoteCore/ITimeProvider.i: CryptoNoteCore/ITimeProvider.cpp.i
@@ -1616,7 +1616,7 @@ CryptoNoteCore/ITimeProvider.i: CryptoNoteCore/ITimeProvider.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/ITimeProvider.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/ITimeProvider.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/ITimeProvider.cpp.i
 .PHONY : CryptoNoteCore/ITimeProvider.cpp.i
 
 CryptoNoteCore/ITimeProvider.s: CryptoNoteCore/ITimeProvider.cpp.s
@@ -1625,7 +1625,7 @@ CryptoNoteCore/ITimeProvider.s: CryptoNoteCore/ITimeProvider.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/ITimeProvider.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/ITimeProvider.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/ITimeProvider.cpp.s
 .PHONY : CryptoNoteCore/ITimeProvider.cpp.s
 
 CryptoNoteCore/Miner.o: CryptoNoteCore/Miner.cpp.o
@@ -1634,7 +1634,7 @@ CryptoNoteCore/Miner.o: CryptoNoteCore/Miner.cpp.o
 
 # target to build an object file
 CryptoNoteCore/Miner.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Miner.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Miner.cpp.o
 .PHONY : CryptoNoteCore/Miner.cpp.o
 
 CryptoNoteCore/Miner.i: CryptoNoteCore/Miner.cpp.i
@@ -1643,7 +1643,7 @@ CryptoNoteCore/Miner.i: CryptoNoteCore/Miner.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/Miner.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Miner.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Miner.cpp.i
 .PHONY : CryptoNoteCore/Miner.cpp.i
 
 CryptoNoteCore/Miner.s: CryptoNoteCore/Miner.cpp.s
@@ -1652,7 +1652,7 @@ CryptoNoteCore/Miner.s: CryptoNoteCore/Miner.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/Miner.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Miner.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Miner.cpp.s
 .PHONY : CryptoNoteCore/Miner.cpp.s
 
 CryptoNoteCore/MinerConfig.o: CryptoNoteCore/MinerConfig.cpp.o
@@ -1661,7 +1661,7 @@ CryptoNoteCore/MinerConfig.o: CryptoNoteCore/MinerConfig.cpp.o
 
 # target to build an object file
 CryptoNoteCore/MinerConfig.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MinerConfig.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MinerConfig.cpp.o
 .PHONY : CryptoNoteCore/MinerConfig.cpp.o
 
 CryptoNoteCore/MinerConfig.i: CryptoNoteCore/MinerConfig.cpp.i
@@ -1670,7 +1670,7 @@ CryptoNoteCore/MinerConfig.i: CryptoNoteCore/MinerConfig.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/MinerConfig.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MinerConfig.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MinerConfig.cpp.i
 .PHONY : CryptoNoteCore/MinerConfig.cpp.i
 
 CryptoNoteCore/MinerConfig.s: CryptoNoteCore/MinerConfig.cpp.s
@@ -1679,7 +1679,7 @@ CryptoNoteCore/MinerConfig.s: CryptoNoteCore/MinerConfig.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/MinerConfig.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MinerConfig.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/MinerConfig.cpp.s
 .PHONY : CryptoNoteCore/MinerConfig.cpp.s
 
 CryptoNoteCore/SwappedMap.o: CryptoNoteCore/SwappedMap.cpp.o
@@ -1688,7 +1688,7 @@ CryptoNoteCore/SwappedMap.o: CryptoNoteCore/SwappedMap.cpp.o
 
 # target to build an object file
 CryptoNoteCore/SwappedMap.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedMap.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedMap.cpp.o
 .PHONY : CryptoNoteCore/SwappedMap.cpp.o
 
 CryptoNoteCore/SwappedMap.i: CryptoNoteCore/SwappedMap.cpp.i
@@ -1697,7 +1697,7 @@ CryptoNoteCore/SwappedMap.i: CryptoNoteCore/SwappedMap.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/SwappedMap.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedMap.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedMap.cpp.i
 .PHONY : CryptoNoteCore/SwappedMap.cpp.i
 
 CryptoNoteCore/SwappedMap.s: CryptoNoteCore/SwappedMap.cpp.s
@@ -1706,7 +1706,7 @@ CryptoNoteCore/SwappedMap.s: CryptoNoteCore/SwappedMap.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/SwappedMap.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedMap.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedMap.cpp.s
 .PHONY : CryptoNoteCore/SwappedMap.cpp.s
 
 CryptoNoteCore/SwappedVector.o: CryptoNoteCore/SwappedVector.cpp.o
@@ -1715,7 +1715,7 @@ CryptoNoteCore/SwappedVector.o: CryptoNoteCore/SwappedVector.cpp.o
 
 # target to build an object file
 CryptoNoteCore/SwappedVector.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedVector.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedVector.cpp.o
 .PHONY : CryptoNoteCore/SwappedVector.cpp.o
 
 CryptoNoteCore/SwappedVector.i: CryptoNoteCore/SwappedVector.cpp.i
@@ -1724,7 +1724,7 @@ CryptoNoteCore/SwappedVector.i: CryptoNoteCore/SwappedVector.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/SwappedVector.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedVector.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedVector.cpp.i
 .PHONY : CryptoNoteCore/SwappedVector.cpp.i
 
 CryptoNoteCore/SwappedVector.s: CryptoNoteCore/SwappedVector.cpp.s
@@ -1733,7 +1733,7 @@ CryptoNoteCore/SwappedVector.s: CryptoNoteCore/SwappedVector.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/SwappedVector.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedVector.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/SwappedVector.cpp.s
 .PHONY : CryptoNoteCore/SwappedVector.cpp.s
 
 CryptoNoteCore/Transaction.o: CryptoNoteCore/Transaction.cpp.o
@@ -1742,7 +1742,7 @@ CryptoNoteCore/Transaction.o: CryptoNoteCore/Transaction.cpp.o
 
 # target to build an object file
 CryptoNoteCore/Transaction.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Transaction.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Transaction.cpp.o
 .PHONY : CryptoNoteCore/Transaction.cpp.o
 
 CryptoNoteCore/Transaction.i: CryptoNoteCore/Transaction.cpp.i
@@ -1751,7 +1751,7 @@ CryptoNoteCore/Transaction.i: CryptoNoteCore/Transaction.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/Transaction.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Transaction.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Transaction.cpp.i
 .PHONY : CryptoNoteCore/Transaction.cpp.i
 
 CryptoNoteCore/Transaction.s: CryptoNoteCore/Transaction.cpp.s
@@ -1760,7 +1760,7 @@ CryptoNoteCore/Transaction.s: CryptoNoteCore/Transaction.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/Transaction.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Transaction.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/Transaction.cpp.s
 .PHONY : CryptoNoteCore/Transaction.cpp.s
 
 CryptoNoteCore/TransactionExtra.o: CryptoNoteCore/TransactionExtra.cpp.o
@@ -1769,7 +1769,7 @@ CryptoNoteCore/TransactionExtra.o: CryptoNoteCore/TransactionExtra.cpp.o
 
 # target to build an object file
 CryptoNoteCore/TransactionExtra.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionExtra.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionExtra.cpp.o
 .PHONY : CryptoNoteCore/TransactionExtra.cpp.o
 
 CryptoNoteCore/TransactionExtra.i: CryptoNoteCore/TransactionExtra.cpp.i
@@ -1778,7 +1778,7 @@ CryptoNoteCore/TransactionExtra.i: CryptoNoteCore/TransactionExtra.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/TransactionExtra.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionExtra.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionExtra.cpp.i
 .PHONY : CryptoNoteCore/TransactionExtra.cpp.i
 
 CryptoNoteCore/TransactionExtra.s: CryptoNoteCore/TransactionExtra.cpp.s
@@ -1787,7 +1787,7 @@ CryptoNoteCore/TransactionExtra.s: CryptoNoteCore/TransactionExtra.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/TransactionExtra.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionExtra.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionExtra.cpp.s
 .PHONY : CryptoNoteCore/TransactionExtra.cpp.s
 
 CryptoNoteCore/TransactionPool.o: CryptoNoteCore/TransactionPool.cpp.o
@@ -1796,7 +1796,7 @@ CryptoNoteCore/TransactionPool.o: CryptoNoteCore/TransactionPool.cpp.o
 
 # target to build an object file
 CryptoNoteCore/TransactionPool.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPool.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPool.cpp.o
 .PHONY : CryptoNoteCore/TransactionPool.cpp.o
 
 CryptoNoteCore/TransactionPool.i: CryptoNoteCore/TransactionPool.cpp.i
@@ -1805,7 +1805,7 @@ CryptoNoteCore/TransactionPool.i: CryptoNoteCore/TransactionPool.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/TransactionPool.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPool.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPool.cpp.i
 .PHONY : CryptoNoteCore/TransactionPool.cpp.i
 
 CryptoNoteCore/TransactionPool.s: CryptoNoteCore/TransactionPool.cpp.s
@@ -1814,7 +1814,7 @@ CryptoNoteCore/TransactionPool.s: CryptoNoteCore/TransactionPool.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/TransactionPool.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPool.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPool.cpp.s
 .PHONY : CryptoNoteCore/TransactionPool.cpp.s
 
 CryptoNoteCore/TransactionPrefixImpl.o: CryptoNoteCore/TransactionPrefixImpl.cpp.o
@@ -1823,7 +1823,7 @@ CryptoNoteCore/TransactionPrefixImpl.o: CryptoNoteCore/TransactionPrefixImpl.cpp
 
 # target to build an object file
 CryptoNoteCore/TransactionPrefixImpl.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPrefixImpl.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPrefixImpl.cpp.o
 .PHONY : CryptoNoteCore/TransactionPrefixImpl.cpp.o
 
 CryptoNoteCore/TransactionPrefixImpl.i: CryptoNoteCore/TransactionPrefixImpl.cpp.i
@@ -1832,7 +1832,7 @@ CryptoNoteCore/TransactionPrefixImpl.i: CryptoNoteCore/TransactionPrefixImpl.cpp
 
 # target to preprocess a source file
 CryptoNoteCore/TransactionPrefixImpl.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPrefixImpl.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPrefixImpl.cpp.i
 .PHONY : CryptoNoteCore/TransactionPrefixImpl.cpp.i
 
 CryptoNoteCore/TransactionPrefixImpl.s: CryptoNoteCore/TransactionPrefixImpl.cpp.s
@@ -1841,7 +1841,7 @@ CryptoNoteCore/TransactionPrefixImpl.s: CryptoNoteCore/TransactionPrefixImpl.cpp
 
 # target to generate assembly for a file
 CryptoNoteCore/TransactionPrefixImpl.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPrefixImpl.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionPrefixImpl.cpp.s
 .PHONY : CryptoNoteCore/TransactionPrefixImpl.cpp.s
 
 CryptoNoteCore/TransactionUtils.o: CryptoNoteCore/TransactionUtils.cpp.o
@@ -1850,7 +1850,7 @@ CryptoNoteCore/TransactionUtils.o: CryptoNoteCore/TransactionUtils.cpp.o
 
 # target to build an object file
 CryptoNoteCore/TransactionUtils.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionUtils.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionUtils.cpp.o
 .PHONY : CryptoNoteCore/TransactionUtils.cpp.o
 
 CryptoNoteCore/TransactionUtils.i: CryptoNoteCore/TransactionUtils.cpp.i
@@ -1859,7 +1859,7 @@ CryptoNoteCore/TransactionUtils.i: CryptoNoteCore/TransactionUtils.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/TransactionUtils.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionUtils.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionUtils.cpp.i
 .PHONY : CryptoNoteCore/TransactionUtils.cpp.i
 
 CryptoNoteCore/TransactionUtils.s: CryptoNoteCore/TransactionUtils.cpp.s
@@ -1868,7 +1868,7 @@ CryptoNoteCore/TransactionUtils.s: CryptoNoteCore/TransactionUtils.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/TransactionUtils.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionUtils.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/TransactionUtils.cpp.s
 .PHONY : CryptoNoteCore/TransactionUtils.cpp.s
 
 CryptoNoteCore/UpgradeDetector.o: CryptoNoteCore/UpgradeDetector.cpp.o
@@ -1877,7 +1877,7 @@ CryptoNoteCore/UpgradeDetector.o: CryptoNoteCore/UpgradeDetector.cpp.o
 
 # target to build an object file
 CryptoNoteCore/UpgradeDetector.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/UpgradeDetector.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/UpgradeDetector.cpp.o
 .PHONY : CryptoNoteCore/UpgradeDetector.cpp.o
 
 CryptoNoteCore/UpgradeDetector.i: CryptoNoteCore/UpgradeDetector.cpp.i
@@ -1886,7 +1886,7 @@ CryptoNoteCore/UpgradeDetector.i: CryptoNoteCore/UpgradeDetector.cpp.i
 
 # target to preprocess a source file
 CryptoNoteCore/UpgradeDetector.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/UpgradeDetector.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/UpgradeDetector.cpp.i
 .PHONY : CryptoNoteCore/UpgradeDetector.cpp.i
 
 CryptoNoteCore/UpgradeDetector.s: CryptoNoteCore/UpgradeDetector.cpp.s
@@ -1895,7 +1895,7 @@ CryptoNoteCore/UpgradeDetector.s: CryptoNoteCore/UpgradeDetector.cpp.s
 
 # target to generate assembly for a file
 CryptoNoteCore/UpgradeDetector.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/UpgradeDetector.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/CryptoNoteCore.dir/build.make src/CMakeFiles/CryptoNoteCore.dir/CryptoNoteCore/UpgradeDetector.cpp.s
 .PHONY : CryptoNoteCore/UpgradeDetector.cpp.s
 
 CryptoNoteProtocol/CryptoNoteProtocolHandler.o: CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o
@@ -1904,7 +1904,7 @@ CryptoNoteProtocol/CryptoNoteProtocolHandler.o: CryptoNoteProtocol/CryptoNotePro
 
 # target to build an object file
 CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o
 .PHONY : CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.o
 
 CryptoNoteProtocol/CryptoNoteProtocolHandler.i: CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.i
@@ -1913,7 +1913,7 @@ CryptoNoteProtocol/CryptoNoteProtocolHandler.i: CryptoNoteProtocol/CryptoNotePro
 
 # target to preprocess a source file
 CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.i
 .PHONY : CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.i
 
 CryptoNoteProtocol/CryptoNoteProtocolHandler.s: CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.s
@@ -1922,7 +1922,7 @@ CryptoNoteProtocol/CryptoNoteProtocolHandler.s: CryptoNoteProtocol/CryptoNotePro
 
 # target to generate assembly for a file
 CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.s
 .PHONY : CryptoNoteProtocol/CryptoNoteProtocolHandler.cpp.s
 
 Daemon/Daemon.o: Daemon/Daemon.cpp.o
@@ -1931,7 +1931,7 @@ Daemon/Daemon.o: Daemon/Daemon.cpp.o
 
 # target to build an object file
 Daemon/Daemon.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/Daemon.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/Daemon.cpp.o
 .PHONY : Daemon/Daemon.cpp.o
 
 Daemon/Daemon.i: Daemon/Daemon.cpp.i
@@ -1940,7 +1940,7 @@ Daemon/Daemon.i: Daemon/Daemon.cpp.i
 
 # target to preprocess a source file
 Daemon/Daemon.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/Daemon.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/Daemon.cpp.i
 .PHONY : Daemon/Daemon.cpp.i
 
 Daemon/Daemon.s: Daemon/Daemon.cpp.s
@@ -1949,7 +1949,7 @@ Daemon/Daemon.s: Daemon/Daemon.cpp.s
 
 # target to generate assembly for a file
 Daemon/Daemon.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/Daemon.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/Daemon.cpp.s
 .PHONY : Daemon/Daemon.cpp.s
 
 Daemon/DaemonCommandsHandler.o: Daemon/DaemonCommandsHandler.cpp.o
@@ -1958,7 +1958,7 @@ Daemon/DaemonCommandsHandler.o: Daemon/DaemonCommandsHandler.cpp.o
 
 # target to build an object file
 Daemon/DaemonCommandsHandler.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.o
 .PHONY : Daemon/DaemonCommandsHandler.cpp.o
 
 Daemon/DaemonCommandsHandler.i: Daemon/DaemonCommandsHandler.cpp.i
@@ -1967,7 +1967,7 @@ Daemon/DaemonCommandsHandler.i: Daemon/DaemonCommandsHandler.cpp.i
 
 # target to preprocess a source file
 Daemon/DaemonCommandsHandler.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.i
 .PHONY : Daemon/DaemonCommandsHandler.cpp.i
 
 Daemon/DaemonCommandsHandler.s: Daemon/DaemonCommandsHandler.cpp.s
@@ -1976,7 +1976,7 @@ Daemon/DaemonCommandsHandler.s: Daemon/DaemonCommandsHandler.cpp.s
 
 # target to generate assembly for a file
 Daemon/DaemonCommandsHandler.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Daemon.dir/build.make src/CMakeFiles/Daemon.dir/Daemon/DaemonCommandsHandler.cpp.s
 .PHONY : Daemon/DaemonCommandsHandler.cpp.s
 
 HTTP/HttpParser.o: HTTP/HttpParser.cpp.o
@@ -1985,7 +1985,7 @@ HTTP/HttpParser.o: HTTP/HttpParser.cpp.o
 
 # target to build an object file
 HTTP/HttpParser.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParser.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParser.cpp.o
 .PHONY : HTTP/HttpParser.cpp.o
 
 HTTP/HttpParser.i: HTTP/HttpParser.cpp.i
@@ -1994,7 +1994,7 @@ HTTP/HttpParser.i: HTTP/HttpParser.cpp.i
 
 # target to preprocess a source file
 HTTP/HttpParser.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParser.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParser.cpp.i
 .PHONY : HTTP/HttpParser.cpp.i
 
 HTTP/HttpParser.s: HTTP/HttpParser.cpp.s
@@ -2003,7 +2003,7 @@ HTTP/HttpParser.s: HTTP/HttpParser.cpp.s
 
 # target to generate assembly for a file
 HTTP/HttpParser.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParser.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParser.cpp.s
 .PHONY : HTTP/HttpParser.cpp.s
 
 HTTP/HttpParserErrorCodes.o: HTTP/HttpParserErrorCodes.cpp.o
@@ -2012,7 +2012,7 @@ HTTP/HttpParserErrorCodes.o: HTTP/HttpParserErrorCodes.cpp.o
 
 # target to build an object file
 HTTP/HttpParserErrorCodes.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.o
 .PHONY : HTTP/HttpParserErrorCodes.cpp.o
 
 HTTP/HttpParserErrorCodes.i: HTTP/HttpParserErrorCodes.cpp.i
@@ -2021,7 +2021,7 @@ HTTP/HttpParserErrorCodes.i: HTTP/HttpParserErrorCodes.cpp.i
 
 # target to preprocess a source file
 HTTP/HttpParserErrorCodes.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.i
 .PHONY : HTTP/HttpParserErrorCodes.cpp.i
 
 HTTP/HttpParserErrorCodes.s: HTTP/HttpParserErrorCodes.cpp.s
@@ -2030,7 +2030,7 @@ HTTP/HttpParserErrorCodes.s: HTTP/HttpParserErrorCodes.cpp.s
 
 # target to generate assembly for a file
 HTTP/HttpParserErrorCodes.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpParserErrorCodes.cpp.s
 .PHONY : HTTP/HttpParserErrorCodes.cpp.s
 
 HTTP/HttpRequest.o: HTTP/HttpRequest.cpp.o
@@ -2039,7 +2039,7 @@ HTTP/HttpRequest.o: HTTP/HttpRequest.cpp.o
 
 # target to build an object file
 HTTP/HttpRequest.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.o
 .PHONY : HTTP/HttpRequest.cpp.o
 
 HTTP/HttpRequest.i: HTTP/HttpRequest.cpp.i
@@ -2048,7 +2048,7 @@ HTTP/HttpRequest.i: HTTP/HttpRequest.cpp.i
 
 # target to preprocess a source file
 HTTP/HttpRequest.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.i
 .PHONY : HTTP/HttpRequest.cpp.i
 
 HTTP/HttpRequest.s: HTTP/HttpRequest.cpp.s
@@ -2057,7 +2057,7 @@ HTTP/HttpRequest.s: HTTP/HttpRequest.cpp.s
 
 # target to generate assembly for a file
 HTTP/HttpRequest.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpRequest.cpp.s
 .PHONY : HTTP/HttpRequest.cpp.s
 
 HTTP/HttpResponse.o: HTTP/HttpResponse.cpp.o
@@ -2066,7 +2066,7 @@ HTTP/HttpResponse.o: HTTP/HttpResponse.cpp.o
 
 # target to build an object file
 HTTP/HttpResponse.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.o
 .PHONY : HTTP/HttpResponse.cpp.o
 
 HTTP/HttpResponse.i: HTTP/HttpResponse.cpp.i
@@ -2075,7 +2075,7 @@ HTTP/HttpResponse.i: HTTP/HttpResponse.cpp.i
 
 # target to preprocess a source file
 HTTP/HttpResponse.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.i
 .PHONY : HTTP/HttpResponse.cpp.i
 
 HTTP/HttpResponse.s: HTTP/HttpResponse.cpp.s
@@ -2084,7 +2084,7 @@ HTTP/HttpResponse.s: HTTP/HttpResponse.cpp.s
 
 # target to generate assembly for a file
 HTTP/HttpResponse.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Http.dir/build.make src/CMakeFiles/Http.dir/HTTP/HttpResponse.cpp.s
 .PHONY : HTTP/HttpResponse.cpp.s
 
 InProcessNode/InProcessNode.o: InProcessNode/InProcessNode.cpp.o
@@ -2093,7 +2093,7 @@ InProcessNode/InProcessNode.o: InProcessNode/InProcessNode.cpp.o
 
 # target to build an object file
 InProcessNode/InProcessNode.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.o
 .PHONY : InProcessNode/InProcessNode.cpp.o
 
 InProcessNode/InProcessNode.i: InProcessNode/InProcessNode.cpp.i
@@ -2102,7 +2102,7 @@ InProcessNode/InProcessNode.i: InProcessNode/InProcessNode.cpp.i
 
 # target to preprocess a source file
 InProcessNode/InProcessNode.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.i
 .PHONY : InProcessNode/InProcessNode.cpp.i
 
 InProcessNode/InProcessNode.s: InProcessNode/InProcessNode.cpp.s
@@ -2111,7 +2111,7 @@ InProcessNode/InProcessNode.s: InProcessNode/InProcessNode.cpp.s
 
 # target to generate assembly for a file
 InProcessNode/InProcessNode.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNode.cpp.s
 .PHONY : InProcessNode/InProcessNode.cpp.s
 
 InProcessNode/InProcessNodeErrors.o: InProcessNode/InProcessNodeErrors.cpp.o
@@ -2120,7 +2120,7 @@ InProcessNode/InProcessNodeErrors.o: InProcessNode/InProcessNodeErrors.cpp.o
 
 # target to build an object file
 InProcessNode/InProcessNodeErrors.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNodeErrors.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNodeErrors.cpp.o
 .PHONY : InProcessNode/InProcessNodeErrors.cpp.o
 
 InProcessNode/InProcessNodeErrors.i: InProcessNode/InProcessNodeErrors.cpp.i
@@ -2129,7 +2129,7 @@ InProcessNode/InProcessNodeErrors.i: InProcessNode/InProcessNodeErrors.cpp.i
 
 # target to preprocess a source file
 InProcessNode/InProcessNodeErrors.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNodeErrors.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNodeErrors.cpp.i
 .PHONY : InProcessNode/InProcessNodeErrors.cpp.i
 
 InProcessNode/InProcessNodeErrors.s: InProcessNode/InProcessNodeErrors.cpp.s
@@ -2138,7 +2138,7 @@ InProcessNode/InProcessNodeErrors.s: InProcessNode/InProcessNodeErrors.cpp.s
 
 # target to generate assembly for a file
 InProcessNode/InProcessNodeErrors.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNodeErrors.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/InProcessNode.dir/build.make src/CMakeFiles/InProcessNode.dir/InProcessNode/InProcessNodeErrors.cpp.s
 .PHONY : InProcessNode/InProcessNodeErrors.cpp.s
 
 JsonRpcServer/JsonRpcServer.o: JsonRpcServer/JsonRpcServer.cpp.o
@@ -2147,7 +2147,7 @@ JsonRpcServer/JsonRpcServer.o: JsonRpcServer/JsonRpcServer.cpp.o
 
 # target to build an object file
 JsonRpcServer/JsonRpcServer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.o
 .PHONY : JsonRpcServer/JsonRpcServer.cpp.o
 
 JsonRpcServer/JsonRpcServer.i: JsonRpcServer/JsonRpcServer.cpp.i
@@ -2156,7 +2156,7 @@ JsonRpcServer/JsonRpcServer.i: JsonRpcServer/JsonRpcServer.cpp.i
 
 # target to preprocess a source file
 JsonRpcServer/JsonRpcServer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.i
 .PHONY : JsonRpcServer/JsonRpcServer.cpp.i
 
 JsonRpcServer/JsonRpcServer.s: JsonRpcServer/JsonRpcServer.cpp.s
@@ -2165,7 +2165,7 @@ JsonRpcServer/JsonRpcServer.s: JsonRpcServer/JsonRpcServer.cpp.s
 
 # target to generate assembly for a file
 JsonRpcServer/JsonRpcServer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/JsonRpcServer.dir/build.make src/CMakeFiles/JsonRpcServer.dir/JsonRpcServer/JsonRpcServer.cpp.s
 .PHONY : JsonRpcServer/JsonRpcServer.cpp.s
 
 Logging/CommonLogger.o: Logging/CommonLogger.cpp.o
@@ -2174,7 +2174,7 @@ Logging/CommonLogger.o: Logging/CommonLogger.cpp.o
 
 # target to build an object file
 Logging/CommonLogger.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.o
 .PHONY : Logging/CommonLogger.cpp.o
 
 Logging/CommonLogger.i: Logging/CommonLogger.cpp.i
@@ -2183,7 +2183,7 @@ Logging/CommonLogger.i: Logging/CommonLogger.cpp.i
 
 # target to preprocess a source file
 Logging/CommonLogger.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.i
 .PHONY : Logging/CommonLogger.cpp.i
 
 Logging/CommonLogger.s: Logging/CommonLogger.cpp.s
@@ -2192,7 +2192,7 @@ Logging/CommonLogger.s: Logging/CommonLogger.cpp.s
 
 # target to generate assembly for a file
 Logging/CommonLogger.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/CommonLogger.cpp.s
 .PHONY : Logging/CommonLogger.cpp.s
 
 Logging/ConsoleLogger.o: Logging/ConsoleLogger.cpp.o
@@ -2201,7 +2201,7 @@ Logging/ConsoleLogger.o: Logging/ConsoleLogger.cpp.o
 
 # target to build an object file
 Logging/ConsoleLogger.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.o
 .PHONY : Logging/ConsoleLogger.cpp.o
 
 Logging/ConsoleLogger.i: Logging/ConsoleLogger.cpp.i
@@ -2210,7 +2210,7 @@ Logging/ConsoleLogger.i: Logging/ConsoleLogger.cpp.i
 
 # target to preprocess a source file
 Logging/ConsoleLogger.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.i
 .PHONY : Logging/ConsoleLogger.cpp.i
 
 Logging/ConsoleLogger.s: Logging/ConsoleLogger.cpp.s
@@ -2219,7 +2219,7 @@ Logging/ConsoleLogger.s: Logging/ConsoleLogger.cpp.s
 
 # target to generate assembly for a file
 Logging/ConsoleLogger.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ConsoleLogger.cpp.s
 .PHONY : Logging/ConsoleLogger.cpp.s
 
 Logging/FileLogger.o: Logging/FileLogger.cpp.o
@@ -2228,7 +2228,7 @@ Logging/FileLogger.o: Logging/FileLogger.cpp.o
 
 # target to build an object file
 Logging/FileLogger.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.o
 .PHONY : Logging/FileLogger.cpp.o
 
 Logging/FileLogger.i: Logging/FileLogger.cpp.i
@@ -2237,7 +2237,7 @@ Logging/FileLogger.i: Logging/FileLogger.cpp.i
 
 # target to preprocess a source file
 Logging/FileLogger.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.i
 .PHONY : Logging/FileLogger.cpp.i
 
 Logging/FileLogger.s: Logging/FileLogger.cpp.s
@@ -2246,7 +2246,7 @@ Logging/FileLogger.s: Logging/FileLogger.cpp.s
 
 # target to generate assembly for a file
 Logging/FileLogger.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/FileLogger.cpp.s
 .PHONY : Logging/FileLogger.cpp.s
 
 Logging/ILogger.o: Logging/ILogger.cpp.o
@@ -2255,7 +2255,7 @@ Logging/ILogger.o: Logging/ILogger.cpp.o
 
 # target to build an object file
 Logging/ILogger.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.o
 .PHONY : Logging/ILogger.cpp.o
 
 Logging/ILogger.i: Logging/ILogger.cpp.i
@@ -2264,7 +2264,7 @@ Logging/ILogger.i: Logging/ILogger.cpp.i
 
 # target to preprocess a source file
 Logging/ILogger.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.i
 .PHONY : Logging/ILogger.cpp.i
 
 Logging/ILogger.s: Logging/ILogger.cpp.s
@@ -2273,7 +2273,7 @@ Logging/ILogger.s: Logging/ILogger.cpp.s
 
 # target to generate assembly for a file
 Logging/ILogger.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/ILogger.cpp.s
 .PHONY : Logging/ILogger.cpp.s
 
 Logging/LoggerGroup.o: Logging/LoggerGroup.cpp.o
@@ -2282,7 +2282,7 @@ Logging/LoggerGroup.o: Logging/LoggerGroup.cpp.o
 
 # target to build an object file
 Logging/LoggerGroup.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.o
 .PHONY : Logging/LoggerGroup.cpp.o
 
 Logging/LoggerGroup.i: Logging/LoggerGroup.cpp.i
@@ -2291,7 +2291,7 @@ Logging/LoggerGroup.i: Logging/LoggerGroup.cpp.i
 
 # target to preprocess a source file
 Logging/LoggerGroup.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.i
 .PHONY : Logging/LoggerGroup.cpp.i
 
 Logging/LoggerGroup.s: Logging/LoggerGroup.cpp.s
@@ -2300,7 +2300,7 @@ Logging/LoggerGroup.s: Logging/LoggerGroup.cpp.s
 
 # target to generate assembly for a file
 Logging/LoggerGroup.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerGroup.cpp.s
 .PHONY : Logging/LoggerGroup.cpp.s
 
 Logging/LoggerManager.o: Logging/LoggerManager.cpp.o
@@ -2309,7 +2309,7 @@ Logging/LoggerManager.o: Logging/LoggerManager.cpp.o
 
 # target to build an object file
 Logging/LoggerManager.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.o
 .PHONY : Logging/LoggerManager.cpp.o
 
 Logging/LoggerManager.i: Logging/LoggerManager.cpp.i
@@ -2318,7 +2318,7 @@ Logging/LoggerManager.i: Logging/LoggerManager.cpp.i
 
 # target to preprocess a source file
 Logging/LoggerManager.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.i
 .PHONY : Logging/LoggerManager.cpp.i
 
 Logging/LoggerManager.s: Logging/LoggerManager.cpp.s
@@ -2327,7 +2327,7 @@ Logging/LoggerManager.s: Logging/LoggerManager.cpp.s
 
 # target to generate assembly for a file
 Logging/LoggerManager.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerManager.cpp.s
 .PHONY : Logging/LoggerManager.cpp.s
 
 Logging/LoggerMessage.o: Logging/LoggerMessage.cpp.o
@@ -2336,7 +2336,7 @@ Logging/LoggerMessage.o: Logging/LoggerMessage.cpp.o
 
 # target to build an object file
 Logging/LoggerMessage.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.o
 .PHONY : Logging/LoggerMessage.cpp.o
 
 Logging/LoggerMessage.i: Logging/LoggerMessage.cpp.i
@@ -2345,7 +2345,7 @@ Logging/LoggerMessage.i: Logging/LoggerMessage.cpp.i
 
 # target to preprocess a source file
 Logging/LoggerMessage.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.i
 .PHONY : Logging/LoggerMessage.cpp.i
 
 Logging/LoggerMessage.s: Logging/LoggerMessage.cpp.s
@@ -2354,7 +2354,7 @@ Logging/LoggerMessage.s: Logging/LoggerMessage.cpp.s
 
 # target to generate assembly for a file
 Logging/LoggerMessage.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerMessage.cpp.s
 .PHONY : Logging/LoggerMessage.cpp.s
 
 Logging/LoggerRef.o: Logging/LoggerRef.cpp.o
@@ -2363,7 +2363,7 @@ Logging/LoggerRef.o: Logging/LoggerRef.cpp.o
 
 # target to build an object file
 Logging/LoggerRef.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.o
 .PHONY : Logging/LoggerRef.cpp.o
 
 Logging/LoggerRef.i: Logging/LoggerRef.cpp.i
@@ -2372,7 +2372,7 @@ Logging/LoggerRef.i: Logging/LoggerRef.cpp.i
 
 # target to preprocess a source file
 Logging/LoggerRef.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.i
 .PHONY : Logging/LoggerRef.cpp.i
 
 Logging/LoggerRef.s: Logging/LoggerRef.cpp.s
@@ -2381,7 +2381,7 @@ Logging/LoggerRef.s: Logging/LoggerRef.cpp.s
 
 # target to generate assembly for a file
 Logging/LoggerRef.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/LoggerRef.cpp.s
 .PHONY : Logging/LoggerRef.cpp.s
 
 Logging/StreamLogger.o: Logging/StreamLogger.cpp.o
@@ -2390,7 +2390,7 @@ Logging/StreamLogger.o: Logging/StreamLogger.cpp.o
 
 # target to build an object file
 Logging/StreamLogger.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.o
 .PHONY : Logging/StreamLogger.cpp.o
 
 Logging/StreamLogger.i: Logging/StreamLogger.cpp.i
@@ -2399,7 +2399,7 @@ Logging/StreamLogger.i: Logging/StreamLogger.cpp.i
 
 # target to preprocess a source file
 Logging/StreamLogger.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.i
 .PHONY : Logging/StreamLogger.cpp.i
 
 Logging/StreamLogger.s: Logging/StreamLogger.cpp.s
@@ -2408,7 +2408,7 @@ Logging/StreamLogger.s: Logging/StreamLogger.cpp.s
 
 # target to generate assembly for a file
 Logging/StreamLogger.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Logging.dir/build.make src/CMakeFiles/Logging.dir/Logging/StreamLogger.cpp.s
 .PHONY : Logging/StreamLogger.cpp.s
 
 Miner/BlockchainMonitor.o: Miner/BlockchainMonitor.cpp.o
@@ -2417,7 +2417,7 @@ Miner/BlockchainMonitor.o: Miner/BlockchainMonitor.cpp.o
 
 # target to build an object file
 Miner/BlockchainMonitor.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.o
 .PHONY : Miner/BlockchainMonitor.cpp.o
 
 Miner/BlockchainMonitor.i: Miner/BlockchainMonitor.cpp.i
@@ -2426,7 +2426,7 @@ Miner/BlockchainMonitor.i: Miner/BlockchainMonitor.cpp.i
 
 # target to preprocess a source file
 Miner/BlockchainMonitor.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.i
 .PHONY : Miner/BlockchainMonitor.cpp.i
 
 Miner/BlockchainMonitor.s: Miner/BlockchainMonitor.cpp.s
@@ -2435,7 +2435,7 @@ Miner/BlockchainMonitor.s: Miner/BlockchainMonitor.cpp.s
 
 # target to generate assembly for a file
 Miner/BlockchainMonitor.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/BlockchainMonitor.cpp.s
 .PHONY : Miner/BlockchainMonitor.cpp.s
 
 Miner/Miner.o: Miner/Miner.cpp.o
@@ -2444,7 +2444,7 @@ Miner/Miner.o: Miner/Miner.cpp.o
 
 # target to build an object file
 Miner/Miner.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/Miner.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/Miner.cpp.o
 .PHONY : Miner/Miner.cpp.o
 
 Miner/Miner.i: Miner/Miner.cpp.i
@@ -2453,7 +2453,7 @@ Miner/Miner.i: Miner/Miner.cpp.i
 
 # target to preprocess a source file
 Miner/Miner.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/Miner.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/Miner.cpp.i
 .PHONY : Miner/Miner.cpp.i
 
 Miner/Miner.s: Miner/Miner.cpp.s
@@ -2462,7 +2462,7 @@ Miner/Miner.s: Miner/Miner.cpp.s
 
 # target to generate assembly for a file
 Miner/Miner.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/Miner.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/Miner.cpp.s
 .PHONY : Miner/Miner.cpp.s
 
 Miner/MinerManager.o: Miner/MinerManager.cpp.o
@@ -2471,7 +2471,7 @@ Miner/MinerManager.o: Miner/MinerManager.cpp.o
 
 # target to build an object file
 Miner/MinerManager.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MinerManager.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MinerManager.cpp.o
 .PHONY : Miner/MinerManager.cpp.o
 
 Miner/MinerManager.i: Miner/MinerManager.cpp.i
@@ -2480,7 +2480,7 @@ Miner/MinerManager.i: Miner/MinerManager.cpp.i
 
 # target to preprocess a source file
 Miner/MinerManager.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MinerManager.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MinerManager.cpp.i
 .PHONY : Miner/MinerManager.cpp.i
 
 Miner/MinerManager.s: Miner/MinerManager.cpp.s
@@ -2489,7 +2489,7 @@ Miner/MinerManager.s: Miner/MinerManager.cpp.s
 
 # target to generate assembly for a file
 Miner/MinerManager.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MinerManager.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MinerManager.cpp.s
 .PHONY : Miner/MinerManager.cpp.s
 
 Miner/MiningConfig.o: Miner/MiningConfig.cpp.o
@@ -2498,7 +2498,7 @@ Miner/MiningConfig.o: Miner/MiningConfig.cpp.o
 
 # target to build an object file
 Miner/MiningConfig.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.o
 .PHONY : Miner/MiningConfig.cpp.o
 
 Miner/MiningConfig.i: Miner/MiningConfig.cpp.i
@@ -2507,7 +2507,7 @@ Miner/MiningConfig.i: Miner/MiningConfig.cpp.i
 
 # target to preprocess a source file
 Miner/MiningConfig.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.i
 .PHONY : Miner/MiningConfig.cpp.i
 
 Miner/MiningConfig.s: Miner/MiningConfig.cpp.s
@@ -2516,7 +2516,7 @@ Miner/MiningConfig.s: Miner/MiningConfig.cpp.s
 
 # target to generate assembly for a file
 Miner/MiningConfig.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/MiningConfig.cpp.s
 .PHONY : Miner/MiningConfig.cpp.s
 
 Miner/main.o: Miner/main.cpp.o
@@ -2525,7 +2525,7 @@ Miner/main.o: Miner/main.cpp.o
 
 # target to build an object file
 Miner/main.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/main.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/main.cpp.o
 .PHONY : Miner/main.cpp.o
 
 Miner/main.i: Miner/main.cpp.i
@@ -2534,7 +2534,7 @@ Miner/main.i: Miner/main.cpp.i
 
 # target to preprocess a source file
 Miner/main.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/main.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/main.cpp.i
 .PHONY : Miner/main.cpp.i
 
 Miner/main.s: Miner/main.cpp.s
@@ -2543,7 +2543,7 @@ Miner/main.s: Miner/main.cpp.s
 
 # target to generate assembly for a file
 Miner/main.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/main.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Miner.dir/build.make src/CMakeFiles/Miner.dir/Miner/main.cpp.s
 .PHONY : Miner/main.cpp.s
 
 NodeRpcProxy/NodeErrors.o: NodeRpcProxy/NodeErrors.cpp.o
@@ -2552,7 +2552,7 @@ NodeRpcProxy/NodeErrors.o: NodeRpcProxy/NodeErrors.cpp.o
 
 # target to build an object file
 NodeRpcProxy/NodeErrors.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.o
 .PHONY : NodeRpcProxy/NodeErrors.cpp.o
 
 NodeRpcProxy/NodeErrors.i: NodeRpcProxy/NodeErrors.cpp.i
@@ -2561,7 +2561,7 @@ NodeRpcProxy/NodeErrors.i: NodeRpcProxy/NodeErrors.cpp.i
 
 # target to preprocess a source file
 NodeRpcProxy/NodeErrors.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.i
 .PHONY : NodeRpcProxy/NodeErrors.cpp.i
 
 NodeRpcProxy/NodeErrors.s: NodeRpcProxy/NodeErrors.cpp.s
@@ -2570,7 +2570,7 @@ NodeRpcProxy/NodeErrors.s: NodeRpcProxy/NodeErrors.cpp.s
 
 # target to generate assembly for a file
 NodeRpcProxy/NodeErrors.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeErrors.cpp.s
 .PHONY : NodeRpcProxy/NodeErrors.cpp.s
 
 NodeRpcProxy/NodeRpcProxy.o: NodeRpcProxy/NodeRpcProxy.cpp.o
@@ -2579,7 +2579,7 @@ NodeRpcProxy/NodeRpcProxy.o: NodeRpcProxy/NodeRpcProxy.cpp.o
 
 # target to build an object file
 NodeRpcProxy/NodeRpcProxy.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.o
 .PHONY : NodeRpcProxy/NodeRpcProxy.cpp.o
 
 NodeRpcProxy/NodeRpcProxy.i: NodeRpcProxy/NodeRpcProxy.cpp.i
@@ -2588,7 +2588,7 @@ NodeRpcProxy/NodeRpcProxy.i: NodeRpcProxy/NodeRpcProxy.cpp.i
 
 # target to preprocess a source file
 NodeRpcProxy/NodeRpcProxy.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.i
 .PHONY : NodeRpcProxy/NodeRpcProxy.cpp.i
 
 NodeRpcProxy/NodeRpcProxy.s: NodeRpcProxy/NodeRpcProxy.cpp.s
@@ -2597,7 +2597,7 @@ NodeRpcProxy/NodeRpcProxy.s: NodeRpcProxy/NodeRpcProxy.cpp.s
 
 # target to generate assembly for a file
 NodeRpcProxy/NodeRpcProxy.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/NodeRpcProxy.dir/build.make src/CMakeFiles/NodeRpcProxy.dir/NodeRpcProxy/NodeRpcProxy.cpp.s
 .PHONY : NodeRpcProxy/NodeRpcProxy.cpp.s
 
 P2p/IP2pNodeInternal.o: P2p/IP2pNodeInternal.cpp.o
@@ -2606,7 +2606,7 @@ P2p/IP2pNodeInternal.o: P2p/IP2pNodeInternal.cpp.o
 
 # target to build an object file
 P2p/IP2pNodeInternal.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.o
 .PHONY : P2p/IP2pNodeInternal.cpp.o
 
 P2p/IP2pNodeInternal.i: P2p/IP2pNodeInternal.cpp.i
@@ -2615,7 +2615,7 @@ P2p/IP2pNodeInternal.i: P2p/IP2pNodeInternal.cpp.i
 
 # target to preprocess a source file
 P2p/IP2pNodeInternal.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.i
 .PHONY : P2p/IP2pNodeInternal.cpp.i
 
 P2p/IP2pNodeInternal.s: P2p/IP2pNodeInternal.cpp.s
@@ -2624,7 +2624,7 @@ P2p/IP2pNodeInternal.s: P2p/IP2pNodeInternal.cpp.s
 
 # target to generate assembly for a file
 P2p/IP2pNodeInternal.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/IP2pNodeInternal.cpp.s
 .PHONY : P2p/IP2pNodeInternal.cpp.s
 
 P2p/LevinProtocol.o: P2p/LevinProtocol.cpp.o
@@ -2633,7 +2633,7 @@ P2p/LevinProtocol.o: P2p/LevinProtocol.cpp.o
 
 # target to build an object file
 P2p/LevinProtocol.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.o
 .PHONY : P2p/LevinProtocol.cpp.o
 
 P2p/LevinProtocol.i: P2p/LevinProtocol.cpp.i
@@ -2642,7 +2642,7 @@ P2p/LevinProtocol.i: P2p/LevinProtocol.cpp.i
 
 # target to preprocess a source file
 P2p/LevinProtocol.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.i
 .PHONY : P2p/LevinProtocol.cpp.i
 
 P2p/LevinProtocol.s: P2p/LevinProtocol.cpp.s
@@ -2651,7 +2651,7 @@ P2p/LevinProtocol.s: P2p/LevinProtocol.cpp.s
 
 # target to generate assembly for a file
 P2p/LevinProtocol.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/LevinProtocol.cpp.s
 .PHONY : P2p/LevinProtocol.cpp.s
 
 P2p/NetNode.o: P2p/NetNode.cpp.o
@@ -2660,7 +2660,7 @@ P2p/NetNode.o: P2p/NetNode.cpp.o
 
 # target to build an object file
 P2p/NetNode.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.o
 .PHONY : P2p/NetNode.cpp.o
 
 P2p/NetNode.i: P2p/NetNode.cpp.i
@@ -2669,7 +2669,7 @@ P2p/NetNode.i: P2p/NetNode.cpp.i
 
 # target to preprocess a source file
 P2p/NetNode.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.i
 .PHONY : P2p/NetNode.cpp.i
 
 P2p/NetNode.s: P2p/NetNode.cpp.s
@@ -2678,7 +2678,7 @@ P2p/NetNode.s: P2p/NetNode.cpp.s
 
 # target to generate assembly for a file
 P2p/NetNode.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNode.cpp.s
 .PHONY : P2p/NetNode.cpp.s
 
 P2p/NetNodeConfig.o: P2p/NetNodeConfig.cpp.o
@@ -2687,7 +2687,7 @@ P2p/NetNodeConfig.o: P2p/NetNodeConfig.cpp.o
 
 # target to build an object file
 P2p/NetNodeConfig.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.o
 .PHONY : P2p/NetNodeConfig.cpp.o
 
 P2p/NetNodeConfig.i: P2p/NetNodeConfig.cpp.i
@@ -2696,7 +2696,7 @@ P2p/NetNodeConfig.i: P2p/NetNodeConfig.cpp.i
 
 # target to preprocess a source file
 P2p/NetNodeConfig.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.i
 .PHONY : P2p/NetNodeConfig.cpp.i
 
 P2p/NetNodeConfig.s: P2p/NetNodeConfig.cpp.s
@@ -2705,7 +2705,7 @@ P2p/NetNodeConfig.s: P2p/NetNodeConfig.cpp.s
 
 # target to generate assembly for a file
 P2p/NetNodeConfig.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/NetNodeConfig.cpp.s
 .PHONY : P2p/NetNodeConfig.cpp.s
 
 P2p/P2pConnectionProxy.o: P2p/P2pConnectionProxy.cpp.o
@@ -2714,7 +2714,7 @@ P2p/P2pConnectionProxy.o: P2p/P2pConnectionProxy.cpp.o
 
 # target to build an object file
 P2p/P2pConnectionProxy.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.o
 .PHONY : P2p/P2pConnectionProxy.cpp.o
 
 P2p/P2pConnectionProxy.i: P2p/P2pConnectionProxy.cpp.i
@@ -2723,7 +2723,7 @@ P2p/P2pConnectionProxy.i: P2p/P2pConnectionProxy.cpp.i
 
 # target to preprocess a source file
 P2p/P2pConnectionProxy.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.i
 .PHONY : P2p/P2pConnectionProxy.cpp.i
 
 P2p/P2pConnectionProxy.s: P2p/P2pConnectionProxy.cpp.s
@@ -2732,7 +2732,7 @@ P2p/P2pConnectionProxy.s: P2p/P2pConnectionProxy.cpp.s
 
 # target to generate assembly for a file
 P2p/P2pConnectionProxy.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pConnectionProxy.cpp.s
 .PHONY : P2p/P2pConnectionProxy.cpp.s
 
 P2p/P2pContext.o: P2p/P2pContext.cpp.o
@@ -2741,7 +2741,7 @@ P2p/P2pContext.o: P2p/P2pContext.cpp.o
 
 # target to build an object file
 P2p/P2pContext.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.o
 .PHONY : P2p/P2pContext.cpp.o
 
 P2p/P2pContext.i: P2p/P2pContext.cpp.i
@@ -2750,7 +2750,7 @@ P2p/P2pContext.i: P2p/P2pContext.cpp.i
 
 # target to preprocess a source file
 P2p/P2pContext.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.i
 .PHONY : P2p/P2pContext.cpp.i
 
 P2p/P2pContext.s: P2p/P2pContext.cpp.s
@@ -2759,7 +2759,7 @@ P2p/P2pContext.s: P2p/P2pContext.cpp.s
 
 # target to generate assembly for a file
 P2p/P2pContext.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContext.cpp.s
 .PHONY : P2p/P2pContext.cpp.s
 
 P2p/P2pContextOwner.o: P2p/P2pContextOwner.cpp.o
@@ -2768,7 +2768,7 @@ P2p/P2pContextOwner.o: P2p/P2pContextOwner.cpp.o
 
 # target to build an object file
 P2p/P2pContextOwner.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.o
 .PHONY : P2p/P2pContextOwner.cpp.o
 
 P2p/P2pContextOwner.i: P2p/P2pContextOwner.cpp.i
@@ -2777,7 +2777,7 @@ P2p/P2pContextOwner.i: P2p/P2pContextOwner.cpp.i
 
 # target to preprocess a source file
 P2p/P2pContextOwner.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.i
 .PHONY : P2p/P2pContextOwner.cpp.i
 
 P2p/P2pContextOwner.s: P2p/P2pContextOwner.cpp.s
@@ -2786,7 +2786,7 @@ P2p/P2pContextOwner.s: P2p/P2pContextOwner.cpp.s
 
 # target to generate assembly for a file
 P2p/P2pContextOwner.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pContextOwner.cpp.s
 .PHONY : P2p/P2pContextOwner.cpp.s
 
 P2p/P2pInterfaces.o: P2p/P2pInterfaces.cpp.o
@@ -2795,7 +2795,7 @@ P2p/P2pInterfaces.o: P2p/P2pInterfaces.cpp.o
 
 # target to build an object file
 P2p/P2pInterfaces.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.o
 .PHONY : P2p/P2pInterfaces.cpp.o
 
 P2p/P2pInterfaces.i: P2p/P2pInterfaces.cpp.i
@@ -2804,7 +2804,7 @@ P2p/P2pInterfaces.i: P2p/P2pInterfaces.cpp.i
 
 # target to preprocess a source file
 P2p/P2pInterfaces.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.i
 .PHONY : P2p/P2pInterfaces.cpp.i
 
 P2p/P2pInterfaces.s: P2p/P2pInterfaces.cpp.s
@@ -2813,7 +2813,7 @@ P2p/P2pInterfaces.s: P2p/P2pInterfaces.cpp.s
 
 # target to generate assembly for a file
 P2p/P2pInterfaces.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pInterfaces.cpp.s
 .PHONY : P2p/P2pInterfaces.cpp.s
 
 P2p/P2pNode.o: P2p/P2pNode.cpp.o
@@ -2822,7 +2822,7 @@ P2p/P2pNode.o: P2p/P2pNode.cpp.o
 
 # target to build an object file
 P2p/P2pNode.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.o
 .PHONY : P2p/P2pNode.cpp.o
 
 P2p/P2pNode.i: P2p/P2pNode.cpp.i
@@ -2831,7 +2831,7 @@ P2p/P2pNode.i: P2p/P2pNode.cpp.i
 
 # target to preprocess a source file
 P2p/P2pNode.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.i
 .PHONY : P2p/P2pNode.cpp.i
 
 P2p/P2pNode.s: P2p/P2pNode.cpp.s
@@ -2840,7 +2840,7 @@ P2p/P2pNode.s: P2p/P2pNode.cpp.s
 
 # target to generate assembly for a file
 P2p/P2pNode.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNode.cpp.s
 .PHONY : P2p/P2pNode.cpp.s
 
 P2p/P2pNodeConfig.o: P2p/P2pNodeConfig.cpp.o
@@ -2849,7 +2849,7 @@ P2p/P2pNodeConfig.o: P2p/P2pNodeConfig.cpp.o
 
 # target to build an object file
 P2p/P2pNodeConfig.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.o
 .PHONY : P2p/P2pNodeConfig.cpp.o
 
 P2p/P2pNodeConfig.i: P2p/P2pNodeConfig.cpp.i
@@ -2858,7 +2858,7 @@ P2p/P2pNodeConfig.i: P2p/P2pNodeConfig.cpp.i
 
 # target to preprocess a source file
 P2p/P2pNodeConfig.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.i
 .PHONY : P2p/P2pNodeConfig.cpp.i
 
 P2p/P2pNodeConfig.s: P2p/P2pNodeConfig.cpp.s
@@ -2867,7 +2867,7 @@ P2p/P2pNodeConfig.s: P2p/P2pNodeConfig.cpp.s
 
 # target to generate assembly for a file
 P2p/P2pNodeConfig.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/P2pNodeConfig.cpp.s
 .PHONY : P2p/P2pNodeConfig.cpp.s
 
 P2p/PeerListManager.o: P2p/PeerListManager.cpp.o
@@ -2876,7 +2876,7 @@ P2p/PeerListManager.o: P2p/PeerListManager.cpp.o
 
 # target to build an object file
 P2p/PeerListManager.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.o
 .PHONY : P2p/PeerListManager.cpp.o
 
 P2p/PeerListManager.i: P2p/PeerListManager.cpp.i
@@ -2885,7 +2885,7 @@ P2p/PeerListManager.i: P2p/PeerListManager.cpp.i
 
 # target to preprocess a source file
 P2p/PeerListManager.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.i
 .PHONY : P2p/PeerListManager.cpp.i
 
 P2p/PeerListManager.s: P2p/PeerListManager.cpp.s
@@ -2894,7 +2894,7 @@ P2p/PeerListManager.s: P2p/PeerListManager.cpp.s
 
 # target to generate assembly for a file
 P2p/PeerListManager.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/P2P.dir/build.make src/CMakeFiles/P2P.dir/P2p/PeerListManager.cpp.s
 .PHONY : P2p/PeerListManager.cpp.s
 
 PaymentGate/NodeFactory.o: PaymentGate/NodeFactory.cpp.o
@@ -2903,7 +2903,7 @@ PaymentGate/NodeFactory.o: PaymentGate/NodeFactory.cpp.o
 
 # target to build an object file
 PaymentGate/NodeFactory.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.o
 .PHONY : PaymentGate/NodeFactory.cpp.o
 
 PaymentGate/NodeFactory.i: PaymentGate/NodeFactory.cpp.i
@@ -2912,7 +2912,7 @@ PaymentGate/NodeFactory.i: PaymentGate/NodeFactory.cpp.i
 
 # target to preprocess a source file
 PaymentGate/NodeFactory.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.i
 .PHONY : PaymentGate/NodeFactory.cpp.i
 
 PaymentGate/NodeFactory.s: PaymentGate/NodeFactory.cpp.s
@@ -2921,7 +2921,7 @@ PaymentGate/NodeFactory.s: PaymentGate/NodeFactory.cpp.s
 
 # target to generate assembly for a file
 PaymentGate/NodeFactory.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/NodeFactory.cpp.s
 .PHONY : PaymentGate/NodeFactory.cpp.s
 
 PaymentGate/PaymentServiceJsonRpcMessages.o: PaymentGate/PaymentServiceJsonRpcMessages.cpp.o
@@ -2930,7 +2930,7 @@ PaymentGate/PaymentServiceJsonRpcMessages.o: PaymentGate/PaymentServiceJsonRpcMe
 
 # target to build an object file
 PaymentGate/PaymentServiceJsonRpcMessages.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.o
 .PHONY : PaymentGate/PaymentServiceJsonRpcMessages.cpp.o
 
 PaymentGate/PaymentServiceJsonRpcMessages.i: PaymentGate/PaymentServiceJsonRpcMessages.cpp.i
@@ -2939,7 +2939,7 @@ PaymentGate/PaymentServiceJsonRpcMessages.i: PaymentGate/PaymentServiceJsonRpcMe
 
 # target to preprocess a source file
 PaymentGate/PaymentServiceJsonRpcMessages.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.i
 .PHONY : PaymentGate/PaymentServiceJsonRpcMessages.cpp.i
 
 PaymentGate/PaymentServiceJsonRpcMessages.s: PaymentGate/PaymentServiceJsonRpcMessages.cpp.s
@@ -2948,7 +2948,7 @@ PaymentGate/PaymentServiceJsonRpcMessages.s: PaymentGate/PaymentServiceJsonRpcMe
 
 # target to generate assembly for a file
 PaymentGate/PaymentServiceJsonRpcMessages.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcMessages.cpp.s
 .PHONY : PaymentGate/PaymentServiceJsonRpcMessages.cpp.s
 
 PaymentGate/PaymentServiceJsonRpcServer.o: PaymentGate/PaymentServiceJsonRpcServer.cpp.o
@@ -2957,7 +2957,7 @@ PaymentGate/PaymentServiceJsonRpcServer.o: PaymentGate/PaymentServiceJsonRpcServ
 
 # target to build an object file
 PaymentGate/PaymentServiceJsonRpcServer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.o
 .PHONY : PaymentGate/PaymentServiceJsonRpcServer.cpp.o
 
 PaymentGate/PaymentServiceJsonRpcServer.i: PaymentGate/PaymentServiceJsonRpcServer.cpp.i
@@ -2966,7 +2966,7 @@ PaymentGate/PaymentServiceJsonRpcServer.i: PaymentGate/PaymentServiceJsonRpcServ
 
 # target to preprocess a source file
 PaymentGate/PaymentServiceJsonRpcServer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.i
 .PHONY : PaymentGate/PaymentServiceJsonRpcServer.cpp.i
 
 PaymentGate/PaymentServiceJsonRpcServer.s: PaymentGate/PaymentServiceJsonRpcServer.cpp.s
@@ -2975,7 +2975,7 @@ PaymentGate/PaymentServiceJsonRpcServer.s: PaymentGate/PaymentServiceJsonRpcServ
 
 # target to generate assembly for a file
 PaymentGate/PaymentServiceJsonRpcServer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/PaymentServiceJsonRpcServer.cpp.s
 .PHONY : PaymentGate/PaymentServiceJsonRpcServer.cpp.s
 
 PaymentGate/WalletService.o: PaymentGate/WalletService.cpp.o
@@ -2984,7 +2984,7 @@ PaymentGate/WalletService.o: PaymentGate/WalletService.cpp.o
 
 # target to build an object file
 PaymentGate/WalletService.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.o
 .PHONY : PaymentGate/WalletService.cpp.o
 
 PaymentGate/WalletService.i: PaymentGate/WalletService.cpp.i
@@ -2993,7 +2993,7 @@ PaymentGate/WalletService.i: PaymentGate/WalletService.cpp.i
 
 # target to preprocess a source file
 PaymentGate/WalletService.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.i
 .PHONY : PaymentGate/WalletService.cpp.i
 
 PaymentGate/WalletService.s: PaymentGate/WalletService.cpp.s
@@ -3002,7 +3002,7 @@ PaymentGate/WalletService.s: PaymentGate/WalletService.cpp.s
 
 # target to generate assembly for a file
 PaymentGate/WalletService.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletService.cpp.s
 .PHONY : PaymentGate/WalletService.cpp.s
 
 PaymentGate/WalletServiceErrorCategory.o: PaymentGate/WalletServiceErrorCategory.cpp.o
@@ -3011,7 +3011,7 @@ PaymentGate/WalletServiceErrorCategory.o: PaymentGate/WalletServiceErrorCategory
 
 # target to build an object file
 PaymentGate/WalletServiceErrorCategory.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.o
 .PHONY : PaymentGate/WalletServiceErrorCategory.cpp.o
 
 PaymentGate/WalletServiceErrorCategory.i: PaymentGate/WalletServiceErrorCategory.cpp.i
@@ -3020,7 +3020,7 @@ PaymentGate/WalletServiceErrorCategory.i: PaymentGate/WalletServiceErrorCategory
 
 # target to preprocess a source file
 PaymentGate/WalletServiceErrorCategory.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.i
 .PHONY : PaymentGate/WalletServiceErrorCategory.cpp.i
 
 PaymentGate/WalletServiceErrorCategory.s: PaymentGate/WalletServiceErrorCategory.cpp.s
@@ -3029,7 +3029,7 @@ PaymentGate/WalletServiceErrorCategory.s: PaymentGate/WalletServiceErrorCategory
 
 # target to generate assembly for a file
 PaymentGate/WalletServiceErrorCategory.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGate.dir/build.make src/CMakeFiles/PaymentGate.dir/PaymentGate/WalletServiceErrorCategory.cpp.s
 .PHONY : PaymentGate/WalletServiceErrorCategory.cpp.s
 
 PaymentGateService/ConfigurationManager.o: PaymentGateService/ConfigurationManager.cpp.o
@@ -3038,7 +3038,7 @@ PaymentGateService/ConfigurationManager.o: PaymentGateService/ConfigurationManag
 
 # target to build an object file
 PaymentGateService/ConfigurationManager.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cpp.o
 .PHONY : PaymentGateService/ConfigurationManager.cpp.o
 
 PaymentGateService/ConfigurationManager.i: PaymentGateService/ConfigurationManager.cpp.i
@@ -3047,7 +3047,7 @@ PaymentGateService/ConfigurationManager.i: PaymentGateService/ConfigurationManag
 
 # target to preprocess a source file
 PaymentGateService/ConfigurationManager.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cpp.i
 .PHONY : PaymentGateService/ConfigurationManager.cpp.i
 
 PaymentGateService/ConfigurationManager.s: PaymentGateService/ConfigurationManager.cpp.s
@@ -3056,7 +3056,7 @@ PaymentGateService/ConfigurationManager.s: PaymentGateService/ConfigurationManag
 
 # target to generate assembly for a file
 PaymentGateService/ConfigurationManager.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/ConfigurationManager.cpp.s
 .PHONY : PaymentGateService/ConfigurationManager.cpp.s
 
 PaymentGateService/PaymentGateService.o: PaymentGateService/PaymentGateService.cpp.o
@@ -3065,7 +3065,7 @@ PaymentGateService/PaymentGateService.o: PaymentGateService/PaymentGateService.c
 
 # target to build an object file
 PaymentGateService/PaymentGateService.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.o
 .PHONY : PaymentGateService/PaymentGateService.cpp.o
 
 PaymentGateService/PaymentGateService.i: PaymentGateService/PaymentGateService.cpp.i
@@ -3074,7 +3074,7 @@ PaymentGateService/PaymentGateService.i: PaymentGateService/PaymentGateService.c
 
 # target to preprocess a source file
 PaymentGateService/PaymentGateService.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.i
 .PHONY : PaymentGateService/PaymentGateService.cpp.i
 
 PaymentGateService/PaymentGateService.s: PaymentGateService/PaymentGateService.cpp.s
@@ -3083,7 +3083,7 @@ PaymentGateService/PaymentGateService.s: PaymentGateService/PaymentGateService.c
 
 # target to generate assembly for a file
 PaymentGateService/PaymentGateService.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentGateService.cpp.s
 .PHONY : PaymentGateService/PaymentGateService.cpp.s
 
 PaymentGateService/PaymentServiceConfiguration.o: PaymentGateService/PaymentServiceConfiguration.cpp.o
@@ -3092,7 +3092,7 @@ PaymentGateService/PaymentServiceConfiguration.o: PaymentGateService/PaymentServ
 
 # target to build an object file
 PaymentGateService/PaymentServiceConfiguration.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.o
 .PHONY : PaymentGateService/PaymentServiceConfiguration.cpp.o
 
 PaymentGateService/PaymentServiceConfiguration.i: PaymentGateService/PaymentServiceConfiguration.cpp.i
@@ -3101,7 +3101,7 @@ PaymentGateService/PaymentServiceConfiguration.i: PaymentGateService/PaymentServ
 
 # target to preprocess a source file
 PaymentGateService/PaymentServiceConfiguration.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.i
 .PHONY : PaymentGateService/PaymentServiceConfiguration.cpp.i
 
 PaymentGateService/PaymentServiceConfiguration.s: PaymentGateService/PaymentServiceConfiguration.cpp.s
@@ -3110,7 +3110,7 @@ PaymentGateService/PaymentServiceConfiguration.s: PaymentGateService/PaymentServ
 
 # target to generate assembly for a file
 PaymentGateService/PaymentServiceConfiguration.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/PaymentServiceConfiguration.cpp.s
 .PHONY : PaymentGateService/PaymentServiceConfiguration.cpp.s
 
 PaymentGateService/RpcNodeConfiguration.o: PaymentGateService/RpcNodeConfiguration.cpp.o
@@ -3119,7 +3119,7 @@ PaymentGateService/RpcNodeConfiguration.o: PaymentGateService/RpcNodeConfigurati
 
 # target to build an object file
 PaymentGateService/RpcNodeConfiguration.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.o
 .PHONY : PaymentGateService/RpcNodeConfiguration.cpp.o
 
 PaymentGateService/RpcNodeConfiguration.i: PaymentGateService/RpcNodeConfiguration.cpp.i
@@ -3128,7 +3128,7 @@ PaymentGateService/RpcNodeConfiguration.i: PaymentGateService/RpcNodeConfigurati
 
 # target to preprocess a source file
 PaymentGateService/RpcNodeConfiguration.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.i
 .PHONY : PaymentGateService/RpcNodeConfiguration.cpp.i
 
 PaymentGateService/RpcNodeConfiguration.s: PaymentGateService/RpcNodeConfiguration.cpp.s
@@ -3137,7 +3137,7 @@ PaymentGateService/RpcNodeConfiguration.s: PaymentGateService/RpcNodeConfigurati
 
 # target to generate assembly for a file
 PaymentGateService/RpcNodeConfiguration.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/RpcNodeConfiguration.cpp.s
 .PHONY : PaymentGateService/RpcNodeConfiguration.cpp.s
 
 PaymentGateService/main.o: PaymentGateService/main.cpp.o
@@ -3146,7 +3146,7 @@ PaymentGateService/main.o: PaymentGateService/main.cpp.o
 
 # target to build an object file
 PaymentGateService/main.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.o
 .PHONY : PaymentGateService/main.cpp.o
 
 PaymentGateService/main.i: PaymentGateService/main.cpp.i
@@ -3155,7 +3155,7 @@ PaymentGateService/main.i: PaymentGateService/main.cpp.i
 
 # target to preprocess a source file
 PaymentGateService/main.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.i
 .PHONY : PaymentGateService/main.cpp.i
 
 PaymentGateService/main.s: PaymentGateService/main.cpp.s
@@ -3164,7 +3164,7 @@ PaymentGateService/main.s: PaymentGateService/main.cpp.s
 
 # target to generate assembly for a file
 PaymentGateService/main.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/PaymentGateService.dir/build.make src/CMakeFiles/PaymentGateService.dir/PaymentGateService/main.cpp.s
 .PHONY : PaymentGateService/main.cpp.s
 
 Platform/Linux/System/Dispatcher.o: Platform/Linux/System/Dispatcher.cpp.o
@@ -3173,7 +3173,7 @@ Platform/Linux/System/Dispatcher.o: Platform/Linux/System/Dispatcher.cpp.o
 
 # target to build an object file
 Platform/Linux/System/Dispatcher.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Dispatcher.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Dispatcher.cpp.o
 .PHONY : Platform/Linux/System/Dispatcher.cpp.o
 
 Platform/Linux/System/Dispatcher.i: Platform/Linux/System/Dispatcher.cpp.i
@@ -3182,7 +3182,7 @@ Platform/Linux/System/Dispatcher.i: Platform/Linux/System/Dispatcher.cpp.i
 
 # target to preprocess a source file
 Platform/Linux/System/Dispatcher.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Dispatcher.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Dispatcher.cpp.i
 .PHONY : Platform/Linux/System/Dispatcher.cpp.i
 
 Platform/Linux/System/Dispatcher.s: Platform/Linux/System/Dispatcher.cpp.s
@@ -3191,7 +3191,7 @@ Platform/Linux/System/Dispatcher.s: Platform/Linux/System/Dispatcher.cpp.s
 
 # target to generate assembly for a file
 Platform/Linux/System/Dispatcher.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Dispatcher.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Dispatcher.cpp.s
 .PHONY : Platform/Linux/System/Dispatcher.cpp.s
 
 Platform/Linux/System/ErrorMessage.o: Platform/Linux/System/ErrorMessage.cpp.o
@@ -3200,7 +3200,7 @@ Platform/Linux/System/ErrorMessage.o: Platform/Linux/System/ErrorMessage.cpp.o
 
 # target to build an object file
 Platform/Linux/System/ErrorMessage.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/ErrorMessage.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/ErrorMessage.cpp.o
 .PHONY : Platform/Linux/System/ErrorMessage.cpp.o
 
 Platform/Linux/System/ErrorMessage.i: Platform/Linux/System/ErrorMessage.cpp.i
@@ -3209,7 +3209,7 @@ Platform/Linux/System/ErrorMessage.i: Platform/Linux/System/ErrorMessage.cpp.i
 
 # target to preprocess a source file
 Platform/Linux/System/ErrorMessage.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/ErrorMessage.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/ErrorMessage.cpp.i
 .PHONY : Platform/Linux/System/ErrorMessage.cpp.i
 
 Platform/Linux/System/ErrorMessage.s: Platform/Linux/System/ErrorMessage.cpp.s
@@ -3218,7 +3218,7 @@ Platform/Linux/System/ErrorMessage.s: Platform/Linux/System/ErrorMessage.cpp.s
 
 # target to generate assembly for a file
 Platform/Linux/System/ErrorMessage.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/ErrorMessage.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/ErrorMessage.cpp.s
 .PHONY : Platform/Linux/System/ErrorMessage.cpp.s
 
 Platform/Linux/System/Ipv4Resolver.o: Platform/Linux/System/Ipv4Resolver.cpp.o
@@ -3227,7 +3227,7 @@ Platform/Linux/System/Ipv4Resolver.o: Platform/Linux/System/Ipv4Resolver.cpp.o
 
 # target to build an object file
 Platform/Linux/System/Ipv4Resolver.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Ipv4Resolver.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Ipv4Resolver.cpp.o
 .PHONY : Platform/Linux/System/Ipv4Resolver.cpp.o
 
 Platform/Linux/System/Ipv4Resolver.i: Platform/Linux/System/Ipv4Resolver.cpp.i
@@ -3236,7 +3236,7 @@ Platform/Linux/System/Ipv4Resolver.i: Platform/Linux/System/Ipv4Resolver.cpp.i
 
 # target to preprocess a source file
 Platform/Linux/System/Ipv4Resolver.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Ipv4Resolver.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Ipv4Resolver.cpp.i
 .PHONY : Platform/Linux/System/Ipv4Resolver.cpp.i
 
 Platform/Linux/System/Ipv4Resolver.s: Platform/Linux/System/Ipv4Resolver.cpp.s
@@ -3245,7 +3245,7 @@ Platform/Linux/System/Ipv4Resolver.s: Platform/Linux/System/Ipv4Resolver.cpp.s
 
 # target to generate assembly for a file
 Platform/Linux/System/Ipv4Resolver.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Ipv4Resolver.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Ipv4Resolver.cpp.s
 .PHONY : Platform/Linux/System/Ipv4Resolver.cpp.s
 
 Platform/Linux/System/TcpConnection.o: Platform/Linux/System/TcpConnection.cpp.o
@@ -3254,7 +3254,7 @@ Platform/Linux/System/TcpConnection.o: Platform/Linux/System/TcpConnection.cpp.o
 
 # target to build an object file
 Platform/Linux/System/TcpConnection.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnection.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnection.cpp.o
 .PHONY : Platform/Linux/System/TcpConnection.cpp.o
 
 Platform/Linux/System/TcpConnection.i: Platform/Linux/System/TcpConnection.cpp.i
@@ -3263,7 +3263,7 @@ Platform/Linux/System/TcpConnection.i: Platform/Linux/System/TcpConnection.cpp.i
 
 # target to preprocess a source file
 Platform/Linux/System/TcpConnection.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnection.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnection.cpp.i
 .PHONY : Platform/Linux/System/TcpConnection.cpp.i
 
 Platform/Linux/System/TcpConnection.s: Platform/Linux/System/TcpConnection.cpp.s
@@ -3272,7 +3272,7 @@ Platform/Linux/System/TcpConnection.s: Platform/Linux/System/TcpConnection.cpp.s
 
 # target to generate assembly for a file
 Platform/Linux/System/TcpConnection.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnection.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnection.cpp.s
 .PHONY : Platform/Linux/System/TcpConnection.cpp.s
 
 Platform/Linux/System/TcpConnector.o: Platform/Linux/System/TcpConnector.cpp.o
@@ -3281,7 +3281,7 @@ Platform/Linux/System/TcpConnector.o: Platform/Linux/System/TcpConnector.cpp.o
 
 # target to build an object file
 Platform/Linux/System/TcpConnector.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnector.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnector.cpp.o
 .PHONY : Platform/Linux/System/TcpConnector.cpp.o
 
 Platform/Linux/System/TcpConnector.i: Platform/Linux/System/TcpConnector.cpp.i
@@ -3290,7 +3290,7 @@ Platform/Linux/System/TcpConnector.i: Platform/Linux/System/TcpConnector.cpp.i
 
 # target to preprocess a source file
 Platform/Linux/System/TcpConnector.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnector.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnector.cpp.i
 .PHONY : Platform/Linux/System/TcpConnector.cpp.i
 
 Platform/Linux/System/TcpConnector.s: Platform/Linux/System/TcpConnector.cpp.s
@@ -3299,7 +3299,7 @@ Platform/Linux/System/TcpConnector.s: Platform/Linux/System/TcpConnector.cpp.s
 
 # target to generate assembly for a file
 Platform/Linux/System/TcpConnector.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnector.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpConnector.cpp.s
 .PHONY : Platform/Linux/System/TcpConnector.cpp.s
 
 Platform/Linux/System/TcpListener.o: Platform/Linux/System/TcpListener.cpp.o
@@ -3308,7 +3308,7 @@ Platform/Linux/System/TcpListener.o: Platform/Linux/System/TcpListener.cpp.o
 
 # target to build an object file
 Platform/Linux/System/TcpListener.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpListener.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpListener.cpp.o
 .PHONY : Platform/Linux/System/TcpListener.cpp.o
 
 Platform/Linux/System/TcpListener.i: Platform/Linux/System/TcpListener.cpp.i
@@ -3317,7 +3317,7 @@ Platform/Linux/System/TcpListener.i: Platform/Linux/System/TcpListener.cpp.i
 
 # target to preprocess a source file
 Platform/Linux/System/TcpListener.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpListener.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpListener.cpp.i
 .PHONY : Platform/Linux/System/TcpListener.cpp.i
 
 Platform/Linux/System/TcpListener.s: Platform/Linux/System/TcpListener.cpp.s
@@ -3326,7 +3326,7 @@ Platform/Linux/System/TcpListener.s: Platform/Linux/System/TcpListener.cpp.s
 
 # target to generate assembly for a file
 Platform/Linux/System/TcpListener.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpListener.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/TcpListener.cpp.s
 .PHONY : Platform/Linux/System/TcpListener.cpp.s
 
 Platform/Linux/System/Timer.o: Platform/Linux/System/Timer.cpp.o
@@ -3335,7 +3335,7 @@ Platform/Linux/System/Timer.o: Platform/Linux/System/Timer.cpp.o
 
 # target to build an object file
 Platform/Linux/System/Timer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Timer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Timer.cpp.o
 .PHONY : Platform/Linux/System/Timer.cpp.o
 
 Platform/Linux/System/Timer.i: Platform/Linux/System/Timer.cpp.i
@@ -3344,7 +3344,7 @@ Platform/Linux/System/Timer.i: Platform/Linux/System/Timer.cpp.i
 
 # target to preprocess a source file
 Platform/Linux/System/Timer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Timer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Timer.cpp.i
 .PHONY : Platform/Linux/System/Timer.cpp.i
 
 Platform/Linux/System/Timer.s: Platform/Linux/System/Timer.cpp.s
@@ -3353,7 +3353,7 @@ Platform/Linux/System/Timer.s: Platform/Linux/System/Timer.cpp.s
 
 # target to generate assembly for a file
 Platform/Linux/System/Timer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Timer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Linux/System/Timer.cpp.s
 .PHONY : Platform/Linux/System/Timer.cpp.s
 
 Platform/Posix/System/MemoryMappedFile.o: Platform/Posix/System/MemoryMappedFile.cpp.o
@@ -3362,7 +3362,7 @@ Platform/Posix/System/MemoryMappedFile.o: Platform/Posix/System/MemoryMappedFile
 
 # target to build an object file
 Platform/Posix/System/MemoryMappedFile.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Posix/System/MemoryMappedFile.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Posix/System/MemoryMappedFile.cpp.o
 .PHONY : Platform/Posix/System/MemoryMappedFile.cpp.o
 
 Platform/Posix/System/MemoryMappedFile.i: Platform/Posix/System/MemoryMappedFile.cpp.i
@@ -3371,7 +3371,7 @@ Platform/Posix/System/MemoryMappedFile.i: Platform/Posix/System/MemoryMappedFile
 
 # target to preprocess a source file
 Platform/Posix/System/MemoryMappedFile.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Posix/System/MemoryMappedFile.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Posix/System/MemoryMappedFile.cpp.i
 .PHONY : Platform/Posix/System/MemoryMappedFile.cpp.i
 
 Platform/Posix/System/MemoryMappedFile.s: Platform/Posix/System/MemoryMappedFile.cpp.s
@@ -3380,7 +3380,7 @@ Platform/Posix/System/MemoryMappedFile.s: Platform/Posix/System/MemoryMappedFile
 
 # target to generate assembly for a file
 Platform/Posix/System/MemoryMappedFile.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Posix/System/MemoryMappedFile.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/Platform/Posix/System/MemoryMappedFile.cpp.s
 .PHONY : Platform/Posix/System/MemoryMappedFile.cpp.s
 
 Rpc/HttpClient.o: Rpc/HttpClient.cpp.o
@@ -3389,7 +3389,7 @@ Rpc/HttpClient.o: Rpc/HttpClient.cpp.o
 
 # target to build an object file
 Rpc/HttpClient.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.o
 .PHONY : Rpc/HttpClient.cpp.o
 
 Rpc/HttpClient.i: Rpc/HttpClient.cpp.i
@@ -3398,7 +3398,7 @@ Rpc/HttpClient.i: Rpc/HttpClient.cpp.i
 
 # target to preprocess a source file
 Rpc/HttpClient.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.i
 .PHONY : Rpc/HttpClient.cpp.i
 
 Rpc/HttpClient.s: Rpc/HttpClient.cpp.s
@@ -3407,7 +3407,7 @@ Rpc/HttpClient.s: Rpc/HttpClient.cpp.s
 
 # target to generate assembly for a file
 Rpc/HttpClient.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpClient.cpp.s
 .PHONY : Rpc/HttpClient.cpp.s
 
 Rpc/HttpServer.o: Rpc/HttpServer.cpp.o
@@ -3416,7 +3416,7 @@ Rpc/HttpServer.o: Rpc/HttpServer.cpp.o
 
 # target to build an object file
 Rpc/HttpServer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.o
 .PHONY : Rpc/HttpServer.cpp.o
 
 Rpc/HttpServer.i: Rpc/HttpServer.cpp.i
@@ -3425,7 +3425,7 @@ Rpc/HttpServer.i: Rpc/HttpServer.cpp.i
 
 # target to preprocess a source file
 Rpc/HttpServer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.i
 .PHONY : Rpc/HttpServer.cpp.i
 
 Rpc/HttpServer.s: Rpc/HttpServer.cpp.s
@@ -3434,7 +3434,7 @@ Rpc/HttpServer.s: Rpc/HttpServer.cpp.s
 
 # target to generate assembly for a file
 Rpc/HttpServer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/HttpServer.cpp.s
 .PHONY : Rpc/HttpServer.cpp.s
 
 Rpc/JsonRpc.o: Rpc/JsonRpc.cpp.o
@@ -3443,7 +3443,7 @@ Rpc/JsonRpc.o: Rpc/JsonRpc.cpp.o
 
 # target to build an object file
 Rpc/JsonRpc.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.o
 .PHONY : Rpc/JsonRpc.cpp.o
 
 Rpc/JsonRpc.i: Rpc/JsonRpc.cpp.i
@@ -3452,7 +3452,7 @@ Rpc/JsonRpc.i: Rpc/JsonRpc.cpp.i
 
 # target to preprocess a source file
 Rpc/JsonRpc.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.i
 .PHONY : Rpc/JsonRpc.cpp.i
 
 Rpc/JsonRpc.s: Rpc/JsonRpc.cpp.s
@@ -3461,7 +3461,7 @@ Rpc/JsonRpc.s: Rpc/JsonRpc.cpp.s
 
 # target to generate assembly for a file
 Rpc/JsonRpc.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/JsonRpc.cpp.s
 .PHONY : Rpc/JsonRpc.cpp.s
 
 Rpc/RpcServer.o: Rpc/RpcServer.cpp.o
@@ -3470,7 +3470,7 @@ Rpc/RpcServer.o: Rpc/RpcServer.cpp.o
 
 # target to build an object file
 Rpc/RpcServer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.o
 .PHONY : Rpc/RpcServer.cpp.o
 
 Rpc/RpcServer.i: Rpc/RpcServer.cpp.i
@@ -3479,7 +3479,7 @@ Rpc/RpcServer.i: Rpc/RpcServer.cpp.i
 
 # target to preprocess a source file
 Rpc/RpcServer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.i
 .PHONY : Rpc/RpcServer.cpp.i
 
 Rpc/RpcServer.s: Rpc/RpcServer.cpp.s
@@ -3488,7 +3488,7 @@ Rpc/RpcServer.s: Rpc/RpcServer.cpp.s
 
 # target to generate assembly for a file
 Rpc/RpcServer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServer.cpp.s
 .PHONY : Rpc/RpcServer.cpp.s
 
 Rpc/RpcServerConfig.o: Rpc/RpcServerConfig.cpp.o
@@ -3497,7 +3497,7 @@ Rpc/RpcServerConfig.o: Rpc/RpcServerConfig.cpp.o
 
 # target to build an object file
 Rpc/RpcServerConfig.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.o
 .PHONY : Rpc/RpcServerConfig.cpp.o
 
 Rpc/RpcServerConfig.i: Rpc/RpcServerConfig.cpp.i
@@ -3506,7 +3506,7 @@ Rpc/RpcServerConfig.i: Rpc/RpcServerConfig.cpp.i
 
 # target to preprocess a source file
 Rpc/RpcServerConfig.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.i
 .PHONY : Rpc/RpcServerConfig.cpp.i
 
 Rpc/RpcServerConfig.s: Rpc/RpcServerConfig.cpp.s
@@ -3515,7 +3515,7 @@ Rpc/RpcServerConfig.s: Rpc/RpcServerConfig.cpp.s
 
 # target to generate assembly for a file
 Rpc/RpcServerConfig.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Rpc.dir/build.make src/CMakeFiles/Rpc.dir/Rpc/RpcServerConfig.cpp.s
 .PHONY : Rpc/RpcServerConfig.cpp.s
 
 Serialization/BinaryInputStreamSerializer.o: Serialization/BinaryInputStreamSerializer.cpp.o
@@ -3524,7 +3524,7 @@ Serialization/BinaryInputStreamSerializer.o: Serialization/BinaryInputStreamSeri
 
 # target to build an object file
 Serialization/BinaryInputStreamSerializer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.o
 .PHONY : Serialization/BinaryInputStreamSerializer.cpp.o
 
 Serialization/BinaryInputStreamSerializer.i: Serialization/BinaryInputStreamSerializer.cpp.i
@@ -3533,7 +3533,7 @@ Serialization/BinaryInputStreamSerializer.i: Serialization/BinaryInputStreamSeri
 
 # target to preprocess a source file
 Serialization/BinaryInputStreamSerializer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.i
 .PHONY : Serialization/BinaryInputStreamSerializer.cpp.i
 
 Serialization/BinaryInputStreamSerializer.s: Serialization/BinaryInputStreamSerializer.cpp.s
@@ -3542,7 +3542,7 @@ Serialization/BinaryInputStreamSerializer.s: Serialization/BinaryInputStreamSeri
 
 # target to generate assembly for a file
 Serialization/BinaryInputStreamSerializer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryInputStreamSerializer.cpp.s
 .PHONY : Serialization/BinaryInputStreamSerializer.cpp.s
 
 Serialization/BinaryOutputStreamSerializer.o: Serialization/BinaryOutputStreamSerializer.cpp.o
@@ -3551,7 +3551,7 @@ Serialization/BinaryOutputStreamSerializer.o: Serialization/BinaryOutputStreamSe
 
 # target to build an object file
 Serialization/BinaryOutputStreamSerializer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.o
 .PHONY : Serialization/BinaryOutputStreamSerializer.cpp.o
 
 Serialization/BinaryOutputStreamSerializer.i: Serialization/BinaryOutputStreamSerializer.cpp.i
@@ -3560,7 +3560,7 @@ Serialization/BinaryOutputStreamSerializer.i: Serialization/BinaryOutputStreamSe
 
 # target to preprocess a source file
 Serialization/BinaryOutputStreamSerializer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.i
 .PHONY : Serialization/BinaryOutputStreamSerializer.cpp.i
 
 Serialization/BinaryOutputStreamSerializer.s: Serialization/BinaryOutputStreamSerializer.cpp.s
@@ -3569,7 +3569,7 @@ Serialization/BinaryOutputStreamSerializer.s: Serialization/BinaryOutputStreamSe
 
 # target to generate assembly for a file
 Serialization/BinaryOutputStreamSerializer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/BinaryOutputStreamSerializer.cpp.s
 .PHONY : Serialization/BinaryOutputStreamSerializer.cpp.s
 
 Serialization/JsonInputStreamSerializer.o: Serialization/JsonInputStreamSerializer.cpp.o
@@ -3578,7 +3578,7 @@ Serialization/JsonInputStreamSerializer.o: Serialization/JsonInputStreamSerializ
 
 # target to build an object file
 Serialization/JsonInputStreamSerializer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.o
 .PHONY : Serialization/JsonInputStreamSerializer.cpp.o
 
 Serialization/JsonInputStreamSerializer.i: Serialization/JsonInputStreamSerializer.cpp.i
@@ -3587,7 +3587,7 @@ Serialization/JsonInputStreamSerializer.i: Serialization/JsonInputStreamSerializ
 
 # target to preprocess a source file
 Serialization/JsonInputStreamSerializer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.i
 .PHONY : Serialization/JsonInputStreamSerializer.cpp.i
 
 Serialization/JsonInputStreamSerializer.s: Serialization/JsonInputStreamSerializer.cpp.s
@@ -3596,7 +3596,7 @@ Serialization/JsonInputStreamSerializer.s: Serialization/JsonInputStreamSerializ
 
 # target to generate assembly for a file
 Serialization/JsonInputStreamSerializer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputStreamSerializer.cpp.s
 .PHONY : Serialization/JsonInputStreamSerializer.cpp.s
 
 Serialization/JsonInputValueSerializer.o: Serialization/JsonInputValueSerializer.cpp.o
@@ -3605,7 +3605,7 @@ Serialization/JsonInputValueSerializer.o: Serialization/JsonInputValueSerializer
 
 # target to build an object file
 Serialization/JsonInputValueSerializer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.o
 .PHONY : Serialization/JsonInputValueSerializer.cpp.o
 
 Serialization/JsonInputValueSerializer.i: Serialization/JsonInputValueSerializer.cpp.i
@@ -3614,7 +3614,7 @@ Serialization/JsonInputValueSerializer.i: Serialization/JsonInputValueSerializer
 
 # target to preprocess a source file
 Serialization/JsonInputValueSerializer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.i
 .PHONY : Serialization/JsonInputValueSerializer.cpp.i
 
 Serialization/JsonInputValueSerializer.s: Serialization/JsonInputValueSerializer.cpp.s
@@ -3623,7 +3623,7 @@ Serialization/JsonInputValueSerializer.s: Serialization/JsonInputValueSerializer
 
 # target to generate assembly for a file
 Serialization/JsonInputValueSerializer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonInputValueSerializer.cpp.s
 .PHONY : Serialization/JsonInputValueSerializer.cpp.s
 
 Serialization/JsonOutputStreamSerializer.o: Serialization/JsonOutputStreamSerializer.cpp.o
@@ -3632,7 +3632,7 @@ Serialization/JsonOutputStreamSerializer.o: Serialization/JsonOutputStreamSerial
 
 # target to build an object file
 Serialization/JsonOutputStreamSerializer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.o
 .PHONY : Serialization/JsonOutputStreamSerializer.cpp.o
 
 Serialization/JsonOutputStreamSerializer.i: Serialization/JsonOutputStreamSerializer.cpp.i
@@ -3641,7 +3641,7 @@ Serialization/JsonOutputStreamSerializer.i: Serialization/JsonOutputStreamSerial
 
 # target to preprocess a source file
 Serialization/JsonOutputStreamSerializer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.i
 .PHONY : Serialization/JsonOutputStreamSerializer.cpp.i
 
 Serialization/JsonOutputStreamSerializer.s: Serialization/JsonOutputStreamSerializer.cpp.s
@@ -3650,7 +3650,7 @@ Serialization/JsonOutputStreamSerializer.s: Serialization/JsonOutputStreamSerial
 
 # target to generate assembly for a file
 Serialization/JsonOutputStreamSerializer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/JsonOutputStreamSerializer.cpp.s
 .PHONY : Serialization/JsonOutputStreamSerializer.cpp.s
 
 Serialization/KVBinaryInputStreamSerializer.o: Serialization/KVBinaryInputStreamSerializer.cpp.o
@@ -3659,7 +3659,7 @@ Serialization/KVBinaryInputStreamSerializer.o: Serialization/KVBinaryInputStream
 
 # target to build an object file
 Serialization/KVBinaryInputStreamSerializer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.o
 .PHONY : Serialization/KVBinaryInputStreamSerializer.cpp.o
 
 Serialization/KVBinaryInputStreamSerializer.i: Serialization/KVBinaryInputStreamSerializer.cpp.i
@@ -3668,7 +3668,7 @@ Serialization/KVBinaryInputStreamSerializer.i: Serialization/KVBinaryInputStream
 
 # target to preprocess a source file
 Serialization/KVBinaryInputStreamSerializer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.i
 .PHONY : Serialization/KVBinaryInputStreamSerializer.cpp.i
 
 Serialization/KVBinaryInputStreamSerializer.s: Serialization/KVBinaryInputStreamSerializer.cpp.s
@@ -3677,7 +3677,7 @@ Serialization/KVBinaryInputStreamSerializer.s: Serialization/KVBinaryInputStream
 
 # target to generate assembly for a file
 Serialization/KVBinaryInputStreamSerializer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryInputStreamSerializer.cpp.s
 .PHONY : Serialization/KVBinaryInputStreamSerializer.cpp.s
 
 Serialization/KVBinaryOutputStreamSerializer.o: Serialization/KVBinaryOutputStreamSerializer.cpp.o
@@ -3686,7 +3686,7 @@ Serialization/KVBinaryOutputStreamSerializer.o: Serialization/KVBinaryOutputStre
 
 # target to build an object file
 Serialization/KVBinaryOutputStreamSerializer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.o
 .PHONY : Serialization/KVBinaryOutputStreamSerializer.cpp.o
 
 Serialization/KVBinaryOutputStreamSerializer.i: Serialization/KVBinaryOutputStreamSerializer.cpp.i
@@ -3695,7 +3695,7 @@ Serialization/KVBinaryOutputStreamSerializer.i: Serialization/KVBinaryOutputStre
 
 # target to preprocess a source file
 Serialization/KVBinaryOutputStreamSerializer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.i
 .PHONY : Serialization/KVBinaryOutputStreamSerializer.cpp.i
 
 Serialization/KVBinaryOutputStreamSerializer.s: Serialization/KVBinaryOutputStreamSerializer.cpp.s
@@ -3704,7 +3704,7 @@ Serialization/KVBinaryOutputStreamSerializer.s: Serialization/KVBinaryOutputStre
 
 # target to generate assembly for a file
 Serialization/KVBinaryOutputStreamSerializer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/KVBinaryOutputStreamSerializer.cpp.s
 .PHONY : Serialization/KVBinaryOutputStreamSerializer.cpp.s
 
 Serialization/MemoryStream.o: Serialization/MemoryStream.cpp.o
@@ -3713,7 +3713,7 @@ Serialization/MemoryStream.o: Serialization/MemoryStream.cpp.o
 
 # target to build an object file
 Serialization/MemoryStream.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.o
 .PHONY : Serialization/MemoryStream.cpp.o
 
 Serialization/MemoryStream.i: Serialization/MemoryStream.cpp.i
@@ -3722,7 +3722,7 @@ Serialization/MemoryStream.i: Serialization/MemoryStream.cpp.i
 
 # target to preprocess a source file
 Serialization/MemoryStream.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.i
 .PHONY : Serialization/MemoryStream.cpp.i
 
 Serialization/MemoryStream.s: Serialization/MemoryStream.cpp.s
@@ -3731,7 +3731,7 @@ Serialization/MemoryStream.s: Serialization/MemoryStream.cpp.s
 
 # target to generate assembly for a file
 Serialization/MemoryStream.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/MemoryStream.cpp.s
 .PHONY : Serialization/MemoryStream.cpp.s
 
 Serialization/SerializationOverloads.o: Serialization/SerializationOverloads.cpp.o
@@ -3740,7 +3740,7 @@ Serialization/SerializationOverloads.o: Serialization/SerializationOverloads.cpp
 
 # target to build an object file
 Serialization/SerializationOverloads.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.o
 .PHONY : Serialization/SerializationOverloads.cpp.o
 
 Serialization/SerializationOverloads.i: Serialization/SerializationOverloads.cpp.i
@@ -3749,7 +3749,7 @@ Serialization/SerializationOverloads.i: Serialization/SerializationOverloads.cpp
 
 # target to preprocess a source file
 Serialization/SerializationOverloads.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.i
 .PHONY : Serialization/SerializationOverloads.cpp.i
 
 Serialization/SerializationOverloads.s: Serialization/SerializationOverloads.cpp.s
@@ -3758,7 +3758,7 @@ Serialization/SerializationOverloads.s: Serialization/SerializationOverloads.cpp
 
 # target to generate assembly for a file
 Serialization/SerializationOverloads.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Serialization.dir/build.make src/CMakeFiles/Serialization.dir/Serialization/SerializationOverloads.cpp.s
 .PHONY : Serialization/SerializationOverloads.cpp.s
 
 SimpleWallet/PasswordContainer.o: SimpleWallet/PasswordContainer.cpp.o
@@ -3767,7 +3767,7 @@ SimpleWallet/PasswordContainer.o: SimpleWallet/PasswordContainer.cpp.o
 
 # target to build an object file
 SimpleWallet/PasswordContainer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/PasswordContainer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/PasswordContainer.cpp.o
 .PHONY : SimpleWallet/PasswordContainer.cpp.o
 
 SimpleWallet/PasswordContainer.i: SimpleWallet/PasswordContainer.cpp.i
@@ -3776,7 +3776,7 @@ SimpleWallet/PasswordContainer.i: SimpleWallet/PasswordContainer.cpp.i
 
 # target to preprocess a source file
 SimpleWallet/PasswordContainer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/PasswordContainer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/PasswordContainer.cpp.i
 .PHONY : SimpleWallet/PasswordContainer.cpp.i
 
 SimpleWallet/PasswordContainer.s: SimpleWallet/PasswordContainer.cpp.s
@@ -3785,7 +3785,7 @@ SimpleWallet/PasswordContainer.s: SimpleWallet/PasswordContainer.cpp.s
 
 # target to generate assembly for a file
 SimpleWallet/PasswordContainer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/PasswordContainer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/PasswordContainer.cpp.s
 .PHONY : SimpleWallet/PasswordContainer.cpp.s
 
 SimpleWallet/SimpleWallet.o: SimpleWallet/SimpleWallet.cpp.o
@@ -3794,7 +3794,7 @@ SimpleWallet/SimpleWallet.o: SimpleWallet/SimpleWallet.cpp.o
 
 # target to build an object file
 SimpleWallet/SimpleWallet.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/SimpleWallet.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/SimpleWallet.cpp.o
 .PHONY : SimpleWallet/SimpleWallet.cpp.o
 
 SimpleWallet/SimpleWallet.i: SimpleWallet/SimpleWallet.cpp.i
@@ -3803,7 +3803,7 @@ SimpleWallet/SimpleWallet.i: SimpleWallet/SimpleWallet.cpp.i
 
 # target to preprocess a source file
 SimpleWallet/SimpleWallet.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/SimpleWallet.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/SimpleWallet.cpp.i
 .PHONY : SimpleWallet/SimpleWallet.cpp.i
 
 SimpleWallet/SimpleWallet.s: SimpleWallet/SimpleWallet.cpp.s
@@ -3812,7 +3812,7 @@ SimpleWallet/SimpleWallet.s: SimpleWallet/SimpleWallet.cpp.s
 
 # target to generate assembly for a file
 SimpleWallet/SimpleWallet.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/SimpleWallet.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/SimpleWallet.dir/build.make src/CMakeFiles/SimpleWallet.dir/SimpleWallet/SimpleWallet.cpp.s
 .PHONY : SimpleWallet/SimpleWallet.cpp.s
 
 System/ContextGroup.o: System/ContextGroup.cpp.o
@@ -3821,7 +3821,7 @@ System/ContextGroup.o: System/ContextGroup.cpp.o
 
 # target to build an object file
 System/ContextGroup.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroup.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroup.cpp.o
 .PHONY : System/ContextGroup.cpp.o
 
 System/ContextGroup.i: System/ContextGroup.cpp.i
@@ -3830,7 +3830,7 @@ System/ContextGroup.i: System/ContextGroup.cpp.i
 
 # target to preprocess a source file
 System/ContextGroup.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroup.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroup.cpp.i
 .PHONY : System/ContextGroup.cpp.i
 
 System/ContextGroup.s: System/ContextGroup.cpp.s
@@ -3839,7 +3839,7 @@ System/ContextGroup.s: System/ContextGroup.cpp.s
 
 # target to generate assembly for a file
 System/ContextGroup.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroup.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroup.cpp.s
 .PHONY : System/ContextGroup.cpp.s
 
 System/ContextGroupTimeout.o: System/ContextGroupTimeout.cpp.o
@@ -3848,7 +3848,7 @@ System/ContextGroupTimeout.o: System/ContextGroupTimeout.cpp.o
 
 # target to build an object file
 System/ContextGroupTimeout.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroupTimeout.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroupTimeout.cpp.o
 .PHONY : System/ContextGroupTimeout.cpp.o
 
 System/ContextGroupTimeout.i: System/ContextGroupTimeout.cpp.i
@@ -3857,7 +3857,7 @@ System/ContextGroupTimeout.i: System/ContextGroupTimeout.cpp.i
 
 # target to preprocess a source file
 System/ContextGroupTimeout.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroupTimeout.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroupTimeout.cpp.i
 .PHONY : System/ContextGroupTimeout.cpp.i
 
 System/ContextGroupTimeout.s: System/ContextGroupTimeout.cpp.s
@@ -3866,7 +3866,7 @@ System/ContextGroupTimeout.s: System/ContextGroupTimeout.cpp.s
 
 # target to generate assembly for a file
 System/ContextGroupTimeout.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroupTimeout.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/ContextGroupTimeout.cpp.s
 .PHONY : System/ContextGroupTimeout.cpp.s
 
 System/Event.o: System/Event.cpp.o
@@ -3875,7 +3875,7 @@ System/Event.o: System/Event.cpp.o
 
 # target to build an object file
 System/Event.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Event.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Event.cpp.o
 .PHONY : System/Event.cpp.o
 
 System/Event.i: System/Event.cpp.i
@@ -3884,7 +3884,7 @@ System/Event.i: System/Event.cpp.i
 
 # target to preprocess a source file
 System/Event.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Event.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Event.cpp.i
 .PHONY : System/Event.cpp.i
 
 System/Event.s: System/Event.cpp.s
@@ -3893,7 +3893,7 @@ System/Event.s: System/Event.cpp.s
 
 # target to generate assembly for a file
 System/Event.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Event.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Event.cpp.s
 .PHONY : System/Event.cpp.s
 
 System/EventLock.o: System/EventLock.cpp.o
@@ -3902,7 +3902,7 @@ System/EventLock.o: System/EventLock.cpp.o
 
 # target to build an object file
 System/EventLock.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/EventLock.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/EventLock.cpp.o
 .PHONY : System/EventLock.cpp.o
 
 System/EventLock.i: System/EventLock.cpp.i
@@ -3911,7 +3911,7 @@ System/EventLock.i: System/EventLock.cpp.i
 
 # target to preprocess a source file
 System/EventLock.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/EventLock.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/EventLock.cpp.i
 .PHONY : System/EventLock.cpp.i
 
 System/EventLock.s: System/EventLock.cpp.s
@@ -3920,7 +3920,7 @@ System/EventLock.s: System/EventLock.cpp.s
 
 # target to generate assembly for a file
 System/EventLock.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/EventLock.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/EventLock.cpp.s
 .PHONY : System/EventLock.cpp.s
 
 System/InterruptedException.o: System/InterruptedException.cpp.o
@@ -3929,7 +3929,7 @@ System/InterruptedException.o: System/InterruptedException.cpp.o
 
 # target to build an object file
 System/InterruptedException.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/InterruptedException.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/InterruptedException.cpp.o
 .PHONY : System/InterruptedException.cpp.o
 
 System/InterruptedException.i: System/InterruptedException.cpp.i
@@ -3938,7 +3938,7 @@ System/InterruptedException.i: System/InterruptedException.cpp.i
 
 # target to preprocess a source file
 System/InterruptedException.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/InterruptedException.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/InterruptedException.cpp.i
 .PHONY : System/InterruptedException.cpp.i
 
 System/InterruptedException.s: System/InterruptedException.cpp.s
@@ -3947,7 +3947,7 @@ System/InterruptedException.s: System/InterruptedException.cpp.s
 
 # target to generate assembly for a file
 System/InterruptedException.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/InterruptedException.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/InterruptedException.cpp.s
 .PHONY : System/InterruptedException.cpp.s
 
 System/Ipv4Address.o: System/Ipv4Address.cpp.o
@@ -3956,7 +3956,7 @@ System/Ipv4Address.o: System/Ipv4Address.cpp.o
 
 # target to build an object file
 System/Ipv4Address.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Ipv4Address.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Ipv4Address.cpp.o
 .PHONY : System/Ipv4Address.cpp.o
 
 System/Ipv4Address.i: System/Ipv4Address.cpp.i
@@ -3965,7 +3965,7 @@ System/Ipv4Address.i: System/Ipv4Address.cpp.i
 
 # target to preprocess a source file
 System/Ipv4Address.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Ipv4Address.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Ipv4Address.cpp.i
 .PHONY : System/Ipv4Address.cpp.i
 
 System/Ipv4Address.s: System/Ipv4Address.cpp.s
@@ -3974,7 +3974,7 @@ System/Ipv4Address.s: System/Ipv4Address.cpp.s
 
 # target to generate assembly for a file
 System/Ipv4Address.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Ipv4Address.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/Ipv4Address.cpp.s
 .PHONY : System/Ipv4Address.cpp.s
 
 System/RemoteEventLock.o: System/RemoteEventLock.cpp.o
@@ -3983,7 +3983,7 @@ System/RemoteEventLock.o: System/RemoteEventLock.cpp.o
 
 # target to build an object file
 System/RemoteEventLock.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/RemoteEventLock.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/RemoteEventLock.cpp.o
 .PHONY : System/RemoteEventLock.cpp.o
 
 System/RemoteEventLock.i: System/RemoteEventLock.cpp.i
@@ -3992,7 +3992,7 @@ System/RemoteEventLock.i: System/RemoteEventLock.cpp.i
 
 # target to preprocess a source file
 System/RemoteEventLock.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/RemoteEventLock.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/RemoteEventLock.cpp.i
 .PHONY : System/RemoteEventLock.cpp.i
 
 System/RemoteEventLock.s: System/RemoteEventLock.cpp.s
@@ -4001,7 +4001,7 @@ System/RemoteEventLock.s: System/RemoteEventLock.cpp.s
 
 # target to generate assembly for a file
 System/RemoteEventLock.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/RemoteEventLock.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/RemoteEventLock.cpp.s
 .PHONY : System/RemoteEventLock.cpp.s
 
 System/TcpStream.o: System/TcpStream.cpp.o
@@ -4010,7 +4010,7 @@ System/TcpStream.o: System/TcpStream.cpp.o
 
 # target to build an object file
 System/TcpStream.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/TcpStream.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/TcpStream.cpp.o
 .PHONY : System/TcpStream.cpp.o
 
 System/TcpStream.i: System/TcpStream.cpp.i
@@ -4019,7 +4019,7 @@ System/TcpStream.i: System/TcpStream.cpp.i
 
 # target to preprocess a source file
 System/TcpStream.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/TcpStream.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/TcpStream.cpp.i
 .PHONY : System/TcpStream.cpp.i
 
 System/TcpStream.s: System/TcpStream.cpp.s
@@ -4028,7 +4028,7 @@ System/TcpStream.s: System/TcpStream.cpp.s
 
 # target to generate assembly for a file
 System/TcpStream.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/TcpStream.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/System.dir/build.make src/CMakeFiles/System.dir/System/TcpStream.cpp.s
 .PHONY : System/TcpStream.cpp.s
 
 Transfers/BlockchainSynchronizer.o: Transfers/BlockchainSynchronizer.cpp.o
@@ -4037,7 +4037,7 @@ Transfers/BlockchainSynchronizer.o: Transfers/BlockchainSynchronizer.cpp.o
 
 # target to build an object file
 Transfers/BlockchainSynchronizer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.o
 .PHONY : Transfers/BlockchainSynchronizer.cpp.o
 
 Transfers/BlockchainSynchronizer.i: Transfers/BlockchainSynchronizer.cpp.i
@@ -4046,7 +4046,7 @@ Transfers/BlockchainSynchronizer.i: Transfers/BlockchainSynchronizer.cpp.i
 
 # target to preprocess a source file
 Transfers/BlockchainSynchronizer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.i
 .PHONY : Transfers/BlockchainSynchronizer.cpp.i
 
 Transfers/BlockchainSynchronizer.s: Transfers/BlockchainSynchronizer.cpp.s
@@ -4055,7 +4055,7 @@ Transfers/BlockchainSynchronizer.s: Transfers/BlockchainSynchronizer.cpp.s
 
 # target to generate assembly for a file
 Transfers/BlockchainSynchronizer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/BlockchainSynchronizer.cpp.s
 .PHONY : Transfers/BlockchainSynchronizer.cpp.s
 
 Transfers/SynchronizationState.o: Transfers/SynchronizationState.cpp.o
@@ -4064,7 +4064,7 @@ Transfers/SynchronizationState.o: Transfers/SynchronizationState.cpp.o
 
 # target to build an object file
 Transfers/SynchronizationState.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.o
 .PHONY : Transfers/SynchronizationState.cpp.o
 
 Transfers/SynchronizationState.i: Transfers/SynchronizationState.cpp.i
@@ -4073,7 +4073,7 @@ Transfers/SynchronizationState.i: Transfers/SynchronizationState.cpp.i
 
 # target to preprocess a source file
 Transfers/SynchronizationState.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.i
 .PHONY : Transfers/SynchronizationState.cpp.i
 
 Transfers/SynchronizationState.s: Transfers/SynchronizationState.cpp.s
@@ -4082,7 +4082,7 @@ Transfers/SynchronizationState.s: Transfers/SynchronizationState.cpp.s
 
 # target to generate assembly for a file
 Transfers/SynchronizationState.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/SynchronizationState.cpp.s
 .PHONY : Transfers/SynchronizationState.cpp.s
 
 Transfers/TransfersConsumer.o: Transfers/TransfersConsumer.cpp.o
@@ -4091,7 +4091,7 @@ Transfers/TransfersConsumer.o: Transfers/TransfersConsumer.cpp.o
 
 # target to build an object file
 Transfers/TransfersConsumer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.o
 .PHONY : Transfers/TransfersConsumer.cpp.o
 
 Transfers/TransfersConsumer.i: Transfers/TransfersConsumer.cpp.i
@@ -4100,7 +4100,7 @@ Transfers/TransfersConsumer.i: Transfers/TransfersConsumer.cpp.i
 
 # target to preprocess a source file
 Transfers/TransfersConsumer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.i
 .PHONY : Transfers/TransfersConsumer.cpp.i
 
 Transfers/TransfersConsumer.s: Transfers/TransfersConsumer.cpp.s
@@ -4109,7 +4109,7 @@ Transfers/TransfersConsumer.s: Transfers/TransfersConsumer.cpp.s
 
 # target to generate assembly for a file
 Transfers/TransfersConsumer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersConsumer.cpp.s
 .PHONY : Transfers/TransfersConsumer.cpp.s
 
 Transfers/TransfersContainer.o: Transfers/TransfersContainer.cpp.o
@@ -4118,7 +4118,7 @@ Transfers/TransfersContainer.o: Transfers/TransfersContainer.cpp.o
 
 # target to build an object file
 Transfers/TransfersContainer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.o
 .PHONY : Transfers/TransfersContainer.cpp.o
 
 Transfers/TransfersContainer.i: Transfers/TransfersContainer.cpp.i
@@ -4127,7 +4127,7 @@ Transfers/TransfersContainer.i: Transfers/TransfersContainer.cpp.i
 
 # target to preprocess a source file
 Transfers/TransfersContainer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.i
 .PHONY : Transfers/TransfersContainer.cpp.i
 
 Transfers/TransfersContainer.s: Transfers/TransfersContainer.cpp.s
@@ -4136,7 +4136,7 @@ Transfers/TransfersContainer.s: Transfers/TransfersContainer.cpp.s
 
 # target to generate assembly for a file
 Transfers/TransfersContainer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersContainer.cpp.s
 .PHONY : Transfers/TransfersContainer.cpp.s
 
 Transfers/TransfersSubscription.o: Transfers/TransfersSubscription.cpp.o
@@ -4145,7 +4145,7 @@ Transfers/TransfersSubscription.o: Transfers/TransfersSubscription.cpp.o
 
 # target to build an object file
 Transfers/TransfersSubscription.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.o
 .PHONY : Transfers/TransfersSubscription.cpp.o
 
 Transfers/TransfersSubscription.i: Transfers/TransfersSubscription.cpp.i
@@ -4154,7 +4154,7 @@ Transfers/TransfersSubscription.i: Transfers/TransfersSubscription.cpp.i
 
 # target to preprocess a source file
 Transfers/TransfersSubscription.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.i
 .PHONY : Transfers/TransfersSubscription.cpp.i
 
 Transfers/TransfersSubscription.s: Transfers/TransfersSubscription.cpp.s
@@ -4163,7 +4163,7 @@ Transfers/TransfersSubscription.s: Transfers/TransfersSubscription.cpp.s
 
 # target to generate assembly for a file
 Transfers/TransfersSubscription.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSubscription.cpp.s
 .PHONY : Transfers/TransfersSubscription.cpp.s
 
 Transfers/TransfersSynchronizer.o: Transfers/TransfersSynchronizer.cpp.o
@@ -4172,7 +4172,7 @@ Transfers/TransfersSynchronizer.o: Transfers/TransfersSynchronizer.cpp.o
 
 # target to build an object file
 Transfers/TransfersSynchronizer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.o
 .PHONY : Transfers/TransfersSynchronizer.cpp.o
 
 Transfers/TransfersSynchronizer.i: Transfers/TransfersSynchronizer.cpp.i
@@ -4181,7 +4181,7 @@ Transfers/TransfersSynchronizer.i: Transfers/TransfersSynchronizer.cpp.i
 
 # target to preprocess a source file
 Transfers/TransfersSynchronizer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.i
 .PHONY : Transfers/TransfersSynchronizer.cpp.i
 
 Transfers/TransfersSynchronizer.s: Transfers/TransfersSynchronizer.cpp.s
@@ -4190,7 +4190,7 @@ Transfers/TransfersSynchronizer.s: Transfers/TransfersSynchronizer.cpp.s
 
 # target to generate assembly for a file
 Transfers/TransfersSynchronizer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Transfers.dir/build.make src/CMakeFiles/Transfers.dir/Transfers/TransfersSynchronizer.cpp.s
 .PHONY : Transfers/TransfersSynchronizer.cpp.s
 
 Wallet/LegacyKeysImporter.o: Wallet/LegacyKeysImporter.cpp.o
@@ -4199,7 +4199,7 @@ Wallet/LegacyKeysImporter.o: Wallet/LegacyKeysImporter.cpp.o
 
 # target to build an object file
 Wallet/LegacyKeysImporter.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.o
 .PHONY : Wallet/LegacyKeysImporter.cpp.o
 
 Wallet/LegacyKeysImporter.i: Wallet/LegacyKeysImporter.cpp.i
@@ -4208,7 +4208,7 @@ Wallet/LegacyKeysImporter.i: Wallet/LegacyKeysImporter.cpp.i
 
 # target to preprocess a source file
 Wallet/LegacyKeysImporter.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.i
 .PHONY : Wallet/LegacyKeysImporter.cpp.i
 
 Wallet/LegacyKeysImporter.s: Wallet/LegacyKeysImporter.cpp.s
@@ -4217,7 +4217,7 @@ Wallet/LegacyKeysImporter.s: Wallet/LegacyKeysImporter.cpp.s
 
 # target to generate assembly for a file
 Wallet/LegacyKeysImporter.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/LegacyKeysImporter.cpp.s
 .PHONY : Wallet/LegacyKeysImporter.cpp.s
 
 Wallet/WalletAsyncContextCounter.o: Wallet/WalletAsyncContextCounter.cpp.o
@@ -4226,7 +4226,7 @@ Wallet/WalletAsyncContextCounter.o: Wallet/WalletAsyncContextCounter.cpp.o
 
 # target to build an object file
 Wallet/WalletAsyncContextCounter.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.o
 .PHONY : Wallet/WalletAsyncContextCounter.cpp.o
 
 Wallet/WalletAsyncContextCounter.i: Wallet/WalletAsyncContextCounter.cpp.i
@@ -4235,7 +4235,7 @@ Wallet/WalletAsyncContextCounter.i: Wallet/WalletAsyncContextCounter.cpp.i
 
 # target to preprocess a source file
 Wallet/WalletAsyncContextCounter.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.i
 .PHONY : Wallet/WalletAsyncContextCounter.cpp.i
 
 Wallet/WalletAsyncContextCounter.s: Wallet/WalletAsyncContextCounter.cpp.s
@@ -4244,7 +4244,7 @@ Wallet/WalletAsyncContextCounter.s: Wallet/WalletAsyncContextCounter.cpp.s
 
 # target to generate assembly for a file
 Wallet/WalletAsyncContextCounter.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletAsyncContextCounter.cpp.s
 .PHONY : Wallet/WalletAsyncContextCounter.cpp.s
 
 Wallet/WalletErrors.o: Wallet/WalletErrors.cpp.o
@@ -4253,7 +4253,7 @@ Wallet/WalletErrors.o: Wallet/WalletErrors.cpp.o
 
 # target to build an object file
 Wallet/WalletErrors.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.o
 .PHONY : Wallet/WalletErrors.cpp.o
 
 Wallet/WalletErrors.i: Wallet/WalletErrors.cpp.i
@@ -4262,7 +4262,7 @@ Wallet/WalletErrors.i: Wallet/WalletErrors.cpp.i
 
 # target to preprocess a source file
 Wallet/WalletErrors.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.i
 .PHONY : Wallet/WalletErrors.cpp.i
 
 Wallet/WalletErrors.s: Wallet/WalletErrors.cpp.s
@@ -4271,7 +4271,7 @@ Wallet/WalletErrors.s: Wallet/WalletErrors.cpp.s
 
 # target to generate assembly for a file
 Wallet/WalletErrors.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletErrors.cpp.s
 .PHONY : Wallet/WalletErrors.cpp.s
 
 Wallet/WalletGreen.o: Wallet/WalletGreen.cpp.o
@@ -4280,7 +4280,7 @@ Wallet/WalletGreen.o: Wallet/WalletGreen.cpp.o
 
 # target to build an object file
 Wallet/WalletGreen.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.o
 .PHONY : Wallet/WalletGreen.cpp.o
 
 Wallet/WalletGreen.i: Wallet/WalletGreen.cpp.i
@@ -4289,7 +4289,7 @@ Wallet/WalletGreen.i: Wallet/WalletGreen.cpp.i
 
 # target to preprocess a source file
 Wallet/WalletGreen.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.i
 .PHONY : Wallet/WalletGreen.cpp.i
 
 Wallet/WalletGreen.s: Wallet/WalletGreen.cpp.s
@@ -4298,7 +4298,7 @@ Wallet/WalletGreen.s: Wallet/WalletGreen.cpp.s
 
 # target to generate assembly for a file
 Wallet/WalletGreen.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletGreen.cpp.s
 .PHONY : Wallet/WalletGreen.cpp.s
 
 Wallet/WalletRpcServer.o: Wallet/WalletRpcServer.cpp.o
@@ -4307,7 +4307,7 @@ Wallet/WalletRpcServer.o: Wallet/WalletRpcServer.cpp.o
 
 # target to build an object file
 Wallet/WalletRpcServer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.o
 .PHONY : Wallet/WalletRpcServer.cpp.o
 
 Wallet/WalletRpcServer.i: Wallet/WalletRpcServer.cpp.i
@@ -4316,7 +4316,7 @@ Wallet/WalletRpcServer.i: Wallet/WalletRpcServer.cpp.i
 
 # target to preprocess a source file
 Wallet/WalletRpcServer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.i
 .PHONY : Wallet/WalletRpcServer.cpp.i
 
 Wallet/WalletRpcServer.s: Wallet/WalletRpcServer.cpp.s
@@ -4325,7 +4325,7 @@ Wallet/WalletRpcServer.s: Wallet/WalletRpcServer.cpp.s
 
 # target to generate assembly for a file
 Wallet/WalletRpcServer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletRpcServer.cpp.s
 .PHONY : Wallet/WalletRpcServer.cpp.s
 
 Wallet/WalletSerializationV1.o: Wallet/WalletSerializationV1.cpp.o
@@ -4334,7 +4334,7 @@ Wallet/WalletSerializationV1.o: Wallet/WalletSerializationV1.cpp.o
 
 # target to build an object file
 Wallet/WalletSerializationV1.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV1.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV1.cpp.o
 .PHONY : Wallet/WalletSerializationV1.cpp.o
 
 Wallet/WalletSerializationV1.i: Wallet/WalletSerializationV1.cpp.i
@@ -4343,7 +4343,7 @@ Wallet/WalletSerializationV1.i: Wallet/WalletSerializationV1.cpp.i
 
 # target to preprocess a source file
 Wallet/WalletSerializationV1.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV1.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV1.cpp.i
 .PHONY : Wallet/WalletSerializationV1.cpp.i
 
 Wallet/WalletSerializationV1.s: Wallet/WalletSerializationV1.cpp.s
@@ -4352,7 +4352,7 @@ Wallet/WalletSerializationV1.s: Wallet/WalletSerializationV1.cpp.s
 
 # target to generate assembly for a file
 Wallet/WalletSerializationV1.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV1.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV1.cpp.s
 .PHONY : Wallet/WalletSerializationV1.cpp.s
 
 Wallet/WalletSerializationV2.o: Wallet/WalletSerializationV2.cpp.o
@@ -4361,7 +4361,7 @@ Wallet/WalletSerializationV2.o: Wallet/WalletSerializationV2.cpp.o
 
 # target to build an object file
 Wallet/WalletSerializationV2.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV2.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV2.cpp.o
 .PHONY : Wallet/WalletSerializationV2.cpp.o
 
 Wallet/WalletSerializationV2.i: Wallet/WalletSerializationV2.cpp.i
@@ -4370,7 +4370,7 @@ Wallet/WalletSerializationV2.i: Wallet/WalletSerializationV2.cpp.i
 
 # target to preprocess a source file
 Wallet/WalletSerializationV2.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV2.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV2.cpp.i
 .PHONY : Wallet/WalletSerializationV2.cpp.i
 
 Wallet/WalletSerializationV2.s: Wallet/WalletSerializationV2.cpp.s
@@ -4379,7 +4379,7 @@ Wallet/WalletSerializationV2.s: Wallet/WalletSerializationV2.cpp.s
 
 # target to generate assembly for a file
 Wallet/WalletSerializationV2.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV2.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletSerializationV2.cpp.s
 .PHONY : Wallet/WalletSerializationV2.cpp.s
 
 Wallet/WalletUtils.o: Wallet/WalletUtils.cpp.o
@@ -4388,7 +4388,7 @@ Wallet/WalletUtils.o: Wallet/WalletUtils.cpp.o
 
 # target to build an object file
 Wallet/WalletUtils.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.o
 .PHONY : Wallet/WalletUtils.cpp.o
 
 Wallet/WalletUtils.i: Wallet/WalletUtils.cpp.i
@@ -4397,7 +4397,7 @@ Wallet/WalletUtils.i: Wallet/WalletUtils.cpp.i
 
 # target to preprocess a source file
 Wallet/WalletUtils.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.i
 .PHONY : Wallet/WalletUtils.cpp.i
 
 Wallet/WalletUtils.s: Wallet/WalletUtils.cpp.s
@@ -4406,7 +4406,7 @@ Wallet/WalletUtils.s: Wallet/WalletUtils.cpp.s
 
 # target to generate assembly for a file
 Wallet/WalletUtils.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/Wallet/WalletUtils.cpp.s
 .PHONY : Wallet/WalletUtils.cpp.s
 
 WalletLegacy/KeysStorage.o: WalletLegacy/KeysStorage.cpp.o
@@ -4415,7 +4415,7 @@ WalletLegacy/KeysStorage.o: WalletLegacy/KeysStorage.cpp.o
 
 # target to build an object file
 WalletLegacy/KeysStorage.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.o
 .PHONY : WalletLegacy/KeysStorage.cpp.o
 
 WalletLegacy/KeysStorage.i: WalletLegacy/KeysStorage.cpp.i
@@ -4424,7 +4424,7 @@ WalletLegacy/KeysStorage.i: WalletLegacy/KeysStorage.cpp.i
 
 # target to preprocess a source file
 WalletLegacy/KeysStorage.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.i
 .PHONY : WalletLegacy/KeysStorage.cpp.i
 
 WalletLegacy/KeysStorage.s: WalletLegacy/KeysStorage.cpp.s
@@ -4433,7 +4433,7 @@ WalletLegacy/KeysStorage.s: WalletLegacy/KeysStorage.cpp.s
 
 # target to generate assembly for a file
 WalletLegacy/KeysStorage.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/KeysStorage.cpp.s
 .PHONY : WalletLegacy/KeysStorage.cpp.s
 
 WalletLegacy/WalletHelper.o: WalletLegacy/WalletHelper.cpp.o
@@ -4442,7 +4442,7 @@ WalletLegacy/WalletHelper.o: WalletLegacy/WalletHelper.cpp.o
 
 # target to build an object file
 WalletLegacy/WalletHelper.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.o
 .PHONY : WalletLegacy/WalletHelper.cpp.o
 
 WalletLegacy/WalletHelper.i: WalletLegacy/WalletHelper.cpp.i
@@ -4451,7 +4451,7 @@ WalletLegacy/WalletHelper.i: WalletLegacy/WalletHelper.cpp.i
 
 # target to preprocess a source file
 WalletLegacy/WalletHelper.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.i
 .PHONY : WalletLegacy/WalletHelper.cpp.i
 
 WalletLegacy/WalletHelper.s: WalletLegacy/WalletHelper.cpp.s
@@ -4460,7 +4460,7 @@ WalletLegacy/WalletHelper.s: WalletLegacy/WalletHelper.cpp.s
 
 # target to generate assembly for a file
 WalletLegacy/WalletHelper.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletHelper.cpp.s
 .PHONY : WalletLegacy/WalletHelper.cpp.s
 
 WalletLegacy/WalletLegacy.o: WalletLegacy/WalletLegacy.cpp.o
@@ -4469,7 +4469,7 @@ WalletLegacy/WalletLegacy.o: WalletLegacy/WalletLegacy.cpp.o
 
 # target to build an object file
 WalletLegacy/WalletLegacy.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.o
 .PHONY : WalletLegacy/WalletLegacy.cpp.o
 
 WalletLegacy/WalletLegacy.i: WalletLegacy/WalletLegacy.cpp.i
@@ -4478,7 +4478,7 @@ WalletLegacy/WalletLegacy.i: WalletLegacy/WalletLegacy.cpp.i
 
 # target to preprocess a source file
 WalletLegacy/WalletLegacy.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.i
 .PHONY : WalletLegacy/WalletLegacy.cpp.i
 
 WalletLegacy/WalletLegacy.s: WalletLegacy/WalletLegacy.cpp.s
@@ -4487,7 +4487,7 @@ WalletLegacy/WalletLegacy.s: WalletLegacy/WalletLegacy.cpp.s
 
 # target to generate assembly for a file
 WalletLegacy/WalletLegacy.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacy.cpp.s
 .PHONY : WalletLegacy/WalletLegacy.cpp.s
 
 WalletLegacy/WalletLegacySerialization.o: WalletLegacy/WalletLegacySerialization.cpp.o
@@ -4496,7 +4496,7 @@ WalletLegacy/WalletLegacySerialization.o: WalletLegacy/WalletLegacySerialization
 
 # target to build an object file
 WalletLegacy/WalletLegacySerialization.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.o
 .PHONY : WalletLegacy/WalletLegacySerialization.cpp.o
 
 WalletLegacy/WalletLegacySerialization.i: WalletLegacy/WalletLegacySerialization.cpp.i
@@ -4505,7 +4505,7 @@ WalletLegacy/WalletLegacySerialization.i: WalletLegacy/WalletLegacySerialization
 
 # target to preprocess a source file
 WalletLegacy/WalletLegacySerialization.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.i
 .PHONY : WalletLegacy/WalletLegacySerialization.cpp.i
 
 WalletLegacy/WalletLegacySerialization.s: WalletLegacy/WalletLegacySerialization.cpp.s
@@ -4514,7 +4514,7 @@ WalletLegacy/WalletLegacySerialization.s: WalletLegacy/WalletLegacySerialization
 
 # target to generate assembly for a file
 WalletLegacy/WalletLegacySerialization.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerialization.cpp.s
 .PHONY : WalletLegacy/WalletLegacySerialization.cpp.s
 
 WalletLegacy/WalletLegacySerializer.o: WalletLegacy/WalletLegacySerializer.cpp.o
@@ -4523,7 +4523,7 @@ WalletLegacy/WalletLegacySerializer.o: WalletLegacy/WalletLegacySerializer.cpp.o
 
 # target to build an object file
 WalletLegacy/WalletLegacySerializer.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.o
 .PHONY : WalletLegacy/WalletLegacySerializer.cpp.o
 
 WalletLegacy/WalletLegacySerializer.i: WalletLegacy/WalletLegacySerializer.cpp.i
@@ -4532,7 +4532,7 @@ WalletLegacy/WalletLegacySerializer.i: WalletLegacy/WalletLegacySerializer.cpp.i
 
 # target to preprocess a source file
 WalletLegacy/WalletLegacySerializer.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.i
 .PHONY : WalletLegacy/WalletLegacySerializer.cpp.i
 
 WalletLegacy/WalletLegacySerializer.s: WalletLegacy/WalletLegacySerializer.cpp.s
@@ -4541,7 +4541,7 @@ WalletLegacy/WalletLegacySerializer.s: WalletLegacy/WalletLegacySerializer.cpp.s
 
 # target to generate assembly for a file
 WalletLegacy/WalletLegacySerializer.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletLegacySerializer.cpp.s
 .PHONY : WalletLegacy/WalletLegacySerializer.cpp.s
 
 WalletLegacy/WalletTransactionSender.o: WalletLegacy/WalletTransactionSender.cpp.o
@@ -4550,7 +4550,7 @@ WalletLegacy/WalletTransactionSender.o: WalletLegacy/WalletTransactionSender.cpp
 
 # target to build an object file
 WalletLegacy/WalletTransactionSender.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.o
 .PHONY : WalletLegacy/WalletTransactionSender.cpp.o
 
 WalletLegacy/WalletTransactionSender.i: WalletLegacy/WalletTransactionSender.cpp.i
@@ -4559,7 +4559,7 @@ WalletLegacy/WalletTransactionSender.i: WalletLegacy/WalletTransactionSender.cpp
 
 # target to preprocess a source file
 WalletLegacy/WalletTransactionSender.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.i
 .PHONY : WalletLegacy/WalletTransactionSender.cpp.i
 
 WalletLegacy/WalletTransactionSender.s: WalletLegacy/WalletTransactionSender.cpp.s
@@ -4568,7 +4568,7 @@ WalletLegacy/WalletTransactionSender.s: WalletLegacy/WalletTransactionSender.cpp
 
 # target to generate assembly for a file
 WalletLegacy/WalletTransactionSender.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletTransactionSender.cpp.s
 .PHONY : WalletLegacy/WalletTransactionSender.cpp.s
 
 WalletLegacy/WalletUnconfirmedTransactions.o: WalletLegacy/WalletUnconfirmedTransactions.cpp.o
@@ -4577,7 +4577,7 @@ WalletLegacy/WalletUnconfirmedTransactions.o: WalletLegacy/WalletUnconfirmedTran
 
 # target to build an object file
 WalletLegacy/WalletUnconfirmedTransactions.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.o
 .PHONY : WalletLegacy/WalletUnconfirmedTransactions.cpp.o
 
 WalletLegacy/WalletUnconfirmedTransactions.i: WalletLegacy/WalletUnconfirmedTransactions.cpp.i
@@ -4586,7 +4586,7 @@ WalletLegacy/WalletUnconfirmedTransactions.i: WalletLegacy/WalletUnconfirmedTran
 
 # target to preprocess a source file
 WalletLegacy/WalletUnconfirmedTransactions.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.i
 .PHONY : WalletLegacy/WalletUnconfirmedTransactions.cpp.i
 
 WalletLegacy/WalletUnconfirmedTransactions.s: WalletLegacy/WalletUnconfirmedTransactions.cpp.s
@@ -4595,7 +4595,7 @@ WalletLegacy/WalletUnconfirmedTransactions.s: WalletLegacy/WalletUnconfirmedTran
 
 # target to generate assembly for a file
 WalletLegacy/WalletUnconfirmedTransactions.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUnconfirmedTransactions.cpp.s
 .PHONY : WalletLegacy/WalletUnconfirmedTransactions.cpp.s
 
 WalletLegacy/WalletUserTransactionsCache.o: WalletLegacy/WalletUserTransactionsCache.cpp.o
@@ -4604,7 +4604,7 @@ WalletLegacy/WalletUserTransactionsCache.o: WalletLegacy/WalletUserTransactionsC
 
 # target to build an object file
 WalletLegacy/WalletUserTransactionsCache.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.o
 .PHONY : WalletLegacy/WalletUserTransactionsCache.cpp.o
 
 WalletLegacy/WalletUserTransactionsCache.i: WalletLegacy/WalletUserTransactionsCache.cpp.i
@@ -4613,7 +4613,7 @@ WalletLegacy/WalletUserTransactionsCache.i: WalletLegacy/WalletUserTransactionsC
 
 # target to preprocess a source file
 WalletLegacy/WalletUserTransactionsCache.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.i
 .PHONY : WalletLegacy/WalletUserTransactionsCache.cpp.i
 
 WalletLegacy/WalletUserTransactionsCache.s: WalletLegacy/WalletUserTransactionsCache.cpp.s
@@ -4622,7 +4622,7 @@ WalletLegacy/WalletUserTransactionsCache.s: WalletLegacy/WalletUserTransactionsC
 
 # target to generate assembly for a file
 WalletLegacy/WalletUserTransactionsCache.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Wallet.dir/build.make src/CMakeFiles/Wallet.dir/WalletLegacy/WalletUserTransactionsCache.cpp.s
 .PHONY : WalletLegacy/WalletUserTransactionsCache.cpp.s
 
 crypto/aesb.o: crypto/aesb.c.o
@@ -4631,7 +4631,7 @@ crypto/aesb.o: crypto/aesb.c.o
 
 # target to build an object file
 crypto/aesb.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.o
 .PHONY : crypto/aesb.c.o
 
 crypto/aesb.i: crypto/aesb.c.i
@@ -4640,7 +4640,7 @@ crypto/aesb.i: crypto/aesb.c.i
 
 # target to preprocess a source file
 crypto/aesb.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.i
 .PHONY : crypto/aesb.c.i
 
 crypto/aesb.s: crypto/aesb.c.s
@@ -4649,7 +4649,7 @@ crypto/aesb.s: crypto/aesb.c.s
 
 # target to generate assembly for a file
 crypto/aesb.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/aesb.c.s
 .PHONY : crypto/aesb.c.s
 
 crypto/blake256.o: crypto/blake256.c.o
@@ -4658,7 +4658,7 @@ crypto/blake256.o: crypto/blake256.c.o
 
 # target to build an object file
 crypto/blake256.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.o
 .PHONY : crypto/blake256.c.o
 
 crypto/blake256.i: crypto/blake256.c.i
@@ -4667,7 +4667,7 @@ crypto/blake256.i: crypto/blake256.c.i
 
 # target to preprocess a source file
 crypto/blake256.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.i
 .PHONY : crypto/blake256.c.i
 
 crypto/blake256.s: crypto/blake256.c.s
@@ -4676,7 +4676,7 @@ crypto/blake256.s: crypto/blake256.c.s
 
 # target to generate assembly for a file
 crypto/blake256.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/blake256.c.s
 .PHONY : crypto/blake256.c.s
 
 crypto/chacha8.o: crypto/chacha8.c.o
@@ -4685,7 +4685,7 @@ crypto/chacha8.o: crypto/chacha8.c.o
 
 # target to build an object file
 crypto/chacha8.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.c.o
 .PHONY : crypto/chacha8.c.o
 
 crypto/chacha8.i: crypto/chacha8.c.i
@@ -4694,7 +4694,7 @@ crypto/chacha8.i: crypto/chacha8.c.i
 
 # target to preprocess a source file
 crypto/chacha8.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.c.i
 .PHONY : crypto/chacha8.c.i
 
 crypto/chacha8.s: crypto/chacha8.c.s
@@ -4703,7 +4703,7 @@ crypto/chacha8.s: crypto/chacha8.c.s
 
 # target to generate assembly for a file
 crypto/chacha8.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/chacha8.c.s
 .PHONY : crypto/chacha8.c.s
 
 crypto/crypto-ops-data.o: crypto/crypto-ops-data.c.o
@@ -4712,7 +4712,7 @@ crypto/crypto-ops-data.o: crypto/crypto-ops-data.c.o
 
 # target to build an object file
 crypto/crypto-ops-data.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.o
 .PHONY : crypto/crypto-ops-data.c.o
 
 crypto/crypto-ops-data.i: crypto/crypto-ops-data.c.i
@@ -4721,7 +4721,7 @@ crypto/crypto-ops-data.i: crypto/crypto-ops-data.c.i
 
 # target to preprocess a source file
 crypto/crypto-ops-data.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.i
 .PHONY : crypto/crypto-ops-data.c.i
 
 crypto/crypto-ops-data.s: crypto/crypto-ops-data.c.s
@@ -4730,7 +4730,7 @@ crypto/crypto-ops-data.s: crypto/crypto-ops-data.c.s
 
 # target to generate assembly for a file
 crypto/crypto-ops-data.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops-data.c.s
 .PHONY : crypto/crypto-ops-data.c.s
 
 crypto/crypto-ops.o: crypto/crypto-ops.c.o
@@ -4739,7 +4739,7 @@ crypto/crypto-ops.o: crypto/crypto-ops.c.o
 
 # target to build an object file
 crypto/crypto-ops.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.o
 .PHONY : crypto/crypto-ops.c.o
 
 crypto/crypto-ops.i: crypto/crypto-ops.c.i
@@ -4748,7 +4748,7 @@ crypto/crypto-ops.i: crypto/crypto-ops.c.i
 
 # target to preprocess a source file
 crypto/crypto-ops.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.i
 .PHONY : crypto/crypto-ops.c.i
 
 crypto/crypto-ops.s: crypto/crypto-ops.c.s
@@ -4757,7 +4757,7 @@ crypto/crypto-ops.s: crypto/crypto-ops.c.s
 
 # target to generate assembly for a file
 crypto/crypto-ops.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto-ops.c.s
 .PHONY : crypto/crypto-ops.c.s
 
 crypto/crypto.o: crypto/crypto.cpp.o
@@ -4766,7 +4766,7 @@ crypto/crypto.o: crypto/crypto.cpp.o
 
 # target to build an object file
 crypto/crypto.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.o
 .PHONY : crypto/crypto.cpp.o
 
 crypto/crypto.i: crypto/crypto.cpp.i
@@ -4775,7 +4775,7 @@ crypto/crypto.i: crypto/crypto.cpp.i
 
 # target to preprocess a source file
 crypto/crypto.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.i
 .PHONY : crypto/crypto.cpp.i
 
 crypto/crypto.s: crypto/crypto.cpp.s
@@ -4784,7 +4784,7 @@ crypto/crypto.s: crypto/crypto.cpp.s
 
 # target to generate assembly for a file
 crypto/crypto.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/crypto.cpp.s
 .PHONY : crypto/crypto.cpp.s
 
 crypto/groestl.o: crypto/groestl.c.o
@@ -4793,7 +4793,7 @@ crypto/groestl.o: crypto/groestl.c.o
 
 # target to build an object file
 crypto/groestl.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.o
 .PHONY : crypto/groestl.c.o
 
 crypto/groestl.i: crypto/groestl.c.i
@@ -4802,7 +4802,7 @@ crypto/groestl.i: crypto/groestl.c.i
 
 # target to preprocess a source file
 crypto/groestl.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.i
 .PHONY : crypto/groestl.c.i
 
 crypto/groestl.s: crypto/groestl.c.s
@@ -4811,7 +4811,7 @@ crypto/groestl.s: crypto/groestl.c.s
 
 # target to generate assembly for a file
 crypto/groestl.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/groestl.c.s
 .PHONY : crypto/groestl.c.s
 
 crypto/hash-extra-blake.o: crypto/hash-extra-blake.c.o
@@ -4820,7 +4820,7 @@ crypto/hash-extra-blake.o: crypto/hash-extra-blake.c.o
 
 # target to build an object file
 crypto/hash-extra-blake.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.o
 .PHONY : crypto/hash-extra-blake.c.o
 
 crypto/hash-extra-blake.i: crypto/hash-extra-blake.c.i
@@ -4829,7 +4829,7 @@ crypto/hash-extra-blake.i: crypto/hash-extra-blake.c.i
 
 # target to preprocess a source file
 crypto/hash-extra-blake.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.i
 .PHONY : crypto/hash-extra-blake.c.i
 
 crypto/hash-extra-blake.s: crypto/hash-extra-blake.c.s
@@ -4838,7 +4838,7 @@ crypto/hash-extra-blake.s: crypto/hash-extra-blake.c.s
 
 # target to generate assembly for a file
 crypto/hash-extra-blake.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-blake.c.s
 .PHONY : crypto/hash-extra-blake.c.s
 
 crypto/hash-extra-groestl.o: crypto/hash-extra-groestl.c.o
@@ -4847,7 +4847,7 @@ crypto/hash-extra-groestl.o: crypto/hash-extra-groestl.c.o
 
 # target to build an object file
 crypto/hash-extra-groestl.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.o
 .PHONY : crypto/hash-extra-groestl.c.o
 
 crypto/hash-extra-groestl.i: crypto/hash-extra-groestl.c.i
@@ -4856,7 +4856,7 @@ crypto/hash-extra-groestl.i: crypto/hash-extra-groestl.c.i
 
 # target to preprocess a source file
 crypto/hash-extra-groestl.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.i
 .PHONY : crypto/hash-extra-groestl.c.i
 
 crypto/hash-extra-groestl.s: crypto/hash-extra-groestl.c.s
@@ -4865,7 +4865,7 @@ crypto/hash-extra-groestl.s: crypto/hash-extra-groestl.c.s
 
 # target to generate assembly for a file
 crypto/hash-extra-groestl.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-groestl.c.s
 .PHONY : crypto/hash-extra-groestl.c.s
 
 crypto/hash-extra-jh.o: crypto/hash-extra-jh.c.o
@@ -4874,7 +4874,7 @@ crypto/hash-extra-jh.o: crypto/hash-extra-jh.c.o
 
 # target to build an object file
 crypto/hash-extra-jh.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.o
 .PHONY : crypto/hash-extra-jh.c.o
 
 crypto/hash-extra-jh.i: crypto/hash-extra-jh.c.i
@@ -4883,7 +4883,7 @@ crypto/hash-extra-jh.i: crypto/hash-extra-jh.c.i
 
 # target to preprocess a source file
 crypto/hash-extra-jh.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.i
 .PHONY : crypto/hash-extra-jh.c.i
 
 crypto/hash-extra-jh.s: crypto/hash-extra-jh.c.s
@@ -4892,7 +4892,7 @@ crypto/hash-extra-jh.s: crypto/hash-extra-jh.c.s
 
 # target to generate assembly for a file
 crypto/hash-extra-jh.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-jh.c.s
 .PHONY : crypto/hash-extra-jh.c.s
 
 crypto/hash-extra-skein.o: crypto/hash-extra-skein.c.o
@@ -4901,7 +4901,7 @@ crypto/hash-extra-skein.o: crypto/hash-extra-skein.c.o
 
 # target to build an object file
 crypto/hash-extra-skein.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.o
 .PHONY : crypto/hash-extra-skein.c.o
 
 crypto/hash-extra-skein.i: crypto/hash-extra-skein.c.i
@@ -4910,7 +4910,7 @@ crypto/hash-extra-skein.i: crypto/hash-extra-skein.c.i
 
 # target to preprocess a source file
 crypto/hash-extra-skein.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.i
 .PHONY : crypto/hash-extra-skein.c.i
 
 crypto/hash-extra-skein.s: crypto/hash-extra-skein.c.s
@@ -4919,7 +4919,7 @@ crypto/hash-extra-skein.s: crypto/hash-extra-skein.c.s
 
 # target to generate assembly for a file
 crypto/hash-extra-skein.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash-extra-skein.c.s
 .PHONY : crypto/hash-extra-skein.c.s
 
 crypto/hash.o: crypto/hash.c.o
@@ -4928,7 +4928,7 @@ crypto/hash.o: crypto/hash.c.o
 
 # target to build an object file
 crypto/hash.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.o
 .PHONY : crypto/hash.c.o
 
 crypto/hash.i: crypto/hash.c.i
@@ -4937,7 +4937,7 @@ crypto/hash.i: crypto/hash.c.i
 
 # target to preprocess a source file
 crypto/hash.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.i
 .PHONY : crypto/hash.c.i
 
 crypto/hash.s: crypto/hash.c.s
@@ -4946,7 +4946,7 @@ crypto/hash.s: crypto/hash.c.s
 
 # target to generate assembly for a file
 crypto/hash.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/hash.c.s
 .PHONY : crypto/hash.c.s
 
 crypto/jh.o: crypto/jh.c.o
@@ -4955,7 +4955,7 @@ crypto/jh.o: crypto/jh.c.o
 
 # target to build an object file
 crypto/jh.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.o
 .PHONY : crypto/jh.c.o
 
 crypto/jh.i: crypto/jh.c.i
@@ -4964,7 +4964,7 @@ crypto/jh.i: crypto/jh.c.i
 
 # target to preprocess a source file
 crypto/jh.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.i
 .PHONY : crypto/jh.c.i
 
 crypto/jh.s: crypto/jh.c.s
@@ -4973,7 +4973,7 @@ crypto/jh.s: crypto/jh.c.s
 
 # target to generate assembly for a file
 crypto/jh.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/jh.c.s
 .PHONY : crypto/jh.c.s
 
 crypto/keccak.o: crypto/keccak.c.o
@@ -4982,7 +4982,7 @@ crypto/keccak.o: crypto/keccak.c.o
 
 # target to build an object file
 crypto/keccak.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.o
 .PHONY : crypto/keccak.c.o
 
 crypto/keccak.i: crypto/keccak.c.i
@@ -4991,7 +4991,7 @@ crypto/keccak.i: crypto/keccak.c.i
 
 # target to preprocess a source file
 crypto/keccak.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.i
 .PHONY : crypto/keccak.c.i
 
 crypto/keccak.s: crypto/keccak.c.s
@@ -5000,7 +5000,7 @@ crypto/keccak.s: crypto/keccak.c.s
 
 # target to generate assembly for a file
 crypto/keccak.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/keccak.c.s
 .PHONY : crypto/keccak.c.s
 
 crypto/oaes_lib.o: crypto/oaes_lib.c.o
@@ -5009,7 +5009,7 @@ crypto/oaes_lib.o: crypto/oaes_lib.c.o
 
 # target to build an object file
 crypto/oaes_lib.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.o
 .PHONY : crypto/oaes_lib.c.o
 
 crypto/oaes_lib.i: crypto/oaes_lib.c.i
@@ -5018,7 +5018,7 @@ crypto/oaes_lib.i: crypto/oaes_lib.c.i
 
 # target to preprocess a source file
 crypto/oaes_lib.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.i
 .PHONY : crypto/oaes_lib.c.i
 
 crypto/oaes_lib.s: crypto/oaes_lib.c.s
@@ -5027,7 +5027,7 @@ crypto/oaes_lib.s: crypto/oaes_lib.c.s
 
 # target to generate assembly for a file
 crypto/oaes_lib.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/oaes_lib.c.s
 .PHONY : crypto/oaes_lib.c.s
 
 crypto/random.o: crypto/random.c.o
@@ -5036,7 +5036,7 @@ crypto/random.o: crypto/random.c.o
 
 # target to build an object file
 crypto/random.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/random.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/random.c.o
 .PHONY : crypto/random.c.o
 
 crypto/random.i: crypto/random.c.i
@@ -5045,7 +5045,7 @@ crypto/random.i: crypto/random.c.i
 
 # target to preprocess a source file
 crypto/random.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/random.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/random.c.i
 .PHONY : crypto/random.c.i
 
 crypto/random.s: crypto/random.c.s
@@ -5054,7 +5054,7 @@ crypto/random.s: crypto/random.c.s
 
 # target to generate assembly for a file
 crypto/random.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/random.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/random.c.s
 .PHONY : crypto/random.c.s
 
 crypto/skein.o: crypto/skein.c.o
@@ -5063,7 +5063,7 @@ crypto/skein.o: crypto/skein.c.o
 
 # target to build an object file
 crypto/skein.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/skein.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/skein.c.o
 .PHONY : crypto/skein.c.o
 
 crypto/skein.i: crypto/skein.c.i
@@ -5072,7 +5072,7 @@ crypto/skein.i: crypto/skein.c.i
 
 # target to preprocess a source file
 crypto/skein.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/skein.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/skein.c.i
 .PHONY : crypto/skein.c.i
 
 crypto/skein.s: crypto/skein.c.s
@@ -5081,7 +5081,7 @@ crypto/skein.s: crypto/skein.c.s
 
 # target to generate assembly for a file
 crypto/skein.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/skein.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/skein.c.s
 .PHONY : crypto/skein.c.s
 
 crypto/slow-hash.o: crypto/slow-hash.c.o
@@ -5090,7 +5090,7 @@ crypto/slow-hash.o: crypto/slow-hash.c.o
 
 # target to build an object file
 crypto/slow-hash.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.o
 .PHONY : crypto/slow-hash.c.o
 
 crypto/slow-hash.i: crypto/slow-hash.c.i
@@ -5099,7 +5099,7 @@ crypto/slow-hash.i: crypto/slow-hash.c.i
 
 # target to preprocess a source file
 crypto/slow-hash.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.i
 .PHONY : crypto/slow-hash.c.i
 
 crypto/slow-hash.s: crypto/slow-hash.c.s
@@ -5108,7 +5108,7 @@ crypto/slow-hash.s: crypto/slow-hash.c.s
 
 # target to generate assembly for a file
 crypto/slow-hash.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.c.s
 .PHONY : crypto/slow-hash.c.s
 
 crypto/slow-hash.o: crypto/slow-hash.cpp.o
@@ -5117,7 +5117,7 @@ crypto/slow-hash.o: crypto/slow-hash.cpp.o
 
 # target to build an object file
 crypto/slow-hash.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.cpp.o
 .PHONY : crypto/slow-hash.cpp.o
 
 crypto/slow-hash.i: crypto/slow-hash.cpp.i
@@ -5126,7 +5126,7 @@ crypto/slow-hash.i: crypto/slow-hash.cpp.i
 
 # target to preprocess a source file
 crypto/slow-hash.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.cpp.i
 .PHONY : crypto/slow-hash.cpp.i
 
 crypto/slow-hash.s: crypto/slow-hash.cpp.s
@@ -5135,7 +5135,7 @@ crypto/slow-hash.s: crypto/slow-hash.cpp.s
 
 # target to generate assembly for a file
 crypto/slow-hash.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/slow-hash.cpp.s
 .PHONY : crypto/slow-hash.cpp.s
 
 crypto/tree-hash.o: crypto/tree-hash.c.o
@@ -5144,7 +5144,7 @@ crypto/tree-hash.o: crypto/tree-hash.c.o
 
 # target to build an object file
 crypto/tree-hash.c.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.o
 .PHONY : crypto/tree-hash.c.o
 
 crypto/tree-hash.i: crypto/tree-hash.c.i
@@ -5153,7 +5153,7 @@ crypto/tree-hash.i: crypto/tree-hash.c.i
 
 # target to preprocess a source file
 crypto/tree-hash.c.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.i
 .PHONY : crypto/tree-hash.c.i
 
 crypto/tree-hash.s: crypto/tree-hash.c.s
@@ -5162,7 +5162,7 @@ crypto/tree-hash.s: crypto/tree-hash.c.s
 
 # target to generate assembly for a file
 crypto/tree-hash.c.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Crypto.dir/build.make src/CMakeFiles/Crypto.dir/crypto/tree-hash.c.s
 .PHONY : crypto/tree-hash.c.s
 
 mnemonics/electrum-words.o: mnemonics/electrum-words.cpp.o
@@ -5171,7 +5171,7 @@ mnemonics/electrum-words.o: mnemonics/electrum-words.cpp.o
 
 # target to build an object file
 mnemonics/electrum-words.cpp.o:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/mnemonics/electrum-words.cpp.o
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/mnemonics/electrum-words.cpp.o
 .PHONY : mnemonics/electrum-words.cpp.o
 
 mnemonics/electrum-words.i: mnemonics/electrum-words.cpp.i
@@ -5180,7 +5180,7 @@ mnemonics/electrum-words.i: mnemonics/electrum-words.cpp.i
 
 # target to preprocess a source file
 mnemonics/electrum-words.cpp.i:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/mnemonics/electrum-words.cpp.i
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/mnemonics/electrum-words.cpp.i
 .PHONY : mnemonics/electrum-words.cpp.i
 
 mnemonics/electrum-words.s: mnemonics/electrum-words.cpp.s
@@ -5189,7 +5189,7 @@ mnemonics/electrum-words.s: mnemonics/electrum-words.cpp.s
 
 # target to generate assembly for a file
 mnemonics/electrum-words.cpp.s:
-	cd /home/mateo/Catalyst-Cash && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/mnemonics/electrum-words.cpp.s
+	cd /home/mateo/electroBUCKS && $(MAKE) -f src/CMakeFiles/Mnemonics.dir/build.make src/CMakeFiles/Mnemonics.dir/mnemonics/electrum-words.cpp.s
 .PHONY : mnemonics/electrum-words.cpp.s
 
 # Help Target
@@ -5761,6 +5761,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mateo/Catalyst-Cash && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/mateo/electroBUCKS && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

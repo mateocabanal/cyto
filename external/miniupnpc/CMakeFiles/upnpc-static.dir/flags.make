@@ -6,5 +6,5 @@ C_FLAGS = -O3 -DNDEBUG    -Wno-undef -Wno-unused-result -Wno-unused-value
 
 C_DEFINES = -DMINIUPNPC_SET_SOCKET_TIMEOUT -D_BSD_SOURCE -D_POSIX_C_SOURCE=1
 
-C_INCLUDES = -I/home/mateo/Catalyst-Cash/include -I/home/mateo/Catalyst-Cash/src -I/home/mateo/Catalyst-Cash/external -I/home/mateo/Catalyst-Cash/version -I/home/mateo/Catalyst-Cash/src/Platform/Linux -I/home/mateo/Catalyst-Cash/src/Platform/Posix -I/home/mateo/Catalyst-Cash 
+C_INCLUDES = -I/home/mateo/electroBUCKS/include -I/home/mateo/electroBUCKS/src -I/home/mateo/electroBUCKS/external -I/home/mateo/electroBUCKS/version -I/home/mateo/electroBUCKS/src/Platform/Linux -I/home/mateo/electroBUCKS/src/Platform/Posix -I/home/mateo/electroBUCKS 
 
