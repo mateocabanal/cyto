@@ -20,10 +20,10 @@ Install/Compiling
 
 To compile:
 
-```
-
-git clone https://github.com/oetam5002/electrobucks
+```git clone https://github.com/oetam5002/electrobucks
 cd electrobucks
+make clean
+rm -rf CMakeCache.txt && rm -rf CMakeFiles
 cmake .
 make -j8 && bash finish.sh
 ```
