@@ -56,6 +56,7 @@ your wallet again. Your wallet key is NOT under risk anyway.
 2018-Jul-28 11:34:34.251275 INFO    [BlockchainSynchronizer] Stopped
 2018-Jul-28 11:34:34.252471 INFO    [BlockchainSynchronizer] Stopping...
 2018-Jul-28 11:34:34.253899 INFO    [BlockchainSynchronizer] Stopped
+<<<<<<< HEAD
 2018-Jul-29 19:12:13.970815 INFO    [simplewallet] electrobucks wallet v0.1.7(Alpha)
 2018-Jul-29 19:12:20.983802 ERROR   [simplewallet] Error: failed to load wallet: wallet file 'Mateo.wallet' is not found
 2018-Jul-29 19:12:20.990206 ERROR   [simplewallet] Failed to initialize wallet
@@ -455,3 +456,231 @@ Use "help" command to see the list of available commands.
 2018-Jul-31 00:00:03.133684 INFO    [BlockchainSynchronizer] Stopped
 2018-Jul-31 00:00:03.134825 INFO    [BlockchainSynchronizer] Stopping...
 2018-Jul-31 00:00:03.135969 INFO    [BlockchainSynchronizer] Stopped
+=======
+2018-Jul-29 20:35:37.884452 INFO    [simplewallet] electrobucks wallet v0.1.7(Alpha)
+2018-Jul-29 20:35:40.820134 INFO    [simplewallet] Loading wallet...
+2018-Jul-29 20:35:40.853298 INFO    [BlockchainSynchronizer] Consumer added, consumer 0x7f5a74014fe0, count 1
+2018-Jul-29 20:35:40.856931 INFO    [BlockchainSynchronizer] Loading...
+2018-Jul-29 20:35:40.858155 INFO    [BlockchainSynchronizer] Loaded
+2018-Jul-29 20:35:40.859535 INFO    [BlockchainSynchronizer] Starting...
+2018-Jul-29 20:35:40.861125 INFO    [BlockchainSynchronizer] Removing outdated pool transactions...
+2018-Jul-29 20:35:40.861161 INFO    [simplewallet] Opened wallet: cat1D3MhZpkXY8uTsNYGUU4JyA9fp76Rm86nu449VYNyUtT3xfspzhMFyjuHXwPWxkM9jH7xJpEDAbX3G6RkeHtUAdrUrTatAK
+2018-Jul-29 20:35:40.867989 INFO    [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2018-Jul-29 20:35:40.874892 INFO    [BlockchainSynchronizer] Outdated pool transactions processed
+2018-Jul-29 20:35:41.532802 INFO    [simplewallet] Height 81, transaction 93383e9ebe17a6a4c478a3aed8f528e0cf8a410eb013e162f90ca8ed4ab776c0, received 700.00000000
+2018-Jul-29 20:35:41.538173 INFO    [simplewallet] Height 82, transaction 1a4dfb53f94bc6381384bf42e3b65292b9a9df30fa307f84654b4c74a15c5e23, received 700.00000000
+2018-Jul-29 20:35:41.545191 INFO    [simplewallet] Height 83, transaction c51c42239026c433313a4b5d9c6cf2872ca4825dc4a5e046120cf6597d5aaaf9, received 700.00000000
+2018-Jul-29 20:35:41.549217 INFO    [simplewallet] Height 84, transaction 134c8ac05a16e057c8e02578026b6c59506a3fd18e6d19b6823fb502b479c277, received 700.00000000
+2018-Jul-29 20:35:41.553990 INFO    [simplewallet] Height 85, transaction a1d604969db4ed957e3c9016e472fe23ef425bd14f4ba807f794d3dc8b2f7f05, received 700.00000000
+2018-Jul-29 20:35:41.557964 INFO    [simplewallet] Height 86, transaction d4a0eafcc7da7799f6d0c45572cef3752b4bfc74de63052e638d535201a3d423, received 700.00000000
+2018-Jul-29 20:35:41.562724 INFO    [simplewallet] Height 87, transaction 7372845aff22562c2698a7cd9b903770580d86da7d9714c6a0092ee4cbe9b79d, received 700.00000000
+2018-Jul-29 20:35:41.565946 INFO    [simplewallet] Height 88, transaction 985dd9069ba6313a651eb7ee18858dd53db654a3b5229dc7a67354d802df6ae7, received 700.00000000
+2018-Jul-29 20:35:41.569783 INFO    [simplewallet] Height 89, transaction 587ec6841595b46bc903535eb028d00aad08fe1536e71896d92a5efabd1e672e, received 700.00000000
+2018-Jul-29 20:35:41.573018 INFO    [simplewallet] Height 90, transaction e84cf962538dd5e40f2855d453142ee6077e1499b21cdd34ab50a92ccc817c74, received 700.00000000
+2018-Jul-29 20:35:41.576217 INFO    [simplewallet] Height 91, transaction 4b5cba7a437eccd2c49ced056130d74676d19401b075bbe489c2b53ee6bcb95d, received 700.00000000
+2018-Jul-29 20:35:41.580841 INFO    [simplewallet] Height 92, transaction b5e0bcb3da134c316727587217f7918b475e9260d0717f7a53c37f57e6c88b5b, received 700.00000000
+2018-Jul-29 20:35:41.584017 INFO    [simplewallet] Height 93, transaction 5c0fa969cb7202544bc6e8b6bc92102c29c1e291a0c1d04c5c44e746687610b0, received 700.00000000
+2018-Jul-29 20:35:41.587926 INFO    [simplewallet] Height 94, transaction bd48f113d6f201d70300e040b2d3242676730204e5c0546fcd4231b7a81ee167, received 700.00000000
+2018-Jul-29 20:35:41.591192 INFO    [simplewallet] Height 95, transaction ea83ccdd2dde4afbb1565a140894f3329af0cf78396cf89c7070deca3fb70db4, received 700.00000000
+2018-Jul-29 20:35:41.594880 INFO    [simplewallet] Height 96, transaction 7ac2ae510437f00be390dc2b58f3faca03853ff0a97380e873f537ae96e8bce9, received 700.00000000
+2018-Jul-29 20:35:41.599425 INFO    [simplewallet] Height 97, transaction ac1fed81598f3f8ae22bcf1fdef81686e3c2d743fd59f43216631d75c0fd6c84, received 700.00000000
+2018-Jul-29 20:35:41.602647 INFO    [simplewallet] Height 98, transaction 7def6ce690a03caa8a8adfef97d964b8147be59ce53bdb23331e0726cf605b59, received 700.00000000
+2018-Jul-29 20:35:41.607417 INFO    [simplewallet] Height 99, transaction 55c967f67292207cbe35d64db88ba56ba19b07c3d97c98f529a114e0e5b66a52, received 700.00000000
+2018-Jul-29 20:35:41.611658 INFO    [simplewallet] Height 100, transaction 90fe12fe358fa60bc7c35247143b1263eb2dff78d86af4bcfbc8e189a1e9faee, received 700.00000000
+2018-Jul-29 20:35:41.616514 INFO    [simplewallet] Height 101, transaction c9198d3682d23b7ec14339968d8060ef6d71ed2a369d5028e1d6a5c9bf1230e6, received 700.00000000
+2018-Jul-29 20:35:41.620428 INFO    [simplewallet] Height 102, transaction 9907dc3cb24f10ee2bf007aced34b86d558cdd6555a26dfbebb6b92e352195d4, received 700.00000000
+2018-Jul-29 20:35:41.625103 INFO    [simplewallet] Height 103, transaction 4f1998c0171ab66009322aa144d90972534598dbee3d858fbbbd8fe36a9adda3, received 700.00000000
+2018-Jul-29 20:35:41.629303 INFO    [simplewallet] Height 104, transaction 0a2ef2d0ac7273611dec1a56898dae115d4410970969c649562c81603963d2dd, received 700.00000000
+2018-Jul-29 20:35:41.633299 INFO    [simplewallet] Height 105, transaction e3dfafab14efb67b4ade43b38787d2f7df9a917a8f3f60f6844eb0eb6a5251a4, received 700.00000000
+2018-Jul-29 20:35:41.637422 INFO    [simplewallet] Height 106, transaction 86ff551963a66714a61c2cac0f6b16f8a2e32e54a5fac0e733fc5f178fb95b78, received 700.00000000
+2018-Jul-29 20:35:41.641342 INFO    [simplewallet] Height 107, transaction a9b4d975c99c63e4c94fcf4af898139e23213b0b642bf4619d3b3da4cefaa015, received 700.00000000
+2018-Jul-29 20:35:41.645847 INFO    [simplewallet] Height 108, transaction d0d91ac7e584973c7274601e8c9bf7991347875cd8eaa493bf7bc17fea5247eb, received 700.00000000
+2018-Jul-29 20:35:41.649302 INFO    [simplewallet] Height 109, transaction 96d1e8e4e745a19ce5f21c8eb00ba80bed38b5671efa5c88f4efd2bd461daf7a, received 700.00000000
+2018-Jul-29 20:35:41.653929 INFO    [simplewallet] Height 110, transaction 23a4905ed1c1d37559a45b98a3e0f5399fa3a9bd78eba4844b7757a47c05e1cb, received 700.00000000
+2018-Jul-29 20:35:41.657663 INFO    [simplewallet] Height 111, transaction 7f5101ecde453867f17ea7dc66bbbf43b5c56b52c75b0bda826180023634bb82, received 700.00000000
+2018-Jul-29 20:35:41.662114 INFO    [simplewallet] Height 112, transaction 1b3743e107fb7d5bc514855a52fa65976c8c266e609f1ded4b59e8ae224fe86d, received 700.00000000
+2018-Jul-29 20:35:41.665683 INFO    [simplewallet] Height 113, transaction 54bb0838a6a81c792388b2c499ced48738fc8ecd7baa4378904f5599faee9a19, received 700.00000000
+2018-Jul-29 20:35:41.669797 INFO    [simplewallet] Height 114, transaction 3ee780690050054c583d496d4c0ed05e62c8b32ba9daa47c20d72507792f3af3, received 700.00000000
+2018-Jul-29 20:35:41.673374 INFO    [simplewallet] Height 115, transaction c82b0f09f774c61422803d01dadc304caf9712e2747d662757930552bd9abf35, received 700.00000000
+2018-Jul-29 20:35:41.677591 INFO    [simplewallet] Height 116, transaction 6e37702578ec0b0a23d15da88a676b6e20b7dabc83c84963dbd8a1934a34a1ed, received 700.00000000
+2018-Jul-29 20:35:41.682573 INFO    [simplewallet] Height 117, transaction b35dd389e02126ab37cf1d2ff60a628542201a79c6eecd23e7fc5b980e8331a4, received 700.00000000
+2018-Jul-29 20:35:41.686681 INFO    [simplewallet] Height 118, transaction ae9d2b60d7990c34c23c58f464f4f1b21f5d4d62b4a7718e210046c30f7a034a, received 700.00000000
+2018-Jul-29 20:35:41.691699 INFO    [simplewallet] Height 119, transaction 46f70df0a1572ed4795724449929f30719d89395a69110eb0d3167c1e79ea766, received 700.00000000
+2018-Jul-29 20:35:41.696832 INFO    [simplewallet] Height 120, transaction 6e60c52c562546327d3c74469aadbe6346f607326ac7a89d0363bcc8b92b09d6, received 700.00000000
+2018-Jul-29 20:35:41.701031 INFO    [simplewallet] Height 121, transaction 222582f7049e21f6e323a45385c6c2664d4dd3e080ae3dabb2179a1bfbcb7f42, received 700.00000000
+2018-Jul-29 20:35:41.704585 INFO    [simplewallet] Height 122, transaction c877948f81a4ecd0e8650f6fe0e9f4c3ee982b160042d66b6a0c2918cbca83c9, received 700.00000000
+2018-Jul-29 20:35:41.709303 INFO    [simplewallet] Height 123, transaction edb31b3540fa986fc3caf858b59429ce20147629049537c0cb6a58a809f9703d, received 700.00000000
+2018-Jul-29 20:35:41.713015 INFO    [simplewallet] Height 124, transaction a16486bfa798cb027938c7923afcde42ff043e8bc6fffd043d0bd92b3de69406, received 700.00000000
+2018-Jul-29 20:35:41.718044 INFO    [simplewallet] Height 125, transaction c01086e533e006d36aeb7aea203c81d018621de7cd8c9a85abc0ea8ed975b826, received 700.00000000
+2018-Jul-29 20:35:41.721402 INFO    [simplewallet] Height 126, transaction 630946f1edaeb10abffef9663bef12aa365fc84d8548d100e9cb971bf8a4780d, received 700.00000000
+2018-Jul-29 20:35:41.725995 INFO    [simplewallet] Height 127, transaction 8a0a9c1df7a1f4fadd05c6b9ad66e66b2f0ac9f8864e36dc398ec9de5aff5f66, received 700.00000000
+2018-Jul-29 20:35:41.729589 INFO    [simplewallet] Height 128, transaction 4f09efea4f4520030db937077cd8c306f81e55c6d0948994a86b08b4920d7b20, received 700.00000000
+2018-Jul-29 20:35:41.733579 INFO    [simplewallet] Height 129, transaction 9220a3cecca9e79ee238e4dc9091a98010ae38a1d05345f1b0e2846cd652abc0, received 700.00000000
+2018-Jul-29 20:35:41.737354 INFO    [simplewallet] Height 130, transaction 2f186002f175a1a32932bf0d376248720176d7924c2d74e751f617705b8a0e18, received 700.00000000
+2018-Jul-29 20:35:41.740793 INFO    [simplewallet] Height 131, transaction 4a88f89cc9c97c956c41df447374107f4d9438f31ceb6ec85a8b0e9d792d98f6, received 700.00000000
+2018-Jul-29 20:35:41.745634 INFO    [simplewallet] Height 132, transaction 8765311ed3b75d6b0bedc9f05a77b02f2a05f279ecff2536a66eaaaefb6357a6, received 700.00000000
+2018-Jul-29 20:35:41.748955 INFO    [simplewallet] Height 133, transaction 3d74cd7a3cd6f694ac2a1c2473f61c0a8994892e9938ab30f9f86b870de6ed06, received 700.00000000
+2018-Jul-29 20:35:41.753861 INFO    [simplewallet] Height 134, transaction 6c4068f8eaf337eb5e82cec1140a08ff4a465403a461d62ecf22030561500d15, received 700.00000000
+2018-Jul-29 20:35:41.757896 INFO    [simplewallet] Height 135, transaction d8cb10e9a5973847a701c918e153464cad6b1e9ecaff6ed3a3cc4378d8b5a75a, received 700.00000000
+2018-Jul-29 20:35:41.762441 INFO    [simplewallet] Height 136, transaction fc805ad15ba81b401ccc75512b10128d1ded2d355ca31d9535106cfe67120e20, received 700.00000000
+2018-Jul-29 20:35:41.765827 INFO    [simplewallet] Height 137, transaction d688ff67b62033876e933cb202e6c6c5985e7758c85f3cb41b75530a1c981085, received 700.00000000
+2018-Jul-29 20:35:41.769983 INFO    [simplewallet] Height 138, transaction cc48e5c4c12dd8a50a8ccc3779fc57fee754ec86a2b98983f01d23d1a324fb93, received 700.00000000
+2018-Jul-29 20:35:41.773586 INFO    [simplewallet] Height 139, transaction 97a5acd1473d78e49a5e372697ccd5b865a9fb8585c0ccb0589ca7fb4e0bc053, received 700.00000000
+2018-Jul-29 20:35:41.777993 INFO    [simplewallet] Height 140, transaction 7fd8c9b548f4d229310d60a29937c739e7e235f60206d3fedc19731a0393eb8c, received 700.00000000
+2018-Jul-29 20:35:41.781988 INFO    [simplewallet] Height 141, transaction 2d5a74f8a80b53e3ff77969e6f1f547f38805981e8ff535ecf2434b7a5ff7db1, received 700.00000000
+2018-Jul-29 20:35:41.786107 INFO    [simplewallet] Height 142, transaction 735d9bff58bbff6b4c108bfc9fb4d71c2e6e75b6d0fb79241a383031f4902c72, received 700.00000000
+2018-Jul-29 20:35:41.790763 INFO    [simplewallet] Height 143, transaction 7113fb38305b5b83f0b1ff0a141990fbbc1f6f5cec78fabbf54582afe135ca38, received 700.00000000
+2018-Jul-29 20:35:41.794397 INFO    [simplewallet] Height 144, transaction d67c41ae87acfa5fe643352f007dcf563767dd24189035559c032e935822da00, received 700.00000000
+2018-Jul-29 20:35:41.799658 INFO    [simplewallet] Height 145, transaction baf38c2cf9bcbdaa7df842756e2f319078f1dc577291a932756341a135570bc9, received 700.00000000
+2018-Jul-29 20:35:41.802973 INFO    [simplewallet] Height 146, transaction be2ebc9abb0435f2f51a84babc02e05339391d7f87ec22c702a531a9992276b1, received 700.00000000
+2018-Jul-29 20:35:41.807718 INFO    [simplewallet] Height 147, transaction 33e9208ba1b924a66b0a22621912f3bb7fb9e91b5ddd7b3c43e2283007eba9ba, received 700.00000000
+2018-Jul-29 20:35:41.811377 INFO    [simplewallet] Height 148, transaction 4331785eff235f02c8d3671914715fdc24c97357884c327c8fc7750219a33b13, received 700.00000000
+2018-Jul-29 20:35:41.816051 INFO    [simplewallet] Height 149, transaction 3bd75dba3b04b30ea513a5a15c41c258c537d13552ddb1dfbca7c9fe0d1c0e77, received 700.00000000
+2018-Jul-29 20:35:41.819590 INFO    [simplewallet] Height 150, transaction 77a18b588643617f2be7ba04b9ffeb15df3ba769e7d5cd51159e45208136671b, received 700.00000000
+2018-Jul-29 20:35:41.823610 INFO    [simplewallet] Height 151, transaction 6453a9ce45fcd551349c12b4d79f1a5a76b048721525ef2c555161e869d07e4b, received 700.00000000
+2018-Jul-29 20:35:41.827513 INFO    [simplewallet] Height 152, transaction e61ed090237b2b508bd1df8b6d952904a13df69407bb7971260476187da30428, received 700.00000000
+2018-Jul-29 20:35:41.832031 INFO    [simplewallet] Height 153, transaction b5e9ee44ad24a8e73bab66aa90d7d485649d940cfc17490f1aff61dbf93dd8d0, received 700.00000000
+2018-Jul-29 20:35:41.836033 INFO    [simplewallet] Height 154, transaction 4d5d2c1669e1422cd63255865e6edfefcf8b6f57fa87f262f83d37be79a6cf65, received 700.00000000
+2018-Jul-29 20:35:41.839465 INFO    [simplewallet] Height 155, transaction 49c0bb6b5b45ea7e9e9432767c115e45d4bcdfa1ed9b9efd0b2a4cbb6ec3026d, received 700.00000000
+2018-Jul-29 20:35:41.844646 INFO    [simplewallet] Height 156, transaction bc883ef29a8a25bccca666628f13d6d0b9c506446751e03f41411ed953179db8, received 700.00000000
+2018-Jul-29 20:35:41.848229 INFO    [simplewallet] Height 157, transaction f5c5e669d435b5ec30980d5ea837cde0f74d10ea45e8e504ad95c516ebafc36a, received 700.00000000
+2018-Jul-29 20:35:41.853076 INFO    [simplewallet] Height 158, transaction 7f3fb1fb784b2877d83632e4e66d8bca1dbd0654b4760b0ccd2b78d3d5866e72, received 700.00000000
+2018-Jul-29 20:35:41.856829 INFO    [simplewallet] Height 159, transaction 28b1336c22c8b100b6fb05575da9b1c2696af9c6083bef59155c2152e7f72342, received 700.00000000
+2018-Jul-29 20:35:41.862210 INFO    [simplewallet] Height 160, transaction e19b13fdfbb72fcde8b9131bdff714a3c2ab2061f62597a684379785186b4ecc, received 700.00000000
+2018-Jul-29 20:35:41.866507 INFO    [simplewallet] Height 161, transaction 701c7b95206df9811a98c1435c6c5a699f03b66ebccc6816be781ec7120643e5, received 700.00000000
+2018-Jul-29 20:35:41.871176 INFO    [simplewallet] Height 162, transaction 26f3b002e3c95bf6cab94866159add75000adf33711d096e2a558adf0cb2ef44, received 700.00000000
+2018-Jul-29 20:35:41.874800 INFO    [simplewallet] Height 163, transaction b6802506d840d3738402a3702c2bb63f9c60932c1b409f6dbcbca659ceaaa0dc, received 700.00000000
+2018-Jul-29 20:35:41.880098 INFO    [simplewallet] Height 164, transaction 3c5e0bd82c2697ced628924575db78d75c68f5bea2d1952cf90d2c6ff24ce43f, received 700.00000000
+2018-Jul-29 20:35:41.883614 INFO    [simplewallet] Height 165, transaction 6ec654e7db46403224b5329144a63a1eaafd60b809b03be448796225115b81ae, received 700.00000000
+2018-Jul-29 20:35:41.888920 INFO    [simplewallet] Height 166, transaction d6a0f9352d6ed83980e825f28cc75eda0c6520c153ee1dc57cea74dbae54bb8e, received 700.00000000
+2018-Jul-29 20:35:41.892711 INFO    [simplewallet] Height 167, transaction 09a02cb261281e69f882b6042c40732b9bbfdcf99bbf1520b9d5385ddb211550, received 700.00000000
+2018-Jul-29 20:35:41.898092 INFO    [simplewallet] Height 168, transaction 7da1f50712a981ee88320ce8817f0a525c085add9a365097b688d1e88adf1f6d, received 700.00000000
+2018-Jul-29 20:35:41.901730 INFO    [simplewallet] Height 169, transaction 9b1255184c554c23b6da15aa94b51355f010162ad35bee87bc27cffad8ba2df9, received 700.00000000
+2018-Jul-29 20:35:41.905581 INFO    [simplewallet] Height 170, transaction 9c32067dde83db8b6af8f9c3b72eb704198b0894700bb710dbd5882df0d0c785, received 700.00000000
+2018-Jul-29 20:35:41.909389 INFO    [simplewallet] Height 171, transaction d8ac1e6b4e9df75288b532b747b702a85556cff9534fed8fac3edd8a7fc4b633, received 700.00000000
+2018-Jul-29 20:35:41.913194 INFO    [simplewallet] Height 172, transaction 1acd6aad09b31c070cfc2430409348c109d1134a1e9aa9c025a6bdff2bc70dd4, received 700.00000000
+2018-Jul-29 20:35:41.917695 INFO    [simplewallet] Height 173, transaction f2f1ff367cf3fad2217616e0587f50aae92ba3e7d855b7766807d6dd20f045f1, received 700.00000000
+2018-Jul-29 20:35:41.921072 INFO    [simplewallet] Height 174, transaction 608cc0f82321edafe82f263669350829dbc8607483796697470b55503c3cdbed, received 700.00000000
+2018-Jul-29 20:35:41.925383 INFO    [simplewallet] Height 175, transaction 3a09d625b57570bc39eb11f24c5d4f2d470352138399de220dc4b8d9459923fa, received 700.00000000
+2018-Jul-29 20:35:41.929130 INFO    [simplewallet] Height 176, transaction 2f261a013ddd17006c022f844771b6860bc40ffeec80fe00b593f56b273b58fb, received 700.00000000
+2018-Jul-29 20:35:41.932692 INFO    [simplewallet] Height 177, transaction 4b984c8f47d553bd24ce66f9be7cac3ffeb4232a2b3a027aced8609dc95c5fcc, received 700.00000000
+2018-Jul-29 20:35:41.937623 INFO    [simplewallet] Height 178, transaction 2ffedc44f04f447e6f97f966864a63f36b2c0c21d65f6e473f4e783825a5836a, received 700.00000000
+2018-Jul-29 20:35:41.941140 INFO    [simplewallet] Height 179, transaction 3b376bc29e506d8fd0a5cf1e127788b2feb39623252ae8b0bd8a54e9a1871a0c, received 700.00000000
+2018-Jul-29 20:35:41.945878 INFO    [simplewallet] Height 180, transaction 2b89fdfafd484c809fc0bfcafa0881e4684b330e1d39f7fe892dbffb18353fcf, received 700.00000000
+2018-Jul-29 20:35:41.949391 INFO    [simplewallet] Height 181, transaction e8f0c5abe020da142d3fb5983c327e574dacb76630062934f4aa1f3152f90cc4, received 700.00000000
+2018-Jul-29 20:35:41.954481 INFO    [simplewallet] Height 182, transaction 91c9fa33d6ac977c77506c188c774bc58362dab79b63dbdbe0dfa8e78729408c, received 700.00000000
+2018-Jul-29 20:35:41.957944 INFO    [simplewallet] Height 183, transaction 13edf12189e2d82cf3492fe44e33d629adbee98883fa0524fd6f06a7328d6336, received 700.00000000
+2018-Jul-29 20:35:41.962875 INFO    [simplewallet] Height 184, transaction 5b4fdacf48714cf78870f2169760104169b31959221e5317f2d364b64a38f224, received 700.00000000
+2018-Jul-29 20:35:41.966549 INFO    [simplewallet] Height 185, transaction 97cb441ba00a6f045fa5f2e6a3a2e2ab8390ac14181c8b8684f1e28384483f3c, received 700.00000000
+2018-Jul-29 20:35:41.970730 INFO    [simplewallet] Height 186, transaction 5ac7a7735f64f610552c855e1ff998002a44e9a957bbf40ada9c30bad9045e54, received 700.00000000
+2018-Jul-29 20:35:41.974323 INFO    [simplewallet] Height 187, transaction 814e6fc29bdab7f8d017938070915e17de1b770889b0625468d1e467c0484d50, received 700.00000000
+2018-Jul-29 20:35:41.977751 INFO    [simplewallet] Height 188, transaction 4d939c6b5d89c3bdd1d4662e4579a5aacda4d1f9553aeb5ce81b78691b98e946, received 700.00000000
+2018-Jul-29 20:35:41.982251 INFO    [simplewallet] Height 189, transaction e3ee6e41c2b7685fc082a011a00c5678595637aa88c8856c038c3adba03fc214, received 700.00000000
+2018-Jul-29 20:35:41.985714 INFO    [simplewallet] Height 190, transaction c2a1ae9d80e9c05fbe1a196ce2ba9ec10fc26ef416dd098681203621ad36d069, received 700.00000000
+2018-Jul-29 20:35:41.990207 INFO    [simplewallet] Height 191, transaction 2afd0629c6f8ea1d88c14cc08e7a71a1ac91e37e69dba89231195a4c170fb1d0, received 700.00000000
+2018-Jul-29 20:35:41.993924 INFO    [simplewallet] Height 192, transaction ee93e5e7d5a6dd7648ff077c67d1c04c561fa03cf6683ff088041d8212607108, received 700.00000000
+2018-Jul-29 20:35:41.998575 INFO    [simplewallet] Height 193, transaction c6f9f8bec573ab2273b4db8863c4a3f2ed61e2e5ee935879385d2cc881c38996, received 700.00000000
+2018-Jul-29 20:35:42.002304 INFO    [simplewallet] Height 194, transaction 4abfdba64d2814f115c8544a59c55ce2c9d077fd31d50fd70c7402392e76d021, received 700.00000000
+2018-Jul-29 20:35:42.005708 INFO    [simplewallet] Height 195, transaction f62b6fd2194ae156f7398e45ed34062cd73cbf0823b1f89678cd334dc38168a2, received 700.00000000
+2018-Jul-29 20:35:42.010325 INFO    [simplewallet] Height 196, transaction a1461eb1da290d249030a6866cf80e1672af4410d16df68818414b57b48e6b6f, received 700.00000000
+2018-Jul-29 20:35:42.013908 INFO    [simplewallet] Height 197, transaction 424c5891ce18981edba8e3a34722c7e85a06fd9c75afb468b7cf81b7e54f5025, received 700.00000000
+2018-Jul-29 20:35:42.019182 INFO    [simplewallet] Height 198, transaction 051924aa5386cf55c98d58bd6a5aef75cb5f1a9201a55ca34d1fe57d36e3d548, received 700.00000000
+2018-Jul-29 20:35:42.022894 INFO    [simplewallet] Height 199, transaction 11c5a4e36bd6a4d1107c047e0a1832d43f14fb40cdc7e2c0c8a8522dae1395ce, received 700.00000000
+2018-Jul-29 20:35:42.028970 INFO    [simplewallet] Height 200, transaction 502bb050a42d2aa9f581f064ee6fa3c07ae43ebe53590b3764275ca32e96bc01, received 700.00000000
+2018-Jul-29 20:35:42.032902 INFO    [simplewallet] Height 201, transaction 451cac2aafffc200ee879b20d71119dfc72ec69c68fc5df740c12e296b36ac18, received 700.00000000
+2018-Jul-29 20:35:42.037583 INFO    [simplewallet] Height 202, transaction c0ffc154da0d26364e93175673ab68d74b4f372437c07056557e1faa2768970a, received 700.00000000
+2018-Jul-29 20:35:42.041087 INFO    [simplewallet] Height 203, transaction aacecf99c8bf7a2f2cef59afd29cee9455c80c2002ad447a83c54c55fe14473c, received 700.00000000
+2018-Jul-29 20:35:42.045774 INFO    [simplewallet] Height 204, transaction 4eeaa51ae0d2831c109da92122eb8bf8ed6295c10e163bcfd6db193a26784241, received 700.00000000
+2018-Jul-29 20:35:42.049632 INFO    [simplewallet] Height 205, transaction 9a91d1be75aa1f1d0f21cf237e2e1794d5c73a20edec219b417e53658982798e, received 700.00000000
+2018-Jul-29 20:35:42.054247 INFO    [simplewallet] Height 206, transaction 29e2748379ce1f8cae6eea2a3590d88ffafc44b6cd176251d05bf903d27f1b34, received 700.00000000
+2018-Jul-29 20:35:42.057839 INFO    [simplewallet] Height 207, transaction e725ee0e955db2544479dda35c1fcdaaef90c8c99485bede5c30224986403a03, received 700.00000000
+2018-Jul-29 20:35:42.064068 INFO    [simplewallet] Height 208, transaction 29959be931e86b614500b55c0e55a2d3bd39e7f55337e82d219372e3266b574b, received 700.00000000
+2018-Jul-29 20:35:42.067612 INFO    [simplewallet] Height 209, transaction f5d656d821865e9f4b64a30acf5d35df83b6eca71eb1e110465660b692d6945e, received 700.00000000
+2018-Jul-29 20:35:42.071790 INFO    [simplewallet] Height 210, transaction 26274398c3a42d53f3d4498de25c8b14a0e3e4f542dc3bd9fdfd5e27bdcccdd3, received 700.00000000
+2018-Jul-29 20:35:42.075552 INFO    [simplewallet] Height 211, transaction 3f5b64a3dcc96c321f9b14b5ac2d767dadabe27573198c2bb3906eae8f4edb1a, received 700.00000000
+2018-Jul-29 20:35:42.079129 INFO    [simplewallet] Height 212, transaction 5e03525d63416df5b15401e06eb8fd9d6f62a211a8abcf94d9581287fd503d4f, received 700.00000000
+2018-Jul-29 20:35:42.084619 INFO    [simplewallet] Height 213, transaction 5900d44b1f3d8fcb475901443550c925bf70c76a1ee039f735729ffe12c6259a, received 700.00000000
+2018-Jul-29 20:35:42.088877 INFO    [simplewallet] Height 214, transaction 9c1b33d9241c01d474326352d9dad65b78cb8e1342b6ad8f9dba0144108f64b8, received 700.00000000
+2018-Jul-29 20:35:42.092912 INFO    [simplewallet] Height 215, transaction 20003a46287b7052a7b72c65be74b45a1b11c7d17290b26bf9191e74b58fef25, received 700.00000000
+2018-Jul-29 20:35:42.096957 INFO    [simplewallet] Height 216, transaction fddd789448996ad546c8e9d9352a8bbe7475e4b7b2ad7e466cde0e1235b9ef1e, received 700.00000000
+2018-Jul-29 20:35:42.101804 INFO    [simplewallet] Height 217, transaction cb05c4ae0328a050b8ffb657b14cf080c020afeb85b2e2cef5aa7fdc1cf85a49, received 700.00000000
+2018-Jul-29 20:35:42.105560 INFO    [simplewallet] Height 218, transaction 23bf13b7eab04fba737277f09296f98db2ad47036931a550f3cd50c915d10435, received 700.00000000
+2018-Jul-29 20:35:42.110289 INFO    [simplewallet] Height 219, transaction 9e626cbf4347033866a1fad74b2cbe7e8b5d3fbdaa9365374d57eb2a9bb2fb71, received 700.00000000
+2018-Jul-29 20:35:42.113927 INFO    [simplewallet] Height 220, transaction 52581fe73aa84086e723948afed37a1bcf2b6b3ce10a5917a1dda102256b0434, received 700.00000000
+2018-Jul-29 20:35:42.119005 INFO    [simplewallet] Height 221, transaction 1683e0f97afa597f1098c3ee324bbdb1ea31fc1b4676b7e747d7e1c866244658, received 700.00000000
+2018-Jul-29 20:35:42.122598 INFO    [simplewallet] Height 222, transaction c9217ba44d064100f94c5632f41547621a5d553e5513523fa9f3c91f6d89ae15, received 700.00000000
+2018-Jul-29 20:35:42.127766 INFO    [simplewallet] Height 223, transaction f25c6cefdd87858d2cb5815a9edd9bd7768a0f9b70a9223cf22f4dfd971a1675, received 700.00000000
+2018-Jul-29 20:35:42.131635 INFO    [simplewallet] Height 224, transaction af0078d1985c55e846974632570e0924d4086e620ccf8c1f8f00e8d347f8adb4, received 700.00000000
+2018-Jul-29 20:35:42.136615 INFO    [simplewallet] Height 225, transaction db3c1cdf2945c0def187df13754d2d831440ff079b03f4487f651e3404c69166, received 700.00000000
+2018-Jul-29 20:35:42.140586 INFO    [simplewallet] Height 226, transaction 5f533bf71ee2095560ab4af52930293e66b3bd96be43d303c1f12a04e2a46674, received 700.00000000
+2018-Jul-29 20:35:42.145170 INFO    [simplewallet] Height 227, transaction 70b2582c19548992b2cf6b0dc884f53172a97c83763730f77d78d28c3a846ecf, received 700.00000000
+2018-Jul-29 20:35:42.149024 INFO    [simplewallet] Height 228, transaction ac49f42a62cce80beec475152d100bb66e148224d243f568cbe5f2a8b72f5a0d, received 700.00000000
+2018-Jul-29 20:35:42.152986 INFO    [simplewallet] Height 229, transaction b8f1d0fcb095fb8c643353cedfa78bd6149d463cc5bb307421d67ecf543c7814, received 700.00000000
+2018-Jul-29 20:35:42.157074 INFO    [simplewallet] Height 230, transaction 08c0e97265afa1ec5c805943c42ede03c5b35a6c15149f4e4c114088d4b241a4, received 700.00000000
+2018-Jul-29 20:35:42.161082 INFO    [simplewallet] Height 231, transaction 0e690d2d0e424ae0c188ef844b64deaf87478e5d4a53e7e2486291f07f02eb49, received 700.00000000
+2018-Jul-29 20:35:42.165813 INFO    [simplewallet] Height 252, transaction fad000902acbfc53ff63bde0bb583cdfa01e2b7973cf7dbefc03d7fd8619ff2e, received 700.00000000
+2018-Jul-29 20:35:42.202135 INFO    [simplewallet] Height 336, transaction a6f722c1e946acb04f575c057206dcbd7fa12ed4395858b3ace4aaa02d99bd88, received 700.00000000
+2018-Jul-29 20:35:42.205990 INFO    [simplewallet] Height 337, transaction 09f179496fa053e8450998f40e183124062cc878ce3aa2426ef00302649b111f, received 700.00000000
+2018-Jul-29 20:35:42.209937 INFO    [simplewallet] Height 338, transaction 02220e24f748bbf18969b0af39fe751a8aafeaf9da01994aad6dba506fc71c9e, received 700.00000000
+2018-Jul-29 20:35:42.217286 INFO    [simplewallet] Height 339, transaction 058c0bfa46252288214dbebd7c2ba3c84d39083919314924d80a9b73d26300b1, received 700.00000000
+2018-Jul-29 20:35:42.221900 INFO    [simplewallet] Height 340, transaction a6c52f167a2e383dd74cdc5b6a7de827cc19fcc92b04f65fad405cb0129c1a89, received 700.00000000
+2018-Jul-29 20:35:52.667026 INFO    [simplewallet] available balance: 840161700.00000000, locked amount: 3500.00000000, total balance: 840165200.00000000
+2018-Jul-29 20:36:47.277118 INFO    [BlockchainSynchronizer] Stopping...
+2018-Jul-29 20:36:47.279253 INFO    [BlockchainSynchronizer] Stopped
+2018-Jul-29 20:36:47.280067 INFO    [BlockchainSynchronizer] Saving...
+2018-Jul-29 20:36:47.280934 INFO    [BlockchainSynchronizer] Saved
+2018-Jul-29 20:36:47.305240 INFO    [BlockchainSynchronizer] Starting...
+2018-Jul-29 20:36:47.308157 INFO    [BlockchainSynchronizer] Removing outdated pool transactions...
+2018-Jul-29 20:36:47.309640 INFO    [BlockchainSynchronizer] Stopping...
+2018-Jul-30 09:24:14.369788 INFO    [simplewallet] electrobucks wallet v0.1.7(Alpha)
+2018-Jul-30 09:24:31.226964 INFO    [simplewallet] electrobucks wallet v0.1.7(Alpha)
+2018-Jul-30 09:25:00.308163 INFO    [simplewallet] electrobucks wallet v0.1.7(Alpha)
+2018-Jul-30 09:25:01.315850 ERROR   [simplewallet] Error: Error connecting to the remote node: TcpConnector::connect, connection failed
+2018-Jul-30 09:25:01.320064 ERROR   [simplewallet] Error: Failed to parse remote node response
+2018-Jul-30 09:25:07.145623 INFO    [simplewallet] Loading wallet...
+2018-Jul-30 09:25:07.182194 INFO    [BlockchainSynchronizer] Consumer added, consumer 0x7f07e803eb10, count 1
+2018-Jul-30 09:25:07.186738 INFO    [BlockchainSynchronizer] Loading...
+2018-Jul-30 09:25:07.187686 INFO    [BlockchainSynchronizer] Loaded
+2018-Jul-30 09:25:07.190620 INFO    [BlockchainSynchronizer] Starting...
+2018-Jul-30 09:25:07.192926 INFO    [BlockchainSynchronizer] Removing outdated pool transactions...
+2018-Jul-30 09:25:07.192944 INFO    [simplewallet] Opened wallet: cat1D3MhZpkXY8uTsNYGUU4JyA9fp76Rm86nu449VYNyUtT3xfspzhMFyjuHXwPWxkM9jH7xJpEDAbX3G6RkeHtUAdrUrTatAK
+2018-Jul-30 09:25:07.197910 INFO    [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2018-Jul-30 09:25:07.649146 INFO    [BlockchainSynchronizer] Outdated pool transactions processed
+2018-Jul-30 09:25:14.401791 INFO    [simplewallet] 722
+2018-Jul-30 09:25:17.080501 INFO    [simplewallet] available balance: 840165200.00000000, locked amount: 0.00000000, total balance: 840165200.00000000
+2018-Jul-30 09:25:28.594474 INFO    [simplewallet] Mining started in daemon
+2018-Jul-30 09:27:26.344376 INFO    [simplewallet] Height 724, transaction c11ce861cb7e44424c1d44c02880dd05297e0256fcffe806b669475ffc70ab4c, received 700.00000000
+2018-Jul-30 09:27:29.237258 INFO    [simplewallet] Height 725, transaction 8ca154f734b1c1bca169d664a751eb463313ec49f9c92fd636dd3d72576b0b68, received 700.00000000
+2018-Jul-30 09:28:47.884738 INFO    [simplewallet] Height 726, transaction 1d46caaa85ad218ca6e9762cce8c20de0bb0f5c748232437c3994d311f4b7055, received 700.00000000
+2018-Jul-30 09:29:45.742124 INFO    [simplewallet] Height 727, transaction 7c1f384853fc854422d044382e20bd6da8c4d14d8e9390d84e853f1f09819f65, received 700.00000000
+2018-Jul-30 09:29:47.186172 INFO    [simplewallet] Height 728, transaction 50f9eadac8964c2da692b0ac4277a7f470a2d4bf1f738e7ab542260a1276d5bf, received 700.00000000
+2018-Jul-30 09:29:53.227820 INFO    [simplewallet] Mining stopped in daemon
+2018-Jul-30 09:29:58.413549 INFO    [simplewallet] Mining started in daemon
+2018-Jul-30 09:35:51.463350 INFO    [simplewallet] Height 734, transaction fb4c143dcd10513e606ad7e873e81ab0a77643f48c7aa771ac8d749b24703217, received 700.00000000
+2018-Jul-30 09:37:06.785807 INFO    [simplewallet] Height 735, transaction 51c439d2d31d27e7ace0d94978b7e4eee79bcfb23fcf437cab6b7bb197d3f614, received 700.00000000
+2018-Jul-30 09:39:17.247488 INFO    [simplewallet] Height 737, transaction 687f51dc327c04ff3c9583c3549665ca4aa135842f4870621a8cc7c70d066e88, received 700.00000000
+2018-Jul-30 09:40:32.477191 INFO    [simplewallet] Height 740, transaction aa9d4e125bfe64dfdc622ec6558fdf1abe63034c123959d6e1e1b3f1f4737da7, received 700.00000000
+2018-Jul-30 09:47:02.905926 INFO    [simplewallet] Height 743, transaction 5d43e28c2ffd8ebf5a544ae04b7741040c0641d8591bfd47bc5e1faab6ef1b39, received 700.00000000
+2018-Jul-30 09:49:13.023144 INFO    [simplewallet] Height 745, transaction 6d32beaa563f2c2e9b2bcf2a0230f376ccee26965c00d4f8fdb2438cdbdfb5c5, received 700.00000000
+2018-Jul-30 09:49:33.035237 INFO    [simplewallet] Height 746, transaction dfad3c698e684a2243baf05aee2c29dcf145c7665280c4153b75493dfa33d49d, received 700.00000000
+2018-Jul-30 09:50:18.138517 INFO    [simplewallet] Height 747, transaction c92549e3408be30ac0e72c063fe2e862a6153a18511a55a6ce0446b1e4c825be, received 700.00000000
+2018-Jul-30 09:51:13.134378 INFO    [simplewallet] Height 748, transaction dd487f1c10f00eb3d4cc0bed38b0b6ad2ddefca9e0c84fc1bcfebf0b273a8801, received 700.00000000
+2018-Jul-30 09:51:53.165131 INFO    [simplewallet] Height 751, transaction 0f73ec6e9cbfdc9acb276ae7487737f64dc39b35688468f7b8f00d7888c168a2, received 700.00000000
+2018-Jul-30 09:56:23.446430 INFO    [simplewallet] Height 754, transaction 79341ef5457a1924a921b70f39c7887f0be93770e0d067e9ea7e2e014ab707b1, received 700.00000000
+2018-Jul-30 09:57:08.479412 INFO    [simplewallet] Height 756, transaction 5bee465ab19301866b253b6156fcf17cfb64c86ea18cd2fc22f6e9852e121d4e, received 700.00000000
+2018-Jul-30 09:57:48.517091 INFO    [simplewallet] Height 757, transaction 395988cd82ecc120edfbd2fd46bf76873b5fe97d762d4dccddcfb77003a4ffaa, received 700.00000000
+2018-Jul-30 09:59:33.607823 INFO    [simplewallet] Height 758, transaction eda237344f662f7d32128f704a49b8ec479166dc2ee0f1037371ae64de400233, received 700.00000000
+2018-Jul-30 10:03:23.807707 INFO    [simplewallet] Height 760, transaction 1ad34102f67ac1f08b7bc274bb7c47607c9f2453582c8fd568b58a516ed9b8ee, received 700.00000000
+2018-Jul-30 10:05:33.922853 INFO    [simplewallet] Height 761, transaction 473cb92f030d37a65643c96c929b48496caef4cd11942f442856a7f040156817, received 700.00000000
+2018-Jul-30 10:06:48.990818 INFO    [simplewallet] Height 763, transaction ddf5dcd919c115a592cb3ca42c61a778666c5cd5982d739f16cdb96ef201b6c8, received 700.00000000
+2018-Jul-30 10:10:24.212298 INFO    [simplewallet] Height 764, transaction cf0d68ab0ac00b4591c3ffc33efaf67a92132d52282821a38a74eedc089dcb40, received 700.00000000
+2018-Jul-30 10:15:09.478830 INFO    [simplewallet] Height 766, transaction 4a6e45105c37d09cbd77bbe831ae7e038aa6c6b5594b51dd3be3ebac73b255da, received 700.00000000
+2018-Jul-30 10:20:24.774821 INFO    [simplewallet] Height 771, transaction c825827cff10304b294906e78f2cacdced5948a0cb014ba293c0f851a7d57b4f, received 700.00000000
+2018-Jul-30 10:21:30.936909 ERROR   [simplewallet] Error: wallet failed to connect to daemon (http://localhost:18001).
+2018-Jul-30 10:21:36.945949 INFO    [simplewallet] Wallet connected to daemon.
+2018-Jul-30 10:21:38.864659 INFO    [simplewallet] Mining stopped in daemon
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63

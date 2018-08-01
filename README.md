@@ -1,23 +1,22 @@
 # electroBUCKS
-Electrobucks, a privacy focused cryptocurrency. In beta
+Electrobucks, a privacy focused cryptocurrency
 
 Dependencies
 -------------
 
 Boost 1.55 or later,
 CMake,
-gcc
+gcc,
+tor
 
 To install on debian or ubuntu,
 
 ```   
-sudo apt install libboost-all-dev cmake make build-essential gcc g++ -y
+sudo apt install libboost-all-dev cmake make build-essential gcc g++ tor -y
 
 ```
 Install/Compiling
 ------------------
-
-Binaries for amd64 are available on the releases page.
 
 To compile:
 
@@ -26,7 +25,7 @@ To compile:
 git clone https://github.com/oetam5002/electrobucks
 cd electrobucks
 cmake .
-make -j8 && ./finish
+make -j8 && bash finish.sh
 ```
 
 where 8 = number of threads
@@ -34,4 +33,4 @@ where 8 = number of threads
 Help
 -----------------
 
- # Any help would be appreciated
+Any help would be appreciated

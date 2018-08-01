@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/chip/electrobucks/external/gtest/src/gtest_main.cc
 stdio.h
 -
 gtest/gtest.h
 /home/chip/electrobucks/external/gtest/src/gtest/gtest.h
+=======
+/home/mateo/electroBUCKS/external/gtest/src/gtest_main.cc
+stdio.h
+-
+gtest/gtest.h
+/home/mateo/electroBUCKS/external/gtest/src/gtest/gtest.h
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63
 
 external/gtest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h

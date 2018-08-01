@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 /home/chip/electrobucks/external/miniupnpc/bsdqueue.h
 
 /home/chip/electrobucks/external/miniupnpc/codelength.h
 
 /home/chip/electrobucks/external/miniupnpc/connecthostport.c
+=======
+/home/mateo/electroBUCKS/external/miniupnpc/bsdqueue.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/codelength.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/connecthostport.c
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63
 string.h
 -
 stdio.h
@@ -40,6 +48,7 @@ sys/socket.h
 sys/select.h
 -
 connecthostport.h
+<<<<<<< HEAD
 /home/chip/electrobucks/external/miniupnpc/connecthostport.h
 
 /home/chip/electrobucks/external/miniupnpc/connecthostport.h
@@ -49,14 +58,31 @@ connecthostport.h
 /home/chip/electrobucks/external/miniupnpc/igd_desc_parse.c
 igd_desc_parse.h
 /home/chip/electrobucks/external/miniupnpc/igd_desc_parse.h
+=======
+/home/mateo/electroBUCKS/external/miniupnpc/connecthostport.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/connecthostport.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/declspec.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/igd_desc_parse.c
+igd_desc_parse.h
+/home/mateo/electroBUCKS/external/miniupnpc/igd_desc_parse.h
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63
 stdio.h
 -
 string.h
 -
 
+<<<<<<< HEAD
 /home/chip/electrobucks/external/miniupnpc/igd_desc_parse.h
 
 /home/chip/electrobucks/external/miniupnpc/minisoap.c
+=======
+/home/mateo/electroBUCKS/external/miniupnpc/igd_desc_parse.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/minisoap.c
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63
 stdio.h
 -
 string.h
@@ -72,6 +98,7 @@ sys/types.h
 sys/socket.h
 -
 minisoap.h
+<<<<<<< HEAD
 /home/chip/electrobucks/external/miniupnpc/minisoap.h
 miniupnpcstrings.h
 /home/chip/electrobucks/external/miniupnpc/miniupnpcstrings.h
@@ -81,6 +108,17 @@ stdlib.h
 /home/chip/electrobucks/external/miniupnpc/minisoap.h
 
 /home/chip/electrobucks/external/miniupnpc/minissdpc.c
+=======
+/home/mateo/electroBUCKS/external/miniupnpc/minisoap.h
+miniupnpcstrings.h
+/home/mateo/electroBUCKS/external/miniupnpc/miniupnpcstrings.h
+stdlib.h
+-
+
+/home/mateo/electroBUCKS/external/miniupnpc/minisoap.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/minissdpc.c
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63
 stdio.h
 -
 string.h
@@ -108,6 +146,7 @@ sys/socket.h
 sys/un.h
 -
 minissdpc.h
+<<<<<<< HEAD
 /home/chip/electrobucks/external/miniupnpc/minissdpc.h
 miniupnpc.h
 /home/chip/electrobucks/external/miniupnpc/miniupnpc.h
@@ -117,6 +156,17 @@ codelength.h
 /home/chip/electrobucks/external/miniupnpc/minissdpc.h
 
 /home/chip/electrobucks/external/miniupnpc/miniupnpc.c
+=======
+/home/mateo/electroBUCKS/external/miniupnpc/minissdpc.h
+miniupnpc.h
+/home/mateo/electroBUCKS/external/miniupnpc/miniupnpc.h
+codelength.h
+/home/mateo/electroBUCKS/external/miniupnpc/codelength.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/minissdpc.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/miniupnpc.c
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63
 stdlib.h
 -
 stdio.h
@@ -158,6 +208,7 @@ errno.h
 sys/time.h
 -
 miniupnpc.h
+<<<<<<< HEAD
 /home/chip/electrobucks/external/miniupnpc/miniupnpc.h
 minissdpc.h
 /home/chip/electrobucks/external/miniupnpc/minissdpc.h
@@ -183,6 +234,33 @@ igd_desc_parse.h
 /home/chip/electrobucks/external/miniupnpc/miniupnpctypes.h
 
 /home/chip/electrobucks/external/miniupnpc/miniwget.c
+=======
+/home/mateo/electroBUCKS/external/miniupnpc/miniupnpc.h
+minissdpc.h
+/home/mateo/electroBUCKS/external/miniupnpc/minissdpc.h
+miniwget.h
+/home/mateo/electroBUCKS/external/miniupnpc/miniwget.h
+minisoap.h
+/home/mateo/electroBUCKS/external/miniupnpc/minisoap.h
+minixml.h
+/home/mateo/electroBUCKS/external/miniupnpc/minixml.h
+upnpcommands.h
+/home/mateo/electroBUCKS/external/miniupnpc/upnpcommands.h
+connecthostport.h
+/home/mateo/electroBUCKS/external/miniupnpc/connecthostport.h
+receivedata.h
+/home/mateo/electroBUCKS/external/miniupnpc/receivedata.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/miniupnpc.h
+declspec.h
+/home/mateo/electroBUCKS/external/miniupnpc/declspec.h
+igd_desc_parse.h
+/home/mateo/electroBUCKS/external/miniupnpc/igd_desc_parse.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/miniupnpctypes.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/miniwget.c
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63
 stdio.h
 -
 stdlib.h
@@ -214,6 +292,7 @@ net/if.h
 netdb.h
 -
 miniupnpcstrings.h
+<<<<<<< HEAD
 /home/chip/electrobucks/external/miniupnpc/miniupnpcstrings.h
 miniwget.h
 /home/chip/electrobucks/external/miniupnpc/miniwget.h
@@ -235,11 +314,35 @@ minixml.h
 /home/chip/electrobucks/external/miniupnpc/minixml.h
 
 /home/chip/electrobucks/external/miniupnpc/portlistingparse.c
+=======
+/home/mateo/electroBUCKS/external/miniupnpc/miniupnpcstrings.h
+miniwget.h
+/home/mateo/electroBUCKS/external/miniupnpc/miniwget.h
+connecthostport.h
+/home/mateo/electroBUCKS/external/miniupnpc/connecthostport.h
+receivedata.h
+/home/mateo/electroBUCKS/external/miniupnpc/receivedata.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/miniwget.h
+declspec.h
+/home/mateo/electroBUCKS/external/miniupnpc/declspec.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/minixml.c
+string.h
+-
+minixml.h
+/home/mateo/electroBUCKS/external/miniupnpc/minixml.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/minixml.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/portlistingparse.c
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63
 string.h
 -
 stdlib.h
 -
 portlistingparse.h
+<<<<<<< HEAD
 /home/chip/electrobucks/external/miniupnpc/portlistingparse.h
 minixml.h
 /home/chip/electrobucks/external/miniupnpc/minixml.h
@@ -255,6 +358,23 @@ sys/queue.h
 -
 
 /home/chip/electrobucks/external/miniupnpc/receivedata.c
+=======
+/home/mateo/electroBUCKS/external/miniupnpc/portlistingparse.h
+minixml.h
+/home/mateo/electroBUCKS/external/miniupnpc/minixml.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/portlistingparse.h
+declspec.h
+/home/mateo/electroBUCKS/external/miniupnpc/declspec.h
+miniupnpctypes.h
+/home/mateo/electroBUCKS/external/miniupnpc/miniupnpctypes.h
+bsdqueue.h
+/home/mateo/electroBUCKS/external/miniupnpc/bsdqueue.h
+sys/queue.h
+-
+
+/home/mateo/electroBUCKS/external/miniupnpc/receivedata.c
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63
 stdio.h
 -
 winsock2.h
@@ -274,11 +394,19 @@ poll.h
 errno.h
 -
 receivedata.h
+<<<<<<< HEAD
 /home/chip/electrobucks/external/miniupnpc/receivedata.h
 
 /home/chip/electrobucks/external/miniupnpc/receivedata.h
 
 /home/chip/electrobucks/external/miniupnpc/upnpc.c
+=======
+/home/mateo/electroBUCKS/external/miniupnpc/receivedata.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/receivedata.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/upnpc.c
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63
 stdio.h
 -
 stdlib.h
@@ -292,6 +420,7 @@ winsock2.h
 netinet/in.h
 -
 miniwget.h
+<<<<<<< HEAD
 /home/chip/electrobucks/external/miniupnpc/miniwget.h
 miniupnpc.h
 /home/chip/electrobucks/external/miniupnpc/miniupnpc.h
@@ -301,6 +430,17 @@ upnperrors.h
 /home/chip/electrobucks/external/miniupnpc/upnperrors.h
 
 /home/chip/electrobucks/external/miniupnpc/upnpcommands.c
+=======
+/home/mateo/electroBUCKS/external/miniupnpc/miniwget.h
+miniupnpc.h
+/home/mateo/electroBUCKS/external/miniupnpc/miniupnpc.h
+upnpcommands.h
+/home/mateo/electroBUCKS/external/miniupnpc/upnpcommands.h
+upnperrors.h
+/home/mateo/electroBUCKS/external/miniupnpc/upnperrors.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/upnpcommands.c
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63
 stdlib.h
 -
 stdio.h
@@ -308,6 +448,7 @@ stdio.h
 string.h
 -
 upnpcommands.h
+<<<<<<< HEAD
 /home/chip/electrobucks/external/miniupnpc/upnpcommands.h
 miniupnpc.h
 /home/chip/electrobucks/external/miniupnpc/miniupnpc.h
@@ -339,6 +480,39 @@ declspec.h
 /home/chip/electrobucks/external/miniupnpc/declspec.h
 
 /home/chip/electrobucks/external/miniupnpc/upnpreplyparse.c
+=======
+/home/mateo/electroBUCKS/external/miniupnpc/upnpcommands.h
+miniupnpc.h
+/home/mateo/electroBUCKS/external/miniupnpc/miniupnpc.h
+portlistingparse.h
+/home/mateo/electroBUCKS/external/miniupnpc/portlistingparse.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/upnpcommands.h
+upnpreplyparse.h
+/home/mateo/electroBUCKS/external/miniupnpc/upnpreplyparse.h
+portlistingparse.h
+/home/mateo/electroBUCKS/external/miniupnpc/portlistingparse.h
+declspec.h
+/home/mateo/electroBUCKS/external/miniupnpc/declspec.h
+miniupnpctypes.h
+/home/mateo/electroBUCKS/external/miniupnpc/miniupnpctypes.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/upnperrors.c
+string.h
+-
+upnperrors.h
+/home/mateo/electroBUCKS/external/miniupnpc/upnperrors.h
+upnpcommands.h
+/home/mateo/electroBUCKS/external/miniupnpc/upnpcommands.h
+miniupnpc.h
+/home/mateo/electroBUCKS/external/miniupnpc/miniupnpc.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/upnperrors.h
+declspec.h
+/home/mateo/electroBUCKS/external/miniupnpc/declspec.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/upnpreplyparse.c
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63
 stdlib.h
 -
 string.h
@@ -346,6 +520,7 @@ string.h
 stdio.h
 -
 upnpreplyparse.h
+<<<<<<< HEAD
 /home/chip/electrobucks/external/miniupnpc/upnpreplyparse.h
 minixml.h
 /home/chip/electrobucks/external/miniupnpc/minixml.h
@@ -353,6 +528,15 @@ minixml.h
 /home/chip/electrobucks/external/miniupnpc/upnpreplyparse.h
 bsdqueue.h
 /home/chip/electrobucks/external/miniupnpc/bsdqueue.h
+=======
+/home/mateo/electroBUCKS/external/miniupnpc/upnpreplyparse.h
+minixml.h
+/home/mateo/electroBUCKS/external/miniupnpc/minixml.h
+
+/home/mateo/electroBUCKS/external/miniupnpc/upnpreplyparse.h
+bsdqueue.h
+/home/mateo/electroBUCKS/external/miniupnpc/bsdqueue.h
+>>>>>>> 2703ae6a3a4daf400d136fc3472c03d6c3f5da63
 sys/queue.h
 -
 
