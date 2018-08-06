@@ -4,7 +4,7 @@ Electrobucks, a privacy focused cryptocurrency
 Dependencies
 -------------
 
-Boost 1.55 or later,
+Boost 1.55 - 1.58,
 CMake,
 gcc,
 tor
