@@ -35,9 +35,9 @@ const uint64_t DEFAULT_DUST_THRESHOLD                        = 10000;
 const uint64_t MAX_TX_MIXIN_SIZE                             = 20;
 
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
-const size_t   DIFFICULTY_WINDOW                             = 60; // blocks
-const size_t   DIFFICULTY_WINDOW_V2                          = 60;  // blocks
-const size_t   DIFFICULTY_WINDOW_V3                          = 60; // blocks (add one to compensate off-by-one in difficulty calculation)
+const size_t   DIFFICULTY_WINDOW                             = 720; // blocks
+const size_t   DIFFICULTY_WINDOW_V2                          = 720;  // blocks
+const size_t   DIFFICULTY_WINDOW_V3                          = 720; // blocks (add one to compensate off-by-one in difficulty calculation)
 
 const size_t   MAX_BLOCK_SIZE_INITIAL                        = 20 * 1024;
 const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_NUMERATOR         = 100 * 1024;
