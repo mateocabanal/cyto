@@ -19,8 +19,8 @@ Install/Compiling
 ------------------
 
 To compile:
-
-```git clone https://github.com/oetam5002/electrobucks
+```
+git clone https://github.com/oetam5002/electrobucks
 cd electrobucks
 make clean
 rm -rf CMakeCache.txt && rm -rf CMakeFiles
@@ -30,7 +30,8 @@ make -j8 && bash finish.sh
 where 8 = number of threads
 
 When done, run:
-```./electrobucksd --seed-node 108.172.131.200:18000
+```
+./electrobucksd --seed-node 108.172.131.200:18000
 ```
 
 Help
