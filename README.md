@@ -4,15 +4,14 @@ Electrobucks, a privacy focused cryptocurrency
 Dependencies
 -------------
 
-Boost 1.55 - 1.58,
+Boost 1.55 or higher,
 CMake,
 gcc,
-tor
 
 To install on debian or ubuntu,
 
 ```   
-sudo apt install libboost-all-dev cmake make build-essential gcc g++ tor -y
+sudo apt install libboost-all-dev cmake make build-essential gcc g++ -y
 
 ```
 Install/Compiling
