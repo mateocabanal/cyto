@@ -16,7 +16,7 @@ sudo apt install libboost-all-dev cmake make build-essential gcc g++ -y
 ```
 Install/Compiling
 ------------------
-
+Comptible with x86, x86-64 and arm
 To compile:
 ```
 git clone https://github.com/oetam5002/electrobucks
