@@ -31,7 +31,7 @@ where 8 = number of threads
 
 When done, run:
 ```
-./electrobucksd --seed-node 108.172.131.200:18000
+./electrobucksd --seed-node 172.218.22.157:18000
 ```
 
 Help
