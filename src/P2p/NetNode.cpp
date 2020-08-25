@@ -58,6 +58,11 @@ using namespace Common;
 using namespace Logging;
 using namespace CryptoNote;
 
+using boost::placeholders::_1;
+using boost::placeholders::_2;
+using boost::placeholders::_3;
+using boost::placeholders::_4;
+
 namespace {
 
 size_t get_random_index_with_fixed_probability(size_t max_index) {
